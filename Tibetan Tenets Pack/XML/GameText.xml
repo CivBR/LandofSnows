@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!-- Pantheon: Sacred Peaks & Hidden Valleys -->
+		<Row Tag="TXT_KEY_BELIEF_SACRED_PEAKS">
+			<Text>+1 [ICON_PEACE] Faith from Shrines. Cities adjacent to Mountains receive +2 [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SACRED_PEAKS_SHORT">
+			<Text>Sacred Peaks &amp; Hidden Valleys</Text>
+		</Row>
+
+		<!-- Founder: Universal Compassion -->
+		<Row Tag="TXT_KEY_BELIEF_UNIVERSAL_COMPASSION">
+			<Text>+2 [ICON_HAPPINESS_1] Happiness for every City-State and foreign Capital following this Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_UNIVERSAL_COMPASSION_SHORT">
+			<Text>Universal Compassion</Text>
+		</Row>
+
+		<!-- Follower: Gompas -->
+		<Row Tag="TXT_KEY_BELIEF_GOMPAS">
+			<Text>Use [ICON_PEACE] Faith to purchase Gompas (+2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness, 1 Great Work of Writing slot, +10% Religious Pressure)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOMPAS_SHORT">
+			<Text>Gompas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOMPA">
+			<Text>Gompa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GOMPA_HELP">
+			<Text>+2 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness[NEWLINE]+10% Religious Pressure emanating from this City[NEWLINE]Contains 1 slot for a Great Work of Writing[NEWLINE][NEWLINE]Gompas adjacent to Mountains provide an additional +2 [ICON_PEACE] Faith</Text>
+		</Row>
+
+		<!-- Enhancer: Monastic Debate -->
+		<Row Tag="TXT_KEY_BELIEF_MONASTIC_DEBATE">
+			<Text>Religious Pressure via Trade Routes is increased by 50% (both outgoing and incoming routes)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MONASTIC_DEBATE_SHORT">
+			<Text>Monastic Debate</Text>
+		</Row>
+
+		<!-- Reformation: Non-Sectarianism -->
+		<Row Tag="TXT_KEY_BELIEF_NON_SECTARIANISM">
+			<Text>Gain a burst of [ICON_PEACE] Faith every time other Religions spread in your Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_NON_SECTARIANISM_SHORT">
+			<Text>Non-Sectarianism</Text>
+		</Row>
+
+		<!-- Dummy Buildings Text -->
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_MOUNTAIN_CULTURE">
+			<Text>Mountain Culture Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_MOUNTAIN_CULTURE_HELP">
+			<Text>This city gains +2 [ICON_CULTURE] Culture from being adjacent to a Mountain (Sacred Peaks &amp; Hidden Valleys)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_GOMPA_MOUNTAIN_FAITH">
+			<Text>Mountain Gompa Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_GOMPA_MOUNTAIN_FAITH_HELP">
+			<Text>This Gompa gains +2 [ICON_PEACE] Faith from being adjacent to a Mountain</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_UNIVERSAL_COMPASSION">
+			<Text>Universal Compassion Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_UNIVERSAL_COMPASSION_HELP">
+			<Text>Provides [ICON_HAPPINESS_1] Happiness from Universal Compassion belief</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_TRADE_PRESSURE">
+			<Text>Monastic Debate Trade Pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_TRADE_PRESSURE_HELP">
+			<Text>Increases Religious Pressure through Trade Routes by 50% (Monastic Debate)</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_NON_SECTARIAN">
+			<Text>Non-Sectarian Faith Tracker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BUDDHIST_NON_SECTARIAN_HELP">
+			<Text>Tracks foreign religion spread for Non-Sectarianism faith bursts</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

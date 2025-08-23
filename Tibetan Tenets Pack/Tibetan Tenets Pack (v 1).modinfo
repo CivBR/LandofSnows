@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a3f7c8e2-b5d9-4a12-9c87-432b1d8e9f3a" version="1">
+  <Properties>
+    <Name>Tibetan Tenets Pack</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds Buddhist-themed religious tenets to Civilization V</Teaser>
+    <Description>Adds new Pantheon, Founder, Follower, Enhancer, and Reformation beliefs with Tibetan Buddhist themes including Sacred Peaks, Universal Compassion, Gompas, Monastic Debate, and Non-Sectarianism.</Description>
+    <Authors>Coiot</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsHotSeat>0</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="" import="0">SQL/Beliefs.sql</File>
+    <File md5="" import="0">SQL/Buildings.sql</File>
+    <File md5="" import="0">XML/GameText.xml</File>
+    <File md5="" import="0">Lua/Functions.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/Beliefs.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/Buildings.sql</UpdateDatabase>
+      <UpdateDatabase>XML/GameText.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+  <EntryPoints>
+    <EntryPoint type="InGameUIAddin" file="Lua/Functions.lua">
+      <Name>Functions</Name>
+      <Description>Tibetan Buddhist Tenets Main Functions</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
