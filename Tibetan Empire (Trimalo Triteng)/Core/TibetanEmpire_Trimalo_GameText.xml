@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameData>
+    <Language_en_US>
+        <!--CIVILIZATION-->
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_TRIMALO_ADJECTIVE">
+            <Text>Tibetan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_TRIMALO_DESC">
+            <Text>Tibetan Empire</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_TRIMALO_SHORT_DESC">
+            <Text>Tibet</Text>
+        </Row>
+        <!--Dummy Buildings for Mandate System-->
+        <Row Tag="TXT_KEY_BUILDING_MANDATE">
+            <Text>Divine Mandate</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MANDATE_HELP">
+            <Text>This building represents an active Mandate gained from capturing a Capital or City-State.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MANDATE_PRODUCTION">
+            <Text>Mandate Production Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MANDATE_PRODUCTION_HELP">
+            <Text>Provides +10% Unit Production per Mandate.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MANDATE_FAITH">
+            <Text>Mandate Faith Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MANDATE_FAITH_HELP">
+            <Text>Provides +10 Faith per Mandate.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LONCHEN_PRODUCTION">
+            <Text>Lönchen Administrative Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LONCHEN_PRODUCTION_HELP">
+            <Text>Production bonus from stationed Lönchen based on religious buildings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LONCHEN_FOREIGN">
+            <Text>Lönchen Envoy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_LONCHEN_FOREIGN_HELP">
+            <Text>Faith and Science stolen by Lönchen in foreign territory.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ZEAL_MOVEMENT">
+            <Text>Zealous Momentum</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ZEAL_MOVEMENT_HELP">
+            <Text>Temporary movement bonus for units trained with a stationed Lönchen.</Text>
+        </Row>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_01">
+            <Text>Nyenkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_02">
+            <Text>Balpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_03">
+            <Text>Aga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_04">
+            <Text>Lhasa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_05">
+            <Text>Dzen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_06">
+            <Text>Tam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_07">
+            <Text>Drakmar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_08">
+            <Text>Mong</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_09">
+            <Text>Drom</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_10">
+            <Text>Bangna</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_11">
+            <Text>Rabka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_12">
+            <Text>Namtseling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_13">
+            <Text>Sumchu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_14">
+            <Text>Sang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_15">
+            <Text>Nub</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_16">
+            <Text>Ling Kartshal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_17">
+            <Text>Odang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_18">
+            <Text>Kyling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_19">
+            <Text>Tsangbu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_20">
+            <Text>Nam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_21">
+            <Text>Bur</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_22">
+            <Text>Marma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_23">
+            <Text>Ontsangdo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_24">
+            <Text>Merke</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_25">
+            <Text>Shomara</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_26">
+            <Text>Drak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_27">
+            <Text>Phodamdo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_28">
+            <Text>Rekam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_29">
+            <Text>Trana</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_30">
+            <Text>Zhok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_31">
+            <Text>Maldro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_32">
+            <Text>Lhegang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_33">
+            <Text>Non</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_34">
+            <Text>Zupuk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_35">
+            <Text>Dan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_36">
+            <Text>Lak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_37">
+            <Text>Zungkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_38">
+            <Text>Lo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_39">
+            <Text>Nabo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_40">
+            <Text>Dra</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_41">
+            <Text>Tse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_42">
+            <Text>Je</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_43">
+            <Text>Zarpu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_44">
+            <Text>Yumbu Lakhar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_45">
+            <Text>Dratotshal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_46">
+            <Text>Tsaparang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_47">
+            <Text>Khyunglung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_48">
+            <Text>Pumaring</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_49">
+            <Text>Tarok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_50">
+            <Text>Tsina</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_51">
+            <Text>Tago</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_52">
+            <Text>Khakyor</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_53">
+            <Text>Gyangri</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_54">
+            <Text>Rutok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRIMALO_55">
+            <Text>Shey</Text>
+        </Row>
+        <!--Colonies-->
+        <Row Tag="TXT_KEY_COLONY_NAME_TIBETAN_EMPIRE_TRIMAL_01">
+            <Text>Skardo</Text>
+        </Row>
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_0">
+            <Text>Gar Mangsham</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_1">
+            <Text>Gar Tongtsen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_2">
+            <Text>Shanglon Tromo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_3">
+            <Text>Gar Tsenye</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_4">
+            <Text>Shang Trisig</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_5">
+            <Text>Lon Trisumje</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_6">
+            <Text>Khu Mangpoje</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_7">
+            <Text>Lon Trinring</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_8">
+            <Text>Omade Lotsen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRIMALO_9">
+            <Text>Khyungpo Pungse Sutse</Text>
+        </Row>
+        <!--LEADER-->
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG">
+            <Text>Trimalo Triteng</Text>
+        </Row>
+        <!--Pedia-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_HEADING_1">
+            <Text>The Lady of Empire</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_TEXT_1">
+            <Text
+			>Trimalo Triteng, also known as Jema Trimalo, was one of the most influential female rulers in Tibetan history, and the only one to rule over all Tibet. As regent and de facto ruler during a crucial period of the Tibetan Empire's expansion, she demonstrated exceptional military and administrative acumen. Her reign saw the restoration of royal authority after overthrowing the powerful Gar clan that had dominated the empire for decades, establishing Tibet as a dominant power in Central Asia.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_HEADING_2">
+            <Text>Military Conquests</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_TEXT_2">
+            <Text
+			>Under Trimalo's leadership, the Tibetan Empire successfully overthrew the powerful Gar clan that had monopolized political and military power for generations, restoring authority to the royal family. Her armies subdued numerous city-states along the Silk Road, extracting tribute and establishing Tibetan hegemony over crucial trade routes. These victories brought immense wealth and prestige to the empire, earning her the title "Sovereign Lady of the Many."</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_HEADING_3">
+            <Text>Administrative Reforms</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_TEXT_3">
+            <Text
+			>Trimalo revolutionized the Tibetan administrative system by appointing Lönchen (Great Ministers) to govern conquered territories. These officials, drawn from various noble families, ensured efficient tax collection and maintained order across the vast empire. The integration of religious authority with temporal power became a hallmark of Tibetan governance that would persist for centuries.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_HEADING_4">
+            <Text>Religious Patronage</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_TEXT_4">
+            <Text
+			>Despite her military focus, Trimalo was a patron of Buddhism. She commissioned the construction of numerous Tsuklakhang (temples) throughout the empire, which served not only as religious centers but also as fortresses and administrative hubs. These temples formed a strong foundation for the success of Buddhism as an adminstrative insitution for later rulers of the empire.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_HEADING_5">
+            <Text>Legacy of Power</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_TEXT_5">
+            <Text
+			>Trimalo Triteng's reign marked the zenith of Tibetan imperial power. Her combination of military conquest, administrative innovation, and religious patronage created a model of governance that influenced Central Asian politics for generations. Though the empire would eventually fragment, her legacy as Tibet's greatest female ruler remains unchallenged, inspiring future generations to remember the time when Tibet stood as equal to the greatest empires of Asia.</Text>
+        </Row>
+        <!--Name-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_NAME">
+            <Text>Trimalo Triteng</Text>
+        </Row>
+        <!--Lived-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_LIVED">
+            <Text>652 - 712 CE</Text>
+        </Row>
+        <!--Titles-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_SUBTITLE">
+            <Text>Empress Regent of Tibet</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRIMALO_TRITENG_TITLES_1">
+            <Text>Tsenmo[NEWLINE]Empress Regent of Tibet</Text>
+        </Row>
+        <!--DOM-->
+        <Row Tag="TXT_KEY_CIV_DAWN_TIBETAN_EMPIRE_TRIMALO_TEXT">
+            <Text
+			>Glory to you, Trimalo Triteng, Sovereign Lady of the Many, whose iron will forged an empire from the roof of the world! You who broke the chains of the Gar clan's dominance, restoring power to the rightful royal line and making the Silk Road bow before your might. Through your divine mandates, you transformed a highland kingdom into a continental empire, appointing great ministers to govern vast territories and extracting tribute from countless peoples.[NEWLINE][NEWLINE]Your Tsuklakhang temples stand as fortresses of faith and power, training warriors infused with religious zeal who fight with the fury of snow lions. Your Lönchen administrators extract wealth from conquered lands while your armies grow ever stronger with each victory. Now, mighty empress, your people call upon your strength once more. Will you capture great capitals and city-states to gain new mandates of heaven? Can you build an empire where military might and spiritual authority unite to create an unstoppable force?</Text>
+        </Row>
+        <!--Responses-->
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_DEFEATED_1">
+            <Text>Even empires built on divine mandate must eventually fall... but our spirit remains unconquered.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_DENOUNCE_FRIEND_1">
+            <Text>Friendship is not a shield against betrayal. I see your true intentions.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_ATTACKED_HOSTILE_1">
+            <Text>You dare attack the Sovereign Lady? Prepare to be crushed beneath the weight of my empire.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_DOW_GENERIC_1">
+            <Text>Your declaration of war is a grave mistake. My armies will show you no mercy.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_EXPANSION_SERIOUS_WARNING_1">
+            <Text>Your expansion threatens the balance of power. Tread carefully, or Tibet will respond.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_FIRSTGREETING_1">
+            <Text>Welcome. I am Trimalo Triteng, Empress Regent of Tibet. Will you honor my sons or challenge my rule?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_GREETING_HOSTILE_HELLO_1">
+            <Text>Your presence is unwelcome. Do not mistake my patience for weakness.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_GREETING_NEUTRAL_HELLO_1">
+            <Text>We meet on equal ground. Let us see if you are worthy of respect.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_GREETING_POLITE_HELLO_1">
+            <Text>Greetings. May our dealings be honorable and beneficial.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+            <Text>Your military actions have not gone unnoticed. Tibet will defend its interests fiercely.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_LUXURY_TRADE_1">
+            <Text>Let us discuss the exchange of luxuries. Prosperity benefits those who cooperate.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_OPEN_BORDERS_EXCHANGE_1">
+            <Text>Open borders may serve us both, but do not abuse my trust.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_PLOT_BUYING_SERIOUS_WARNING_1">
+            <Text>Your attempts to buy land near my cities are provocative. Cease, or face consequences.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_REQUEST_1">
+            <Text>State your request. I will judge its merit.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_RESPONSE_TO_BEING_DENOUNCED_1">
+            <Text>Denounce me if you wish, but know that Tibet stands strong against all slander.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_TOO_SOON_FOR_DOF_1">
+            <Text>It is too soon for declarations of friendship. Prove your worth first.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_TOO_SOON_NO_PEACE_1">
+            <Text>Peace cannot be rushed. Time will reveal your intentions.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_DENOUNCE_1">
+            <Text>Your actions demand a response. I denounce your conduct before all.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRIMALO_TRITENG_DEC_FRIENDSHIP_1">
+            <Text>Tibet is open to friendship, if you prove yourself honorable.</Text>
+        </Row>
+        <!--Unique Ability-->
+        <Row Tag="TXT_KEY_TRAIT_SOVEREIGN_LADY_SHORT">
+            <Text>Sovereign Lady of the Many</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_SOVEREIGN_LADY">
+            <Text
+			>Each time you capture a Capital or City-State, gain a Mandate (max 3). Each Mandate grants +10%[ICON_PRODUCTION]Unit Production empire-wide and +10[ICON_PEACE]Faith. You can expend a Mandate to grant +25[ICON_INFLUENCE]Influence to all met City-States and Hurry Production in the Capital.</Text>
+        </Row>
+        <!--Unique Unit Lönchen-->
+        <Row Tag="TXT_KEY_UNIT_LONCHEN">
+            <Text>Lönchen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LONCHEN_HELP">
+            <Text
+			>Unique Great General replacement. Can be stationed in Cities to provide +10%[ICON_PRODUCTION]Production for each Religious Building. While stationed in another Civilization's territory, provides a small portion of their[ICON_PEACE]Faith and[ICON_RESEARCH]Science. Can be Purged to increase Mandate count if at 0.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LONCHEN_STRATEGY">
+            <Text
+			>The Lönchen is a unique Great General replacement for the Tibetan Empire. Unlike regular Great Generals, Lönchen can be stationed in cities to boost production based on religious buildings, or placed in foreign territory to steal Faith and Science. If you have no Mandates, you can sacrifice a Lönchen to gain one. Use them strategically to maximize your empire's production or gather intelligence from rivals.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LONCHEN_TEXT">
+            <Text
+			>The Lönchen were the highest ministers in the Tibetan Empire, serving as both military commanders and civil administrators. These great ministers governed provinces, led armies, and managed the complex relationships between the imperial court and Buddhist monasteries. Their dual role as temporal and spiritual authorities made them indispensable to the functioning of the empire.</Text>
+        </Row>
+        <!--Unique Building Tsuklakhang-->
+        <Row Tag="TXT_KEY_BUILDING_TSUKLAKHANG">
+            <Text>Tsuklakhang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TSUKLAKHANG_HELP">
+            <Text
+			>Units trained in this City receive a Zeal promotion: +10%[ICON_STRENGTH]CS on Rough Terrain per Mandate. If a Lönchen is stationed in the City, those Units also start with +1[ICON_MOVES]Movement for 5 turns.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TSUKLAKHANG_STRATEGY">
+            <Text
+			>The Tsuklakhang is a unique Temple replacement for the Tibetan Empire. It provides the same Faith as a Temple but also grants the Zeal promotion to units trained in the city, giving them combat bonuses on rough terrain based on your Mandate count. Station a Lönchen in the city to give new units temporary movement bonuses. Build Tsuklakhang in production cities to create powerful military units.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TSUKLAKHANG_TEXT">
+            <Text
+			>Tsuklakhang, meaning "House of Religious Teaching," were the great temple royal temples of the Tibetan Empire. These massive complexes served multiple functions: religious centers for Buddhist practice and administrative headquarters for regional governance. Their thick walls and strategic locations made them both spiritual sanctuaries and defensive strongholds.</Text>
+        </Row>
+        <!--Promotions-->
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL">
+            <Text>Zeal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_HELP">
+            <Text>No combat bonus (trained with 0 Mandates)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_1">
+            <Text>Zeal I</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_1_HELP">
+            <Text>+10%[ICON_STRENGTH]Combat Strength on Rough Terrain</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_2">
+            <Text>Zeal II</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_2_HELP">
+            <Text>+20%[ICON_STRENGTH]Combat Strength on Rough Terrain</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_3">
+            <Text>Zeal III</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_3_HELP">
+            <Text>+30%[ICON_STRENGTH]Combat Strength on Rough Terrain</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_MOVEMENT">
+            <Text>Zealous Momentum</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZEAL_MOVEMENT_HELP">
+            <Text>+1[ICON_MOVES]Movement (temporary)</Text>
+        </Row>
+        <!--Messages-->
+        <Row Tag="TXT_KEY_TRAIT_TRIMALO_MANDATE_GAINED">
+            <Text>[COLOR_POSITIVE_TEXT]Mandate gained![ENDCOLOR] Captured {1_CityName}. Total Mandates: {2_Current}/{3_Max}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TRIMALO_MANDATE_MAX">
+            <Text>Maximum Mandates reached! Cannot gain more.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TRIMALO_MANDATE_EXPENDED">
+            <Text>[COLOR_POSITIVE_TEXT]Mandate Expended![ENDCOLOR] +{1_Influence} Influence with {2_Count} City-States, 25% Production in Capital. Mandates remaining: {3_Remaining}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TRIMALO_NO_MANDATES">
+            <Text>No Mandates available to expend!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LONCHEN_PURGED">
+            <Text>[COLOR_POSITIVE_TEXT]Lönchen Purged![ENDCOLOR] Gained 1 Mandate.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LONCHEN_PURGE_FAIL">
+            <Text>Can only purge Lönchen when you have no Mandates!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_LONCHEN_STEALING">
+            <Text>Lönchen stealing: +{1_Faith}[ICON_PEACE]Faith, +{2_Science}[ICON_RESEARCH]Science</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TSUKLAKHANG_UNIT_TRAINED">
+            <Text>Unit trained with Zeal and +1 Movement for {1_Turns} turns!</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

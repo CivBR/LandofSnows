@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="050699d3-0d9d-4c03-8563-e97e46ee52f3" version="1">
+	<Properties>
+		<Name>Coiots's Tibet (Thupten Gyatso)</Name>
+		<Teaser>Adds [COLOR_YIELD_FOOD]Tibet under Thupten Gyatso[ENDCOLOR]</Teaser>
+		<Description></Description>
+		<Authors>Coiot</Authors>
+		<HideSetupGame>0</HideSetupGame>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+		<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		<SupportsMultiplayer>1</SupportsMultiplayer>
+		<SupportsHotSeat>1</SupportsHotSeat>
+		<SupportsMac>1</SupportsMac>
+		<ReloadAudioSystem>1</ReloadAudioSystem>
+		<ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+		<ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+		<ReloadUnitSystem>1</ReloadUnitSystem>
+	</Properties>
+	<Dependencies />
+	<References>
+		<Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+		<Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+		<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+		<Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef " minversion="0" maxversion="999" title="Historical Religions" />
+		<Mod id="6bc3cb6e-a697-491e-9347-5e3e02640f00" minversion="0" maxversion="999" title="Historical Religions Edit" />
+		<Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+		<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+	</References>
+	<Blocks />
+	<Files>
+		<File md5="33846F978413C3670626B56AB7DC4F6A" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_128.dds</File>
+		<File md5="235805143A760DDD9F22EDBA552F9774" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_16.dds</File>
+		<File md5="44FF879C9C7ABAD55C7503F2CA84BEE9" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_24.dds</File>
+		<File md5="53050466E292627D9D1EB25FF313B2D2" import="0">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_256.dds</File>
+		<File md5="7F5EAA15149BD31A9D73334D9B6432F1" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_32.dds</File>
+		<File md5="7AFC633E0B37941897D553FDA038A426" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_45.dds</File>
+		<File md5="0FC925179CB3BFD88A1E40142B4BD809" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_48.dds</File>
+		<File md5="8C0F9C70E8EA33019FCEEB49642500A7" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_64.dds</File>
+		<File md5="0979CAC87DDC3DC84AC03B8DBE5823AF" import="1">Art/Icons/Tibet_Thupten_Gyatso_AlphaAtlas_80.dds</File>
+		<File md5="7016F614FC81697196D7CCDCC7BD3A83" import="1">Art/Icons/Tibet_Thupten_Gyatso_IconAtlas_128.dds</File>
+		<File md5="61D3071ACB2A000FF09A0766E33E0426" import="1">Art/Icons/Tibet_Thupten_Gyatso_IconAtlas_256.dds</File>
+		<File md5="EAF3FC74D99F78B5A525472197839311" import="1">Art/Icons/Tibet_Thupten_Gyatso_IconAtlas_32.dds</File>
+		<File md5="116306385C167396AA83C92D300C7F3B" import="1">Art/Icons/Tibet_Thupten_Gyatso_IconAtlas_45.dds</File>
+		<File md5="DAF1F1818AB6D4D5DA31C96FF2E5EB8C" import="1">Art/Icons/Tibet_Thupten_Gyatso_IconAtlas_64.dds</File>
+		<File md5="272913814FE12B5901C1B848728394AE" import="1">Art/Icons/Tibet_Thupten_Gyatso_IconAtlas_80.dds</File>
+		<File md5="42E5F74964D52A419D53ADE9293D7D51" import="1">Art/Icons/Tibet_Thupten_Gyatso_UnitFlagAtlas_32.dds</File>
+		<File md5="6103A8FA7C3DADEDF56570C4AEABD0E8" import="1">Art/Leaderscene/Tibet_Thupten_Gyatso_Diplo.dds</File>
+		<File md5="79B23D4AB178C23F9F3CB6EC6C1A7E01" import="1">Art/Leaderscene/Tibet_Thupten_Gyatso_Scene.xml</File>
+		<File md5="E75A7D6964F9FCC5213904EAC3E78B01" import="1">Art/Maps/Map_Tibet_Thupten_Gyatso.dds</File>
+		<File md5="F0828159764C8E9153EFCB5E3A06EDBF" import="1">Art/Maps/DOM_Tibet_Thupten_Gyatso.dds</File>
+		<File md5="A128FEF4C7BA59C63453D3B7034EAFC9" import="1">Audio/Tibet_Thupten_Gyatso_Peace.mp3</File>
+		<File md5="5C8C827F94FFCA9F4984BEE403F92BCB" import="1">Audio/Tibet_Thupten_Gyatso_War.mp3</File>
+		<File md5="CA1FDCE37B5C9B93723EA4D7A0F8E51D" import="0">Core/Tibet_Thupten_Gyatso_ArtDefines.sql</File>
+		<File md5="C1ADD6FC7B651561FED9D61F673877B6" import="0">Core/Tibet_Thupten_Gyatso_GameDefines.sql</File>
+		<File md5="980F57C54A757BEFEDC497360F134B74" import="0">Core/Tibet_Thupten_Gyatso_GameText.xml</File>
+		<File md5="B028A25D83CE29BAAC8624076BBF6E6A" import="0">Core/Tibet_Thupten_Gyatso_ModSupport.sql</File>
+		<File md5="73ACE10D8EBAE6D4227431C4B5EB8BC1" import="0">Credits.txt</File>
+		<File md5="6B859AD8457C42425C15D9A1B9CC5E4C" import="0">Lua/Tibet_Thupten_Gyatso_Functions.lua</File>
+	</Files>
+	<Actions>
+		<OnModActivated>
+			<UpdateDatabase>Core/Tibet_Thupten_Gyatso_ArtDefines.sql</UpdateDatabase>
+			<UpdateDatabase>Core/Tibet_Thupten_Gyatso_GameDefines.sql</UpdateDatabase>
+			<UpdateDatabase>Core/Tibet_Thupten_Gyatso_GameText.xml</UpdateDatabase>
+			<UpdateDatabase>Core/Tibet_Thupten_Gyatso_ModSupport.sql</UpdateDatabase>
+		</OnModActivated>
+	</Actions>
+	<EntryPoints>
+		<EntryPoint type="InGameUIAddin" file="Lua/Tibet_Thupten_Gyatso_Functions.lua">
+			<Name>Tibet_Thupten_Gyatso_Functions.lua</Name>
+			<Description>
+      </Description>
+		</EntryPoint>
+	</EntryPoints>
+</Mod>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" version="1">
+	<Properties>
+		<Name>Yarlung Pugyel (Nyatri Tsenpo)</Name>
+		<Teaser>Adds [COLOR_YIELD_CULTURE]Yarlung Pugyel under Nyatri Tsenpo[ENDCOLOR]</Teaser>
+		<Description>Play as Nyatri Tsenpo, the legendary first king of Tibet who descended from heaven. Designate Sacred Peaks with Great People, perform ancient Chöd ceremonies, and build Sky Burial Grounds to unite heaven and earth.</Description>
+		<Authors>Coiot</Authors>
+		<HideSetupGame>0</HideSetupGame>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+		<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		<SupportsMultiplayer>1</SupportsMultiplayer>
+		<SupportsHotSeat>1</SupportsHotSeat>
+		<SupportsMac>1</SupportsMac>
+		<ReloadAudioSystem>1</ReloadAudioSystem>
+		<ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+		<ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+		<ReloadUnitSystem>1</ReloadUnitSystem>
+	</Properties>
+	<Dependencies />
+	<References>
+		<Mod id="31a31d1c-b9d7-45e1-842c-23232d66cd47" minversion="0" maxversion="999" title="JFD's Cultural Diversity (Core)" />
+		<Mod id="36e88483-48fe-4545-b85f-bafc50dde315" minversion="0" maxversion="999" title="Yet (not) Another Earth Map Pack" />
+		<Mod id="d1b6328c-ff44-4b0d-aad7-c657f83610cd" minversion="0" maxversion="999" title="Community Patch" />
+		<Mod id="8c101299-95c5-4b28-b7ed-4e0f774857ef" minversion="0" maxversion="999" title="Historical Religions" />
+		<Mod id="6bc3cb6e-a697-491e-9347-5e3e02640f00" minversion="0" maxversion="999" title="Historical Religions Edit" />
+		<Mod id="6010e6f6-918e-48b8-9332-d60783bd8fb5" minversion="0" maxversion="999" title="Historical Religions Complete" />
+		<Mod id="ce8aa614-7ef7-4a45-a179-5329869e8d6d" minversion="0" maxversion="999" title="Enlightenment Era" />
+	</References>
+	<Blocks />
+	<Files>
+		<File md5="PLACEHOLDER001" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_128.dds</File>
+		<File md5="PLACEHOLDER002" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_16.dds</File>
+		<File md5="PLACEHOLDER003" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_24.dds</File>
+		<File md5="PLACEHOLDER004" import="0">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_256.dds</File>
+		<File md5="PLACEHOLDER005" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_32.dds</File>
+		<File md5="PLACEHOLDER006" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_45.dds</File>
+		<File md5="PLACEHOLDER007" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_48.dds</File>
+		<File md5="PLACEHOLDER008" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_64.dds</File>
+		<File md5="PLACEHOLDER009" import="1">Art/Icons/Yarlung_NyatriTsenpo_AlphaAtlas_80.dds</File>
+		<File md5="PLACEHOLDER010" import="1">Art/Icons/Yarlung_NyatriTsenpo_IconAtlas_128.dds</File>
+		<File md5="PLACEHOLDER011" import="1">Art/Icons/Yarlung_NyatriTsenpo_IconAtlas_256.dds</File>
+		<File md5="PLACEHOLDER012" import="1">Art/Icons/Yarlung_NyatriTsenpo_IconAtlas_32.dds</File>
+		<File md5="PLACEHOLDER013" import="1">Art/Icons/Yarlung_NyatriTsenpo_IconAtlas_45.dds</File>
+		<File md5="PLACEHOLDER014" import="1">Art/Icons/Yarlung_NyatriTsenpo_IconAtlas_64.dds</File>
+		<File md5="PLACEHOLDER015" import="1">Art/Icons/Yarlung_NyatriTsenpo_IconAtlas_80.dds</File>
+		<File md5="PLACEHOLDER016" import="1">Art/Icons/Yarlung_NyatriTsenpo_UnitFlagAtlas_32.dds</File>
+		<File md5="PLACEHOLDER017" import="1">Art/Leaderscene/Nyatri_Tsenpo_Diplo.dds</File>
+		<File md5="PLACEHOLDER018" import="1">Art/Leaderscene/Nyatri_Tsenpo_Scene.xml</File>
+		<File md5="PLACEHOLDER019" import="1">Art/Maps/Map_Yarlung_Pugyel.dds</File>
+		<File md5="PLACEHOLDER020" import="1">Art/Maps/DOM_Yarlung_Pugyel.dds</File>
+		<File md5="PLACEHOLDER021" import="1">Audio/Yarlung_NyatriTsenpo_Peace.mp3</File>
+		<File md5="PLACEHOLDER022" import="1">Audio/Yarlung_NyatriTsenpo_War.mp3</File>
+		<File md5="PLACEHOLDER023" import="0">Core/Yarlung_NyatriTsenpo_ArtDefines.sql</File>
+		<File md5="PLACEHOLDER024" import="0">Core/Yarlung_NyatriTsenpo_GameDefines.sql</File>
+		<File md5="PLACEHOLDER025" import="0">Core/Yarlung_NyatriTsenpo_GameText.xml</File>
+		<File md5="PLACEHOLDER026" import="0">Core/Yarlung_NyatriTsenpo_ModSupport.sql</File>
+		<File md5="PLACEHOLDER027" import="0">Credits.txt</File>
+		<File md5="PLACEHOLDER028" import="0">Lua/Yarlung_NyatriTsenpo_Functions.lua</File>
+	</Files>
+	<Actions>
+		<OnModActivated>
+			<UpdateDatabase>Core/Yarlung_NyatriTsenpo_ArtDefines.sql</UpdateDatabase>
+			<UpdateDatabase>Core/Yarlung_NyatriTsenpo_GameDefines.sql</UpdateDatabase>
+			<UpdateDatabase>Core/Yarlung_NyatriTsenpo_GameText.xml</UpdateDatabase>
+			<UpdateDatabase>Core/Yarlung_NyatriTsenpo_ModSupport.sql</UpdateDatabase>
+		</OnModActivated>
+	</Actions>
+	<EntryPoints>
+		<EntryPoint type="InGameUIAddin" file="Lua/Yarlung_NyatriTsenpo_Functions.lua">
+			<Name>Yarlung_NyatriTsenpo_Functions.lua</Name>
+			<Description>Implements the unique abilities for Yarlung Pugyel civilization</Description>
+		</EntryPoint>
+	</EntryPoints>
+</Mod>

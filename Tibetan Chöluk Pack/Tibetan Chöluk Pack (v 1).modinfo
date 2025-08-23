@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="9c0f0f18-26d3-41ea-9691-c5886299575e" version="1">
+  <Properties>
+    <Name>Tibetan Chöluk Pack</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Adds a range of [COLOR_YIELD_FOOD]Tibetan Buddhist schools[ENDCOLOR] as religions to the game</Teaser>
+    <Description>This mod adds nine prominent schools and traditions of Tibetan Buddhism as religions to the game, representing the rich spiritual diversity of the Land of Snows.
+
+The Nine Schools:
+
+Nyingma: The "Ancient" school, the oldest of the Tibetan Buddhist traditions, tracing its origins to Padmasambhava in the 8th century.
+
+Karma Kagyu: One of the major sub-schools of the Kagyu tradition, known for the lineage of the Karmapa lamas and emphasis on meditation practice.
+
+Drikung Kagyu: A branch of the Kagyu school founded by Jigten Sumgön, renowned for its phowa (consciousness transference) practices.
+
+Drukpa Kagyu: The "Dragon" lineage, the state religion of Bhutan, known for its yogic traditions and the "crazy wisdom" of its masters.
+
+Sakya: The "Grey Earth" school, historically powerful in Tibet, known for its scholarly tradition and the Lamdre teachings.
+
+Gelug: The "Virtuous" school founded by Je Tsongkhapa, the tradition of the Dalai Lamas and the most widespread school today.
+
+Jonang: Known for its Kalachakra practices and zhentong philosophy, nearly extinct but experiencing revival.
+
+Bon: The indigenous spiritual tradition of Tibet, predating Buddhism but later incorporating many Buddhist elements.
+
+Kadampa: The original reformist school founded by Atisha, whose teachings were later absorbed into the Gelug tradition.
+
+Each school brings its unique philosophical perspectives, meditation practices, and historical significance to your civilization.</Description>
+    <Authors>Coiot</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies>
+    <Dlc id="6DA07636-4123-4018-B643-6575B4EC336B" minversion="0" maxversion="999" />
+    <Dlc id="0E3751A1-F840-4e1b-9706-519BF484E59D" minversion="0" maxversion="999" />
+  </Dependencies>
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="294BE03C1E33DBE3F175FE92DFB12F92" import="1">Art/TibetanBuddhism128.dds</File>
+    <File md5="74D62129B02073B9BDBC544BD6F2A530" import="1">Art/TibetanBuddhism16.dds</File>
+    <File md5="8BF1A83D5942CE816725E50F1A5B5695" import="1">Art/TibetanBuddhism214.dds</File>
+    <File md5="7930CA595E35BA297990170E64D30CEA" import="1">Art/TibetanBuddhism24.dds</File>
+    <File md5="863504616AC660F5475142A3D63A3513" import="1">Art/TibetanBuddhism256.dds</File>
+    <File md5="B6503BE3918F0AADA9D936FD6B02982F" import="1">Art/TibetanBuddhism32.dds</File>
+    <File md5="7689EB2A8D9DA0B6272535F55CE25B08" import="1">Art/TibetanBuddhism48.dds</File>
+    <File md5="94C79CF6D898A1AA7118B56D6187CB01" import="1">Art/TibetanBuddhism64.dds</File>
+    <File md5="3C9DC54F073AEB40EB5136E2A6A09EAC" import="1">Art/TibetanBuddhism80.dds</File>
+    <File md5="9B32E1A38F19C137402659B9B722068F" import="1">Art/TibetanBuddhism_FontIcons.dds</File>
+    <File md5="C27F82898967215A94DAC51A028C273B" import="1">Art/TibetanBuddhism_FontIcons.ggxml</File>
+    <File md5="F5835951962DB1B40102940EDBA7D255" import="0">SQL/TibetanBuddhism_Art.sql</File>
+    <File md5="E51A150587486452F97035D9E73417DB" import="0">SQL/TibetanBuddhism_Preferences.sql</File>
+    <File md5="7814EB9D7E82D363A555307AD4D0DA43" import="0">SQL/TibetanBuddhism_Religion.sql</File>
+    <File md5="CF5A009E55F8A411E149E75DCE86F07C" import="0">SQL/TibetanBuddhism_Text.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>SQL/TibetanBuddhism_Art.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/TibetanBuddhism_Religion.sql</UpdateDatabase>
+      <UpdateDatabase>SQL/TibetanBuddhism_Text.xml</UpdateDatabase>
+      <UpdateDatabase>SQL/TibetanBuddhism_Preferences.sql</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

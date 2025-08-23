@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <!--CIVILIZATION-->
+        <Row Tag="TXT_KEY_CIVILIZATION_GANDEN_PHODRANG_LOBSANG_GYATSO_ADJECTIVE">
+            <Text>Tibetan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_GANDEN_PHODRANG_LOBSANG_GYATSO_DESC">
+            <Text>Ganden Phodrang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_GANDEN_PHODRANG_LOBSANG_GYATSO_SHORT_DESC">
+            <Text>Tibet</Text>
+        </Row>
+        <!--Dummy Buildings for UA and UB Effects-->
+        <Row Tag="TXT_KEY_BUILDING_SPY_POPULATION_TRANSFER">
+            <Text>Intelligence Network</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SPY_POPULATION_TRANSFER_HELP">
+            <Text>Population transferred from successful spy missions.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SPY_COUP_BONUS">
+            <Text>Revolutionary Influence</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SPY_COUP_BONUS_HELP">
+            <Text>Additional spy granted from successful coup in this City-State.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_AMCHI_DEFENSE">
+            <Text>Medical Corps Defense</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_AMCHI_DEFENSE_HELP">
+            <Text>Defense bonus from stationed Amchi based on religious followers.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_AMCHI_MARCH">
+            <Text>Medical Training</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_AMCHI_MARCH_HELP">
+            <Text>Units trained in this city receive the March promotion from stationed Amchi.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_UNEMPLOYED">
+            <Text>Contemplative Citizens</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_UNEMPLOYED_HELP">
+            <Text>Unemployed citizens generating Faith and Culture from Dansa activation.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_RELIGIOUS_BONUS">
+            <Text>Monastic Scholarship</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_RELIGIOUS_BONUS_HELP">
+            <Text>Bonus yields from religious buildings when Dansa is activated.</Text>
+        </Row>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_01">
+            <Text>Ganden</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_02">
+            <Text>Sera</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_03">
+            <Text>Drepung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_04">
+            <Text>Tashilhunpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_05">
+            <Text>Samye</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_06">
+            <Text>Ralung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_07">
+            <Text>Tsurphu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_08">
+            <Text>Mindrolling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_09">
+            <Text>Palcho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_10">
+            <Text>Reting</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_11">
+            <Text>Drigung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_12">
+            <Text>Shalu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_13">
+            <Text>Sakya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_14">
+            <Text>Gyantse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_15">
+            <Text>Shekar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_16">
+            <Text>Chokorgyel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_17">
+            <Text>Nechung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_18">
+            <Text>Yangpachen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_19">
+            <Text>Drak Yerpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_20">
+            <Text>Pelkor Chode</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_21">
+            <Text>Chimpu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_22">
+            <Text>Dzogchen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_23">
+            <Text>Pabonka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_24">
+            <Text>Yungdrungling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_25">
+            <Text>Chubu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_26">
+            <Text>Tradruk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_27">
+            <Text>Namgyal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_28">
+            <Text>Gurdrag</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_29">
+            <Text>Riwo Dechen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_30">
+            <Text>Chokling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_31">
+            <Text>Gonchen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_32">
+            <Text>Tarlam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_33">
+            <Text>Wacing</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_34">
+            <Text>Gurkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_35">
+            <Text>Kheong</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_36">
+            <Text>Toling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_37">
+            <Text>Litang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_38">
+            <Text>Pasho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_39">
+            <Text>Chodzong</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_40">
+            <Text>Sharu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_41">
+            <Text>Lab</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_42">
+            <Text>Muge</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_43">
+            <Text>Dzamtang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_44">
+            <Text>Droge</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_45">
+            <Text>Chone</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_46">
+            <Text>Kirti</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_47">
+            <Text>Rongwo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_48">
+            <Text>Kumbum</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_49">
+            <Text>Semnyi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_50">
+            <Text>Tulan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_51">
+            <Text>Tikchi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_52">
+            <Text>Gongkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_53">
+            <Text>Jang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_54">
+            <Text>Tawang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_55">
+            <Text>Barom</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_56">
+            <Text>Gungtang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_57">
+            <Text>Baryang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_58">
+            <Text>Chubar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_59">
+            <Text>Samtsenling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_60">
+            <Text>Tubtan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_61">
+            <Text>Tragor</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_62">
+            <Text>Biru</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_63">
+            <Text>Surmang Dutsitil</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_64">
+            <Text>Gongma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_65">
+            <Text>Dralak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_66">
+            <Text>Lungkya</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_67">
+            <Text>Taktek</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_68">
+            <Text>Taklung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_69">
+            <Text>Arik</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_70">
+            <Text>Tongtaling</Text>
+        </Row>
+        <!--Colonies-->
+        <Row Tag="TXT_KEY_COLONY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_01">
+            <Text>Punakha</Text>
+        </Row>
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_0">
+            <Text>Güshi Khan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_1">
+            <Text>Sonam Rabten</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_2">
+            <Text>Sangye Gyatso</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_3">
+            <Text>Lobsang Chokyi Gyaltsen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_4">
+            <Text>Galdan Khan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_5">
+            <Text>Minling Terchen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_6">
+            <Text>Ngawang Drakpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_7">
+            <Text>Changkya Rolpai Dorje</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_8">
+            <Text>Gyurme Dorje</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_GANDEN_PHODRANG_LOBSANG_GYATSO_9">
+            <Text>Konchok Lhundrub</Text>
+        </Row>
+        <!--LEADER-->
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO">
+            <Text>Lobsang Gyatso</Text>
+        </Row>
+        <!--Pedia-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_1">
+            <Text>The Great Fifth</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_1">
+            <Text>Ngawang Lobsang Gyatso, known as the Great Fifth Dalai Lama, was the first Dalai Lama to wield effective temporal and spiritual power over all of Tibet. Rising to prominence during a period of civil war and foreign intervention, he unified the fractured Tibetan plateau under the Ganden Phodrang government, establishing a theocratic state that would endure for three centuries. His reign marked the transformation of the Dalai Lama from a primarily religious figure to the sovereign ruler of Tibet.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_2">
+            <Text>Master of Statecraft</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_2">
+            <Text>Lobsang Gyatso demonstrated exceptional political acumen, navigating the complex relationships between Mongol khans, the Qing court, and rival Tibetan factions. He cultivated a vast intelligence network of monks and merchants who served as his eyes and ears across Asia. His diplomatic missions to Beijing in 1652 secured Qing recognition of his authority while maintaining Tibet's autonomy. Through careful manipulation of religious symbolism and political alliances, he created a government that balanced spiritual authority with practical governance.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_3">
+            <Text>The Potala Palace</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_3">
+            <Text>The Fifth Dalai Lama's most visible legacy is the magnificent Potala Palace in Lhasa, which he commissioned in 1645. This architectural marvel, built on the site of Songtsen Gampo's ancient fortress, became both the seat of government and a symbol of Tibetan identity. The palace complex, with its thousand rooms, served as monastery, fortress, and administrative center, embodying the fusion of spiritual and temporal power that characterized his rule.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_4">
+            <Text>Religious Synthesis</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_4">
+            <Text>While firmly rooted in the Geluk tradition, Lobsang Gyatso promoted religious tolerance and incorporated elements from other Tibetan Buddhist schools, in particular Nyingma traditions, into greater scholarship. He was a prolific author, composing texts on philosophy, poetry, and history. His establishment of the Dansa (monastic colleges) as centers of learning ensured the preservation and transmission of Buddhist knowledge. He also revived many ancient Tibetan customs and festivals, creating a unique synthesis of Buddhist philosophy and indigenous tradition.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_5">
+            <Text>Medical and Scientific Advancement</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_5">
+            <Text>The Fifth Dalai Lama established Tibet's medical system, founding institutions that trained Amchi (traditional doctors) who combined spiritual practice with medical knowledge. He patronized astronomical observations and calendar reforms, while his support for scholarly translation projects brought scientific and philosophical texts from India, China, and Mongolia to Tibet. This intellectual flowering made Lhasa a center of learning that attracted scholars from across the Buddhist world.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_6">
+            <Text>Enduring Authority</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_6">
+            <Text>Lobsang Gyatso's death in 1682 was concealed for fifteen years by his regent to maintain political stability, testament to the importance of his personal authority. His establishment of the Ganden Phodrang government created institutions that survived until 1959. Known as the "Great Fifth," he remains the most revered figure in Tibetan history after the Buddha himself, embodying the ideal of the bodhisattva-king who wields power solely for the benefit of all beings.</Text>
+        </Row>
+        <!--Name-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_NAME">
+            <Text>Lobsang Gyatso</Text>
+        </Row>
+        <!--Lived-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_LIVED">
+            <Text>1617 - 1682 CE</Text>
+        </Row>
+        <!--Titles-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_SUBTITLE">
+            <Text>The Fifth Dalai Lama</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TITLES_1">
+            <Text>The Great Fifth[NEWLINE]His Holiness the 5th Dalai Lama</Text>
+        </Row>
+        <!--DOM-->
+        <Row Tag="TXT_KEY_CIV_DAWN_GANDEN_PHODRANG_LOBSANG_GYATSO_TEXT">
+            <Text>Homage to you, Lobsang Gyatso, the Great Fifth, Ocean of Wisdom and unifier of the Roof of the World! You who transformed the office of Dalai Lama from spiritual teacher to sovereign ruler, establishing the Ganden Phodrang that would govern Tibet for centuries. Through your vast network of spies and diplomats, you gathered intelligence from across Asia, turning information into power and converting enemies into followers of the dharma.[NEWLINE][NEWLINE]Your Amchi healers served as both physicians and defenders, while your Dansa observatories became centers of learning that illuminated both the heavens and the earth. The Potala Palace you built stands eternal, a monument to the union of spiritual and temporal authority. Now, Great Fifth, Tibet needs your wisdom once more. Will you deploy spies to steal population and spread your faith through covert action? Can you establish a theocratic state where medicine serves military might and contemplation generates power?</Text>
+        </Row>
+        <!--Responses-->
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_FIRSTGREETING_1">
+            <Text>I am Lobsang Gyatso, the Fifth Dalai Lama. Through wisdom and compassion, we shall find common ground.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_DEFEATED_1">
+            <Text>The Potala shall stand empty, but the dharma is eternal. Rule wisely, for all power is impermanent.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_DENOUNCE_FRIEND_1">
+            <Text>Friendship is a sacred bond. To betray it is to invite the suffering of samsara. I will not forget this transgression.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_ATTACKED_HOSTILE_1">
+            <Text>Your aggression is noted. I will deal with you with resolve and wisdom.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_DOW_GENERIC_1">
+            <Text>War only brings more suffering. You have chosen conflict; may you be prepared for its consequences.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_EXPANSION_SERIOUS_WARNING_1">
+            <Text>Your expansion threatens the peace of these lands. I urge restraint and respect for boundaries.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_GREETING_HOSTILE_HELLO_1">
+            <Text>Though our relations are strained, I remain committed to the path of wisdom and compassion.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_GREETING_NEUTRAL_HELLO_1">
+            <Text>We meet as equals. Let us see what the future holds for our peoples.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_GREETING_POLITE_HELLO_1">
+            <Text>Welcome. May our dealings be marked by mutual respect and understanding.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+            <Text>Your military actions are concerning. Do not mistake patience for weakness.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_LUXURY_TRADE_1">
+            <Text>Let us trade for the benefit of both our peoples. Prosperity is best shared.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_OPEN_BORDERS_EXCHANGE_1">
+            <Text>Open borders may foster trust, but I will not allow my people to be exploited.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_PLOT_BUYING_SERIOUS_WARNING_1">
+            <Text>Coveting the lands of Tibet is unwise. Such actions will not be tolerated.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_REQUEST_1">
+            <Text>Your request will be considered. Compassion guides my decisions.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_RESPONSE_TO_BEING_DENOUNCED_1">
+            <Text>Denounce me if you must, but truth is not found in slander or anger.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_TOO_SOON_FOR_DOF_1">
+            <Text>Friendship is built over time. Let us first establish trust and understanding.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_TOO_SOON_NO_PEACE_1">
+            <Text>Peace cannot be rushed. Let us allow time for wounds to heal.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_DENOUNCE_1">
+            <Text>Your actions trouble me. I must speak out for the welfare of my people.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_DEC_FRIENDSHIP_1">
+            <Text>Let us walk the path of friendship, guided by wisdom and mutual respect.</Text>
+        </Row>
+        <!--Unique Ability-->
+        <Row Tag="TXT_KEY_TRAIT_TEN_SYLLABLES_POWER_SHORT">
+            <Text>The Ten Syllables of Power</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TEN_SYLLABLES_POWER">
+            <Text>Spies that rig Elections or Steal Technology send Population to one of your Cities. Spies that perform a Coup d'État convert all Population in the City to your Religion and provide you with an additional Spy once per City-State.</Text>
+        </Row>
+        <!--Unique Unit Amchi-->
+        <Row Tag="TXT_KEY_UNIT_AMCHI">
+            <Text>Amchi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AMCHI_HELP">
+            <Text>Unique Inquisitor replacement. When stationed, provides trained Units with the March promotion and increases City[ICON_STRENGTH]Defense for each follower of your Religion in the City. When expended, heals all adjacent units by 50 HP and provides them the Medic promotion.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AMCHI_STRATEGY">
+            <Text>The Amchi is a unique Inquisitor replacement for Ganden Phodrang. While retaining the ability to remove heresy, Amchi provide powerful garrison bonuses: units trained in cities with stationed Amchi receive the March promotion (heal every turn), and the city gains defense based on religious followers. When expended, Amchi heal all adjacent units and grant them the Medic promotion. Use Amchi to create resilient defensive positions while maintaining religious unity.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AMCHI_TEXT">
+            <Text>Amchi are traditional Tibetan medical practitioners who combine Buddhist spiritual practice with empirical medical knowledge. In the Ganden Phodrang system, these healer-monks served multiple roles: physicians to the populace, spiritual advisors to the military, and maintainers of public health. Their knowledge of both body and spirit made them invaluable in times of both peace and war.</Text>
+        </Row>
+        <!--Unique Building Dansa-->
+        <Row Tag="TXT_KEY_BUILDING_DANSA">
+            <Text>Dansa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_HELP">
+            <Text>Unique Observatory replacement. Requires a University. Unemployed Citizens generate[ICON_PEACE]Faith and[ICON_CULTURE]Culture in the City. Each time a Religious Unit is trained or born in the City, unemployed citizens provide yields for 10 turns.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_STRATEGY">
+            <Text>The Dansa is a unique Observatory replacement for Ganden Phodrang. In addition to the science bonus of a regular Observatory, the Dansa activates special bonuses when religious units are trained or Great Prophets are born in the city. For 10 turns after such an event, unemployed citizens generate Faith and Culture, with additional bonuses from religious buildings. This encourages maintaining some unemployed citizens and makes the Dansa especially powerful in large cities with strong religious infrastructure.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_TEXT">
+            <Text>Dansa were the great monastic colleges of Tibet, combining religious education with secular learning. These institutions taught not only Buddhist philosophy but also medicine, astronomy, mathematics, and art. The most famous Dansa attracted students from across Asia, making them centers of intellectual exchange. Their observatories tracked celestial movements for both scientific and astrological purposes, while their libraries preserved centuries of accumulated wisdom.</Text>
+        </Row>
+        <!--Promotions-->
+        <Row Tag="TXT_KEY_PROMOTION_MARCH">
+            <Text>March</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_MARCH_HELP">
+            <Text>Unit will heal every turn, even if it performs an action</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_MEDIC">
+            <Text>Medic</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+            <Text>This unit and all units within 1 tile heal 5 additional HP per turn</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_AMCHI_BLESSED">
+            <Text>Blessed by Amchi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_AMCHI_BLESSED_HELP">
+            <Text>Unit has received medical blessing from an Amchi</Text>
+        </Row>
+        <!--Messages-->
+        <Row Tag="TXT_KEY_TRAIT_LOBSANG_SPY_POPULATION_TRANSFER">
+            <Text>[COLOR_POSITIVE_TEXT]Spy mission success![ENDCOLOR] Transferred {1_Population} population to {2_CityName}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LOBSANG_SPY_COUP_CONVERSION">
+            <Text>[COLOR_POSITIVE_TEXT]Coup success![ENDCOLOR] Converted {1_Population} population to your religion. First coup bonus: +1 Spy!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LOBSANG_SPY_COUP_REPEAT">
+            <Text>[COLOR_POSITIVE_TEXT]Coup success![ENDCOLOR] Converted {1_Population} population to your religion.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AMCHI_GARRISON">
+            <Text>Amchi garrison in {1_CityName}: +{2_Defense} Defense from {3_Followers} followers. Units gain March!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AMCHI_GARRISON_MARCH">
+            <Text>Unit trained with March promotion from Amchi garrison!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_AMCHI_EXPENDED">
+            <Text>[COLOR_POSITIVE_TEXT]Amchi expended![ENDCOLOR] Healed {1_Units} units and granted Medic promotion!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_ACTIVATED">
+            <Text>[COLOR_POSITIVE_TEXT]Dansa activated![ENDCOLOR] Unemployed citizens generate Faith and Culture for {1_Turns} turns!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_PROPHET_BORN">
+            <Text>[COLOR_POSITIVE_TEXT]Great Prophet born in Dansa city![ENDCOLOR] Unemployed citizens generate yields for {1_Turns} turns!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DANSA_EXPIRED">
+            <Text>Dansa bonus in {1_CityName} has expired.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_LOBSANG_POPULATION_DESTINATION">
+            <Text>Population from spy missions will be sent to {1_CityName}</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

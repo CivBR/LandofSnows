@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <!--CIVILIZATION-->
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBET_THUPTEN_GYATSO_ADJECTIVE">
+            <Text>Tibetan</Text>
+        </Row>
+        <!--Dummy Building for Diplomat Science Bonus-->
+        <Row Tag="TXT_KEY_BUILDING_DIPLOMAT_SCIENCE">
+            <Text>Diplomat Science Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DIPLOMAT_SCIENCE_HELP">
+            <Text>This building is used internally to grant Science from Diplomats with other Civilizations. It cannot be built or seen in-game.</Text>
+        </Row>
+        <!--Dummy Buildings for Mentsikhang Food/Production Bonus-->
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_FOOD">
+            <Text>Mentsikhang Food Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_FOOD_HELP">
+            <Text>This building is used internally to grant Food from the Mentsikhang. It cannot be built or seen in-game.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_PROD">
+            <Text>Mentsikhang Production Bonus</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_PROD_HELP">
+            <Text>This building is used internally to grant Production from the Mentsikhang. It cannot be built or seen in-game.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBET_THUPTEN_GYATSO_DESC">
+            <Text>Ganden Phodrang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBET_THUPTEN_GYATSO_SHORT_DESC">
+            <Text>Tibet</Text>
+        </Row>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_01">
+            <Text>Lhasa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_02">
+            <Text>Shigatse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_03">
+            <Text>Nedong</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_04">
+            <Text>Gyantse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_05">
+            <Text>Chamdo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_06">
+            <Text>Taklung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_07">
+            <Text>Tsona</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_08">
+            <Text>Nakchu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_09">
+            <Text>Jyekundo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_10">
+            <Text>Dege</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_11">
+            <Text>Batang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_12">
+            <Text>Saga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_13">
+            <Text>Purang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_14">
+            <Text>Gyanema</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_15">
+            <Text>Gartok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_16">
+            <Text>Phari</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_17">
+            <Text>Naktsang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_18">
+            <Text>Namru</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_19">
+            <Text>Dirang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_20">
+            <Text>Senge</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_21">
+            <Text>Sok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_22">
+            <Text>Drachen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_23">
+            <Text>Sertsa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_24">
+            <Text>Shelkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_25">
+            <Text>Ngamring</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_26">
+            <Text>Kyirong</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_27">
+            <Text>Kuti</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_28">
+            <Text>Rongshar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_29">
+            <Text>Dzongkha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_30">
+            <Text>Drongpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_31">
+            <Text>Gyanema</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_32">
+            <Text>Dawa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_33">
+            <Text>Tsaparang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_34">
+            <Text>Rutok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_35">
+            <Text>Lhari</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_36">
+            <Text>Tar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_37">
+            <Text>Shopamdo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_38">
+            <Text>Pome</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_39">
+            <Text>Jomo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_40">
+            <Text>Zhokha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_41">
+            <Text>Riwoche</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_42">
+            <Text>Dzogang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_43">
+            <Text>Dechen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_44">
+            <Text>Gonjo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_45">
+            <Text>Dartsedo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_46">
+            <Text>Markham</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_47">
+            <Text>Sanan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_48">
+            <Text>Litang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_49">
+            <Text>Cho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_50">
+            <Text>Rima</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_51">
+            <Text>Danma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_52">
+            <Text>Sangacho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_53">
+            <Text>Dzito</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_54">
+            <Text>Lho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBET_THUPTEN_GYATSO_55">
+            <Text>Gyamda</Text>
+        </Row>
+        <!--Colonies-->
+        <Row Tag="TXT_KEY_COLONY_NAME_TIBET_THUPTEN_GYATSO_01">
+            <Text>Gangtok</Text>
+        </Row>
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_0">
+            <Text>Tsarong Dasang Damdul</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_1">
+            <Text>Agvan Dorzhiev</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_2">
+            <Text>Thupten Chökyi Nyima</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_3">
+            <Text>Thupten Kunphela</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_4">
+            <Text>Paljor Dorje Shatra</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_5">
+            <Text>Tsawa Tritrul</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_6">
+            <Text>Yajima Yasujiro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_7">
+            <Text>Lungshar Dorje Tsegyal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_8">
+            <Text>Trimon Norbu Wangyal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBET_THUPTEN_GYATSO_9">
+            <Text>Lhalung Gyeltsen Tarchin</Text>
+        </Row>
+        <!--LEADER-->
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO">
+            <Text>Thupten Gyatso</Text>
+        </Row>
+        <!--Pedia-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_1">
+            <Text>Early Life and Ascension</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_1">
+            <Text>Thupten Gyatso, born in 1876 in Thakpo Langdun, was recognized as the 13th Dalai Lama at a young age. His early years were marked by spiritual training and preparation for leadership in a time of great uncertainty for Tibet. Enthroned in 1879, he would become a pivotal figure in the modernization and preservation of Tibetan sovereignty, guiding his people through periods of foreign intervention and internal reform. His wisdom, compassion, and vision for a strong, independent Tibet would shape the nation's destiny for decades to come.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_2">
+            <Text>Struggles for Sovereignty</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_2">
+            <Text>During Thupten Gyatso's reign, Tibet faced significant challenges from foreign powers, particularly British and Chinese interests. The Dalai Lama's efforts to maintain Tibetan independence led to diplomatic missions, military confrontations, and periods of exile. Despite these hardships, he remained steadfast in his commitment to the welfare of his people, seeking to balance tradition with the need for reform and modernization. His leadership was marked by resilience and a deep sense of responsibility for Tibet's future.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_3">
+            <Text>Modernization and Reform</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_3">
+            <Text>Recognizing the need for change, Thupten Gyatso initiated a series of reforms to modernize Tibet's military, administration, and education. He established new schools, introduced modern technology, and sought to strengthen Tibet's defenses. The Dalai Lama's vision was to preserve Tibetan culture and religion while ensuring the nation could stand independently in a rapidly changing world. His reforms laid the groundwork for a more resilient and progressive Tibet.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_4">
+            <Text>Spiritual Leadership</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_4">
+            <Text>As both a spiritual and temporal leader, Thupten Gyatso worked to strengthen the role of Buddhism in Tibetan society. He promoted monastic education, supported the construction and restoration of monasteries, and encouraged the study of Buddhist philosophy. His leadership helped preserve Tibetan identity and spiritual traditions during a period of great upheaval, inspiring his people to remain united and resilient.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_5">
+            <Text>Later Years and Legacy</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_5">
+            <Text>In his later years, Thupten Gyatso continued to advocate for Tibetan autonomy and the well-being of his people. Despite facing renewed threats and personal hardship, he remained a symbol of hope and unity. His passing in 1933 marked the end of an era, but his legacy endures in the hearts of Tibetans and all who value peace, wisdom, and compassion. The 13th Dalai Lama is remembered as a visionary leader who guided Tibet through one of its most challenging periods.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_6">
+            <Text>Enduring Inspiration</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_6">
+            <Text>Thupten Gyatso's life and leadership continue to inspire those who seek peace, justice, and the preservation of culture. His efforts to modernize Tibet, defend its independence, and promote spiritual values have left a lasting mark on Tibetan history. The 13th Dalai Lama is celebrated as a wise and compassionate leader whose vision and courage helped shape the destiny of his nation.</Text>
+        </Row>
+        <!--Name-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_NAME">
+            <Text>Thupten Gyatso</Text>
+        </Row>
+        <!--Lived-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_LIVED">
+            <Text>1876 - 1933 CE</Text>
+        </Row>
+        <!--Titles-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_SUBTITLE">
+            <Text>His Holiness the 13th Dalai Lama of Tibet</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TITLES_1">
+            <Text>Spiritual Leader of Tibet[NEWLINE]Protector of the Dharma</Text>
+        </Row>
+        <!--DOM-->
+        <Row Tag="TXT_KEY_CIV_DAWN_TIBET_THUPTEN_GYATSO_TEXT">
+            <Text>Welcome, Thupten Gyatso, the 13th Dalai Lama—enlightened leader, reformer, and steadfast guardian of the Land of Snows. Through wisdom, courage, and boundless compassion, you guided your people through the storms of foreign encroachment and internal strife, preserving the sacred traditions and sovereignty of Tibet. Under your vision, monasteries flourished and education was reformed. You modernized the nation's defenses, fostered unity among the Tibetan people, and stood as a symbol of hope in the face of adversity. Now, as the winds of change once again sweep across the plateau, your legacy calls out for a leader who can unite faith and progress, strength and compassion. Will you rise to embody the virtues of the Dharma Kings, and lead Tibet to peace, prosperity, and enduring greatness? Can you build a civilization to stand the test of time?</Text>
+        </Row>
+        <!--Responses-->
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_FIRSTGREETING_1">
+            <Text>Welcome to the Land of Snows. May our meeting be guided by wisdom and compassion.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DEFEATED_1">
+            <Text>Though I fall, may peace and understanding one day return to this land.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_ATTACKED_HOSTILE_1">
+            <Text>Violence brings only suffering. Yet, I will defend my people.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DEC_FRIENDSHIP_1">
+            <Text>Let us walk the path of friendship and mutual respect, for the benefit of all beings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DENOUNCE_1">
+            <Text>Your actions bring disharmony. I must speak out for the good of my people.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DENOUNCE_FRIEND_1">
+            <Text>Even friends must be honest. I cannot condone your path.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DOW_GENERIC_1">
+            <Text>Though I seek peace, I must now defend my homeland.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_EXPANSION_SERIOUS_WARNING_1">
+            <Text>Your expansion threatens the harmony of Tibet. Please reconsider your actions.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_GREETING_HOSTILE_HELLO_1">
+            <Text>May we find understanding, even in disagreement.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_GREETING_NEUTRAL_HELLO_1">
+            <Text>How may I assist you?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_GREETING_POLITE_HELLO_1">
+            <Text>It is a pleasure to meet you. May our dialogue be fruitful.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+            <Text>If you seek conflict, know that Tibet will stand strong in its defense.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_LUXURY_TRADE_1">
+            <Text>Your goods are intriguing. Perhaps we can reach a fair exchange.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_OPEN_BORDERS_EXCHANGE_1">
+            <Text>Let us open our borders in the spirit of cooperation and peace.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_PLOT_BUYING_SERIOUS_WARNING_1">
+            <Text>Tibetan land is sacred. Please respect our boundaries.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_REQUEST_1">
+            <Text>I humbly request your assistance for the benefit of both our peoples.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_RESPONSE_TO_BEING_DENOUNCED_1">
+            <Text>I regret that you feel this way. May wisdom prevail in time.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_TOO_SOON_FOR_DOF_1">
+            <Text>Perhaps in time, trust will grow between us.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_TOO_SOON_NO_PEACE_1">
+            <Text>Peace must be earned. Let us work toward understanding.</Text>
+        </Row>
+        <!--Unique Ability-->
+        <Row Tag="TXT_KEY_TRAIT_TIBET_THUPTEN_GYATSO_SHORT">
+            <Text>Zephyr of the Wind Horse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_TIBET_THUPTEN_GYATSO">
+            <Text>Diplomats with another Civilization provide a percentage of the target's Science for each tech gap. Allied City-States periodically grant Great People based on their type.</Text>
+        </Row>
+        <!--Messages-->
+        <Row Tag="TXT_KEY_TRAIT_TIBET_THUPTEN_GYATSO_ALERT">
+            <Text>A [COLOR_POSITIVE_TEXT]'We Love the King Day'[ENDCOLOR] has begun across all cities!</Text>
+        </Row>
+        <!--Unique Unit Kusung-->
+        <Row Tag="TXT_KEY_UNIT_KUSUNG">
+            <Text>Kusung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_KUSUNG_HELP">
+            <Text>Gains Strength for each active Research Agreement and Embassy. Upgrading one triggers a short 'We Love the King Day' in your cities. Obsoletes later at Penicillin.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_KUSUNG_STRATEGY">
+            <Text>The Kusung is a unique Great War Infantry for Tibet. It gains Strength for each active Research Agreement and Embassy. Upgrading a Kusung triggers a short 'We Love the King Day' in your cities. Obsoletes later at Penicillin. Use diplomacy and agreements to maximize their power.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_KUSUNG_TEXT">
+            <Text>The Kusung were the elite bodyguards of the Dalai Lama, renowned for their loyalty and martial prowess. In the modern era, they symbolize the unity of spiritual and temporal authority, standing ready to defend Tibet during times of change and reform.</Text>
+        </Row>
+        <!--Unique Building Mentsikhang-->
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG">
+            <Text>Mentsikhang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_HELP">
+            <Text>+4 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_STRATEGY">
+            <Text>The Mentsikhang is a unique Research Lab for Tibet. It provides +4 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement. Build Mentsikhang to boost your science, economy, and support your armies.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_TEXT">
+            <Text>The Mentsikhang, founded by the 13th Dalai Lama, is Tibet's premier institute for traditional medicine and astrology. As a center of learning and healing, it advances the well-being of the Tibetan people and supports the nation's progress through knowledge and compassion.</Text>
+        </Row>
+        <!--MOD-->
+        <Row Tag="TXT_KEY_MOD_TIBET_THUPTEN_GYATSO_DESCRIPTION">
+            <Text>TIBET (THUPTEN GYATSO)[NEWLINE][NEWLINE]UNIQUE TRAIT: ZEPHYR OF THE WIND HORSE[NEWLINE]Diplomats with another Civilization provide a percentage of the target's Science for each tech gap. Friendly City-States periodically grant Great People based on their type.[NEWLINE][NEWLINE]UNIQUE UNIT: Kusung (Great War Infantry)[NEWLINE]Gains Strength for each active Research Agreement and completed Policy Tree. Upgrading one triggers a short 'We Love the King Day' in your cities.[NEWLINE][NEWLINE]UNIQUE BUILDING: Mentsikhang (Research Lab)[NEWLINE]+1 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement.</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

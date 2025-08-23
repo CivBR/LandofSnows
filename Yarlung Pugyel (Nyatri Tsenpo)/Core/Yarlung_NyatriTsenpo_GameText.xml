@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <!--CIVILIZATION-->
+        <Row Tag="TXT_KEY_CIVILIZATION_YARLUNG_PUGYEL_ADJECTIVE">
+            <Text>Yarlung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_YARLUNG_PUGYEL_DESC">
+            <Text>Yarlung Pugyel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_YARLUNG_PUGYEL_SHORT_DESC">
+            <Text>Yarlung</Text>
+        </Row>
+        <!--Dummy Buildings for Sacred Peaks-->
+        <Row Tag="TXT_KEY_BUILDING_SACRED_PEAK">
+            <Text>Sacred Peak Blessing</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SACRED_PEAK_HELP">
+            <Text>This building represents the blessing from a Sacred Peak designated by a Great Person. It provides +2 Culture and +2 Faith to the city.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SACRED_PEAK_DOUBLED">
+            <Text>Enhanced Sacred Peak Blessing</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_SACRED_PEAK_DOUBLED_HELP">
+            <Text>This building represents an enhanced blessing from a Sacred Peak adjacent to a Sky Burial Ground. It provides +4 Culture and +4 Faith to the city.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY">
+            <Text>Chöd Ceremony</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_HELP">
+            <Text>Active Chöd Ceremony providing +33% Great Person generation and +50% theming bonus.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_MOUNTAIN">
+            <Text>Mountain Chöd Ceremony</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_MOUNTAIN_HELP">
+            <Text>Chöd Ceremony near a Mountain providing +50% Tourism from Great Works.</Text>
+        </Row>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_01">
+            <Text>Yumbu Lakhar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_02">
+            <Text>Gangbar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_03">
+            <Text>Tandruk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_04">
+            <Text>Drangba</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_05">
+            <Text>Dakpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_06">
+            <Text>Yarda</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_07">
+            <Text>Ritang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_08">
+            <Text>Nyal</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_09">
+            <Text>Tamshul</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_10">
+            <Text>Dra</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_11">
+            <Text>Dol</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_12">
+            <Text>Nyaknyi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_13">
+            <Text>Monkhar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_14">
+            <Text>Keru</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_15">
+            <Text>Banpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_16">
+            <Text>Khoting</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_17">
+            <Text>Loro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_18">
+            <Text>Lhalung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_19">
+            <Text>Yardrok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_20">
+            <Text>Nyemo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_21">
+            <Text>Sang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_22">
+            <Text>Dran</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_23">
+            <Text>Husa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_24">
+            <Text>Tolung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_25">
+            <Text>Balam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_26">
+            <Text>Rasa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_27">
+            <Text>Zha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_28">
+            <Text>Non</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_29">
+            <Text>Medro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_30">
+            <Text>Katsel</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_31">
+            <Text>Lungsho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_32">
+            <Text>Phanyul</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_33">
+            <Text>Dam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_34">
+            <Text>Compa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_35">
+            <Text>Khar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_36">
+            <Text>Shang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_37">
+            <Text>Tsangdram</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_38">
+            <Text>Tritang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_39">
+            <Text>Tsi Nesar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_40">
+            <Text>Nyangro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_41">
+            <Text>Nyangpu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_42">
+            <Text>Gad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_43">
+            <Text>Dram</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_44">
+            <Text>Tanak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_45">
+            <Text>Jad</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_46">
+            <Text>Shablung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_47">
+            <Text>Drompa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_48">
+            <Text>Mu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_49">
+            <Text>Lhatse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_50">
+            <Text>Tsono</Text>
+        </Row>
+        <!--Colonies-->
+        <Row Tag="TXT_KEY_COLONY_NAME_YARLUNG_01">
+            <Text>Tsaparang</Text>
+        </Row>
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_0">
+            <Text>Mutri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_1">
+            <Text>Dingtri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_2">
+            <Text>Sotri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_3">
+            <Text>Mertri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_4">
+            <Text>Daktri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_5">
+            <Text>Siptri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_6">
+            <Text>Drigum Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_7">
+            <Text>Chatri Tsenpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_8">
+            <Text>Ishore Lek</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_YARLUNG_9">
+            <Text>Desho Lek</Text>
+        </Row>
+        <!--LEADER-->
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO">
+            <Text>Nyatri Tsenpo</Text>
+        </Row>
+        <!--Pedia-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_1">
+            <Text>Mythical Origins</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_1">
+            <Text>Nyatri Tsenpo, the legendary first king of Tibet, is said to have descended from heaven on a sky-cord, landing on the sacred mountain Yarlha Shampo. According to Tibetan tradition, he was recognized as a divine ruler by the people of the Yarlung Valley, who carried him on their shoulders to establish the first royal dynasty. His reign marks the beginning of recorded Tibetan history and the foundation of the Yarlung Dynasty.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_2">
+            <Text>The Heavenly Cord</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_2">
+            <Text>Central to the mythology of early Tibetan kings was the mu-thag or "heavenly cord" - a divine rope that connected the rulers to the celestial realm. It was believed that the first seven kings, including Nyatri Tsenpo, did not die but ascended back to heaven via this cord, leaving no earthly remains. This connection between heaven and earth became fundamental to Tibetan concepts of divine kingship.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_3">
+            <Text>Foundation of Tradition</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_3">
+            <Text>Under Nyatri Tsenpo's legendary rule, the foundations of Tibetan culture were established. The Bon religion, with its emphasis on sky burial and mountain worship, flourished. Sacred peaks were venerated as dwelling places of deities, and the practice of sky burial connected the deceased with the heavens. These traditions would endure for millennia, shaping Tibetan spiritual and cultural identity.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_4">
+            <Text>Yumbulakang Palace</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_4">
+            <Text>Nyatri Tsenpo is credited with building Yumbulakang, considered Tibet's first palace and one of its oldest structures. Perched on a hill in the Yarlung Valley, this fortress-palace served as the seat of the early Tibetan kings. Its strategic location allowed control over the fertile valley below, establishing the pattern of hilltop fortresses that would characterize Tibetan architecture.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_5">
+            <Text>Legacy of the First King</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_5">
+            <Text>Whether historical figure or mythical archetype, Nyatri Tsenpo represents the dawn of Tibetan civilization. His story embodies the unique Tibetan worldview that sees rulers as intermediaries between heaven and earth. The dynasty he founded would eventually unite the Tibetan plateau, creating an empire that at its height rivaled Tang China. His legacy lives on in Tibetan cultural memory as the divine ancestor of all subsequent rulers.</Text>
+        </Row>
+        <!--Name-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_NAME">
+            <Text>Nyatri Tsenpo</Text>
+        </Row>
+        <!--Lived-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_LIVED">
+            <Text>Legendary (traditional dates: ~107-147 BCE)</Text>
+        </Row>
+        <!--Titles-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_SUBTITLE">
+            <Text>First King of Tibet</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TITLES_1">
+            <Text>Lord of the Yarlung Valley[NEWLINE]He Who Descended from Heaven</Text>
+        </Row>
+        <!--DOM-->
+        <Row Tag="TXT_KEY_CIV_DAWN_YARLUNG_PUGYEL_TEXT">
+            <Text>Blessings upon you, Nyatri Tsenpo, first among kings, descended from heaven on the sacred cord that unites the celestial and earthly realms. You who were carried on the shoulders of your people to found the eternal dynasty of the Yarlung Valley. Through your divine wisdom, the sacred peaks became dwelling places of the gods, and the practice of sky burial united your people with the heavens above. Your palace at Yumbulakang stands as testament to the birth of Tibetan civilization, a beacon that would guide your descendants to forge an empire spanning the roof of the world.[NEWLINE][NEWLINE]Now, divine sovereign, your people call upon you once more. Will you designate new sacred peaks to channel the blessings of heaven? Can you guide great persons to sanctify the mountains and perform the ancient ceremonies that bind earth to sky? Will you build a civilization where the cord between heaven and earth remains forever unbroken?</Text>
+        </Row>
+        <!--Responses-->
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_FIRSTGREETING_1">
+            <Text>I am Nyatri Tsenpo, descended from heaven to rule these lands. The sacred peaks bear witness to our meeting.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_DEFEATED_1">
+            <Text>The heavenly cord is severed... but the mountains remember, and one day another shall descend.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_DENOUNCE_FRIEND_1">
+            <Text>Even friends must honor the sacred cord. Betrayal will not be forgotten by the mountains.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_ATTACKED_HOSTILE_1">
+            <Text>You attack the descendant of heaven? The peaks will shield me, and your aggression will echo in the valleys.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_DOW_GENERIC_1">
+            <Text>War is a test of destiny.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_EXPANSION_SERIOUS_WARNING_1">
+            <Text>Your expansion encroaches upon lands blessed by heaven. Respect the boundaries, or face the wrath of heaven.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_GREETING_HOSTILE_HELLO_1">
+            <Text>Your intentions are clouded. The sky watches those who bring discord.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_GREETING_NEUTRAL_HELLO_1">
+            <Text>We meet as equals beneath the sky. Let us see what fate has in store.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_GREETING_POLITE_HELLO_1">
+            <Text>Greetings. May our words be as clear as the mountain air.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+            <Text>Your armies stir the valleys. Beware, for the peaks stand ready to defend their own.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_LUXURY_TRADE_1">
+            <Text>Let us trade the blessings of our lands. Prosperity is best when shared.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_OPEN_BORDERS_EXCHANGE_1">
+            <Text>Open borders may unite our peoples, but respect must guide your steps.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_PLOT_BUYING_SERIOUS_WARNING_1">
+            <Text>Do not claim land sacred to my ancestors. The harmony between heaven and earth must remain unbroken.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_REQUEST_1">
+            <Text>Speak your request.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_RESPONSE_TO_BEING_DENOUNCED_1">
+            <Text>Denounce me if you must, but the mountains endure beyond words.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_TOO_SOON_FOR_DOF_1">
+            <Text>Friendship takes time, as does the shaping of mountains. Let us build trust first.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_TOO_SOON_NO_PEACE_1">
+            <Text>Peace cannot be rushed. The fate will reveal its path in time.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_DENOUNCE_1">
+            <Text>Your actions dishonor yourself. I denounce you before the spirits of the mountains.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_DEC_FRIENDSHIP_1">
+            <Text>Let us walk together beneath the sky, as friends joined by destiny should.</Text>
+        </Row>
+        <!--Unique Ability-->
+        <Row Tag="TXT_KEY_TRAIT_CORD_HEAVEN_EARTH_SHORT">
+            <Text>The Cord Uniting Heaven and Earth</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CORD_HEAVEN_EARTH">
+            <Text>When a Great Person is born, designate the nearest Mountain as a Sacred Peak for 25 turns (max 3). Each Sacred Peak grants its nearest city +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith (doubled if a Sky Burial Ground is adjacent). When that Great Person is expended, transfer the Sacred Peak to the expending city's nearest Mountain and refresh its duration.</Text>
+        </Row>
+        <!--Unique Unit Pawo-->
+        <Row Tag="TXT_KEY_UNIT_PAWO">
+            <Text>Pawo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PAWO_HELP">
+            <Text>Unique Great Musician replacement. Can perform a Chöd Ceremony: one-time ability that expends the Pawo in a city. For 10 turns, that city gains +33%[ICON_GREAT_PEOPLE]Great Person Rate per Great Work it contains and +50% theming bonus. If the city is within 2 tiles of a Mountain, gain +50%[ICON_TOURISM]Tourism from Great Works for the duration.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PAWO_STRATEGY">
+            <Text>The Pawo is a unique Great Musician replacement for Yarlung. Instead of a concert tour, the Pawo can perform a Chöd Ceremony in a city, providing powerful cultural bonuses for 10 turns. The ceremony is especially effective in cities near mountains. Use Pawos to boost your cultural victory by enhancing cities with multiple Great Works and theming bonuses.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PAWO_TEXT">
+            <Text>Pawos are heroic dancers and mediums in the Tibetan spiritual tradition. Through elaborate costumes and ritualistic performances, they conduct the Chöd ceremony - a practice of offering one's body to demons and spirits to cultivate compassion and overcome ego. These spiritual warriors dance at the boundary between the physical and spiritual worlds, channeling divine energies to benefit all sentient beings.</Text>
+        </Row>
+        <!--Unique Improvement Sky Burial Ground-->
+        <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND">
+            <Text>Sky Burial Ground</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND_HELP">
+            <Text>Must be built adjacent to a Mountain and cannot be adjacent to another Sky Burial Ground. Yields +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith, plus +1 of each for every adjacent Mountain and Great Person Improvement. Yields +1[ICON_TOURISM]Tourism after researching Archaeology.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND_TEXT">
+            <Text>Sky burial grounds are sacred sites where the deceased are offered to vultures and the elements, returning the body to nature and sending the spirit skyward. These charnel grounds serve as powerful reminders of impermanence and the cycle of life and death. Located near mountains - the abodes of gods and spirits - they represent the intersection of earth and heaven, making them places of profound spiritual significance in Tibetan culture.</Text>
+        </Row>
+        <!--Messages-->
+        <Row Tag="TXT_KEY_TRAIT_YARLUNG_SACRED_PEAK_DESIGNATED">
+            <Text>[COLOR_POSITIVE_TEXT]Sacred Peak Designated![ENDCOLOR] {1_GPName} has blessed a mountain near {2_CityName}!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_YARLUNG_SACRED_PEAK_TRANSFERRED">
+            <Text>[COLOR_POSITIVE_TEXT]Sacred Peak Transferred![ENDCOLOR] The blessing has moved to a mountain near {1_CityName}!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_YARLUNG_SACRED_PEAK_EXPIRED">
+            <Text>A Sacred Peak's blessing has expired.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_YARLUNG_SACRED_PEAK_MAX">
+            <Text>Maximum Sacred Peaks reached! A Great Person must be expended to designate a new one.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_YARLUNG_NO_MOUNTAIN">
+            <Text>No mountain found nearby to designate as Sacred Peak!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_YARLUNG_SACRED_PEAK_LOST">
+            <Text>Sacred Peak lost - no mountain near the expenditure location!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PAWO_CEREMONY_PERFORMED">
+            <Text>[COLOR_POSITIVE_TEXT]Chöd Ceremony![ENDCOLOR] Performed in {1_CityName}! Great Person rates and tourism boosted for {2_Turns} turns.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_PAWO_CEREMONY_ENDED">
+            <Text>Chöd Ceremony in {1_CityName} has ended.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_ADJACENCY">
+            <Text>Sky Burial Ground built with +{1_Culture}[ICON_CULTURE]Culture and +{2_Faith}[ICON_PEACE]Faith from adjacency!</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

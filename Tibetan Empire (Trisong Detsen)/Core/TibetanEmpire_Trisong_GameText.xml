@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Language_en_US>
+		<!--CIVILIZATION-->
+		<Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_TRISONG_DETSEN_ADJECTIVE">
+			<Text>Tibetan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_TRISONG_DETSEN_DESC">
+			<Text>Tibetan Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_TRISONG_DETSEN_SHORT_DESC">
+			<Text>Tibet</Text>
+		</Row>
+		<!--Dummy Buildings for UA Effects-->
+		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_PRESSURE">
+			<Text>Religious Authority</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_PRESSURE_HELP">
+			<Text>Courthouse providing +25% religious pressure in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_PRESSURE_GA">
+			<Text>Golden Age Religious Authority</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_PRESSURE_GA_HELP">
+			<Text>Courthouse providing +50% religious pressure during Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRANSLATION_PROJECT">
+			<Text>Translation Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRANSLATION_PROJECT_HELP">
+			<Text>Active Translation Project providing +4 Science per religious building and +1 Science per Specialist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRANSLATION_PROJECT_GA">
+			<Text>Golden Age Translation Project</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TRANSLATION_PROJECT_GA_HELP">
+			<Text>Golden Age bonus: +4 Production per religious building and +1 Production per Specialist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_DEBATE">
+			<Text>Great Debate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_DEBATE_HELP">
+			<Text>Active Great Debate providing +25% religious pressure range from Courthouses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_DEBATE_GA">
+			<Text>Golden Age Great Debate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_DEBATE_GA_HELP">
+			<Text>Golden Age bonus: +2% Combat Strength per Holy Site.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_SITE_BONUS">
+			<Text>Holy Site Blessing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOLY_SITE_BONUS_HELP">
+			<Text>Combat bonus from Holy Sites during Great Debate in Golden Age.</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_01">
+			<Text>Zungkar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_02">
+			<Text>Drakmar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_03">
+			<Text>Nabo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_04">
+			<Text>Balpo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_05">
+			<Text>Zupuk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_06">
+			<Text>Maldro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_07">
+			<Text>Marma</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_08">
+			<Text>Tam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_09">
+			<Text>Lhasa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_10">
+			<Text>Kyling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_11">
+			<Text>Nam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_12">
+			<Text>Aga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_13">
+			<Text>Tsangbu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_14">
+			<Text>Mong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_15">
+			<Text>Dzen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_16">
+			<Text>Odang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_17">
+			<Text>Lhegang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_18">
+			<Text>Nyenkar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_19">
+			<Text>Merke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_20">
+			<Text>Samdruptse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_21">
+			<Text>Phodamdo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_22">
+			<Text>Drak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_23">
+			<Text>Gyangtse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_24">
+			<Text>Yumbu Lakhar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_25">
+			<Text>Odang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_26">
+			<Text>Namtseling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_27">
+			<Text>Chamdo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_28">
+			<Text>Rabka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_29">
+			<Text>Dege</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_30">
+			<Text>Drom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_31">
+			<Text>Barang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_32">
+			<Text>Dartsedo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_33">
+			<Text>Shey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_34">
+			<Text>Medok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_35">
+			<Text>Jyekundo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_36">
+			<Text>Tsaparang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_37">
+			<Text>Pasighato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_38">
+			<Text>Litang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_39">
+			<Text>Paro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_40">
+			<Text>Kardung</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_41">
+			<Text>Talhe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_42">
+			<Text>Semja</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_43">
+			<Text>Lo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_44">
+			<Text>Degen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_45">
+			<Text>Batang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_46">
+			<Text>Longyu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_47">
+			<Text>Kargil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_48">
+			<Text>Khotan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_49">
+			<Text>Khabandha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_50">
+			<Text>Kucha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_51">
+			<Text>Qocho</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_52">
+			<Text>Yizhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_53">
+			<Text>Shazhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_54">
+			<Text>Guazhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_55">
+			<Text>Ganzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_56">
+			<Text>Liangzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_57">
+			<Text>Huizhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_58">
+			<Text>Lanzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_59">
+			<Text>Minzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_60">
+			<Text>Songzhou</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_61">
+			<Text>Shule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_62">
+			<Text>Charklik</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_63">
+			<Text>Peshawar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_64">
+			<Text>Fuqi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_65">
+			<Text>Liangzhou</Text>
+		</Row>
+		<!--Colonies-->
+		<Row Tag="TXT_KEY_COLONY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_01">
+			<Text>Dali</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_0">
+			<Text>Dro Chungsang Ormang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_1">
+			<Text>We Nangshar Sutsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_2">
+			<Text>Go Pema Gungtsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_3">
+			<Text>Shang Gyalsig</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_4">
+			<Text>Takdra Lukhong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_5">
+			<Text>Shang Gyaltsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_6">
+			<Text>Dro Trisu Ramsha</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_7">
+			<Text>We Mangje Lhalo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_8">
+			<Text>Tride Songtsen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_9">
+			<Text>Yeshe Tsogyel</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN">
+			<Text>Trisong Détsen</Text>
+		</Row>
+		<!--Pedia-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_1">
+			<Text>The Dharma King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_1">
+			<Text>Trisong Détsen stands as one of the three Dharma Kings of Tibet, a ruler whose reign marked the golden age of the Tibetan Empire. Ascending to the throne as a child, he would grow to become Tibet's most culturally influential monarch, establishing Buddhism as the state religion and overseeing the empire's greatest territorial expansion. His reign witnessed the conquest of the Tang capital Chang'an and the establishment of Tibet as the dominant power in Central Asia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_2">
+			<Text>Religious Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_2">
+			<Text>Trisong Détsen's greatest legacy lies in his transformation of Tibet into a Buddhist kingdom. He invited the Indian master Padmasambhava and the scholar Śāntarakṣita to Tibet, leading to the construction of Samye Monastery, Tibet's first Buddhist monastery. The famous Samye Debate between Indian and Chinese Buddhist schools, held under his patronage, determined the course of Tibetan Buddhism for centuries to come, establishing the Indian tradition as predominant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_3">
+			<Text>Military Supremacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_3">
+			<Text>Under Trisong Détsen's leadership, the Tibetan Empire reached its zenith of military power. His armies, funded and augmented through the riches and knowledge of the Silk Road, conquered vast swathes of Central Asia. The capture of Chang'an in 763 CE was a highlight against the waning Tang Dynasty, allowing unempeded Tibetan control which extended from the Pamirs to the borders of India, dominating the Silk Road trade routes and extracting wealth from countless peoples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_4">
+			<Text>Cultural Flowering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_4">
+			<Text>The reign of Trisong Détsen saw an unprecedented cultural renaissance in Tibet. He commissioned the translation of thousands of Buddhist texts from Sanskrit into Tibetan, creating a vast scriptural canon. The further development of Classical Tibetan as a literary language, the codification of Tibetan script, and the establishment of translation standards all occurred under his patronage. This cultural foundation would preserve Buddhist knowledge through centuries of change.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_5">
+			<Text>Administrative Innovation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_5">
+			<Text>Trisong Détsen revolutionized Tibetan governance by integrating Buddhist principles into state administration. It was the beginning of influential Buddhist masters having influence in state affairs, while a sophisticated bureaucracy centered around religious institutes and landmarks managed the vast empire. His establishment of the edict pillars throughout Tibet proclaimed laws that balanced traditional customs with Buddhist ethics, creating a unique form of governance that merged spiritual and temporal authority.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_6">
+			<Text>Eternal Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_6">
+			<Text>Trisong Détsen's influence reverberates throughout Tibetan history. The Buddhist institutions he established survived the empire's eventual fragmentation, preserving Tibetan culture through centuries of upheaval. Modern Tibetans still revere him as an emanation of Manjushri, the bodhisattva of wisdom, and his reign remains the benchmark for Tibet's cultural and political aspirations.</Text>
+		</Row>
+		<!--Name-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_NAME">
+			<Text>Trisong Détsen</Text>
+		</Row>
+		<!--Lived-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_LIVED">
+			<Text>742 - 800 CE</Text>
+		</Row>
+		<!--Titles-->
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_SUBTITLE">
+			<Text>38th Emperor of Tibet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TITLES_1">
+			<Text>Dharma King[NEWLINE]Emanation of Manjushri</Text>
+		</Row>
+		<!--DOM-->
+		<Row Tag="TXT_KEY_CIV_DAWN_TIBETAN_EMPIRE_TRISONG_DETSEN_TEXT">
+			<Text>Blessings upon you, Trisong Détsen, Dharma King and emanation of Manjushri, whose wisdom illuminated the Land of Snows! You who transformed Tibet from a warrior kingdom into a bastion of Buddhist learning, establishing monasteries that became beacons of enlightenment across Asia. Under your reign, the empire's borders stretched from the gates of India to the heart of China, your armies sanctified by faith and your courthouses spreading both justice and dharma.[NEWLINE][NEWLINE]Your Translation Projects preserved the Buddha's teachings for all time, while your Great Debates determined the spiritual path of nations. The Holy Sites you consecrated with your generals became both fortresses and temples, defending the realm while nurturing the soul. Now, wise sovereign, Tibet calls upon your perfect fulfillment once more. Will you spread religious authority through courthouses that double as centers of faith? Can you lead armies blessed by mountain spirits to construct an empire where military might serves spiritual enlightenment?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_FIRSTGREETING_1">
+			<Text>I am Trisong Détsen, Dharma King of Tibet. May our meeting be auspicious and lead to the benefit of all beings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_DEFEATED_1">
+			<Text>The wheel of dharma continues to turn, even as empires rise and fall. May you rule with wisdom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_DENOUNCE_FRIEND_1">
+			<Text>Though we were friends, your betrayal cannot be ignored.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_ATTACKED_HOSTILE_1">
+			<Text>Your aggression is a grave mistake. Tibet will defend itself with wisdom and strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_DOW_GENERIC_1">
+			<Text>You have chosen the path of conflict. May your armies be prepared for the challenge ahead.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_EXPANSION_SERIOUS_WARNING_1">
+			<Text>Your expansion threatens the harmony of the land. Heed this warning, or face the consequences.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_GREETING_HOSTILE_HELLO_1">
+			<Text>We meet again, but the air is tense. Let us hope wisdom prevails over hostility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_GREETING_NEUTRAL_HELLO_1">
+			<Text>Greetings. May our nations coexist in peace and mutual respect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_GREETING_POLITE_HELLO_1">
+			<Text>Welcome, friend. May our relations be harmonious and prosperous.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+			<Text>Your military actions are concerning. Tibet will not tolerate threats to its sovereignty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_LUXURY_TRADE_1">
+			<Text>Let us trade luxuries and enrich both our peoples.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Open borders will foster understanding and cooperation between our nations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_PLOT_BUYING_SERIOUS_WARNING_1">
+			<Text>Your encroachment upon our lands is unacceptable. Cease these actions at once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_REQUEST_1">
+			<Text>Tibet requests your assistance. May generosity and wisdom guide your response.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>Your denouncement is noted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_TOO_SOON_FOR_DOF_1">
+			<Text>It is too soon to declare friendship. Let us build trust through our actions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_TOO_SOON_NO_PEACE_1">
+			<Text>Peace cannot be achieved so quickly. Time and patience are required.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_DENOUNCE_1">
+			<Text>Your deeds have forced my hand. I denounce your leadership for the good of all.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_DEC_FRIENDSHIP_1">
+			<Text>Let us declare friendship and work together for the benefit of our peoples.</Text>
+		</Row>
+		<!--Unique Ability-->
+		<Row Tag="TXT_KEY_TRAIT_PERFECT_FULFILLMENT_SHORT">
+			<Text>Perfect Fulfillment of Boundless Wishes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_PERFECT_FULFILLMENT">
+			<Text>Courthouses boost religious pressure (double in a[ICON_GOLDEN_AGE]Golden Age). Great Generals can construct Holy Sites instead of Citadels, which function as Citadels but provide[ICON_PEACE]Faith and[ICON_CULTURE]Culture.</Text>
+		</Row>
+		<!--Unique Unit Chakgo Tamak-->
+		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK">
+			<Text>Chakgo Tamak</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK_HELP">
+			<Text>Unique Knight replacement unlocked at Theology. Stronger and has no city attacking penalties if starting its turn on a Hill or adjacent to a Mountain. Constructs a Courthouse in captured Cities and yields[ICON_GOLDEN_AGE]Golden Age points for each follower of your Religion in the City upon capture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK_STRATEGY">
+			<Text>The Chakgo Tamak is a unique Knight replacement for the Tibetan Empire, available earlier at Theology. It excels at attacking cities from hills or when adjacent to mountains, suffering no penalty to city attacks from these positions. When capturing cities, it automatically builds a Courthouse and generates Golden Age points based on religious followers. Use Chakgo Tamak to expand your empire while spreading your faith and triggering Golden Ages.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK_TEXT">
+			<Text>The Chakgo Tamak were elite cavalry units of the Tibetan Empire, combining the mobility of steppe warfare with the defensive advantages of mountain terrain. These warriors wore distinctive heavy armor and carried both lance and sword. Their ability to navigate treacherous mountain passes while maintaining combat effectiveness made them the terror of Central Asian battlefields.</Text>
+		</Row>
+		<!--Unique Unit Jetsun-->
+		<Row Tag="TXT_KEY_UNIT_JETSUN">
+			<Text>Jetsun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_HELP">
+			<Text>Unique Great Prophet replacement. Can be expended for Translation Project (+4[ICON_RESEARCH]Science per Religious Building, +1 per Specialist for 10 turns; if[ICON_GOLDEN_AGE]GA active, also +4[ICON_PRODUCTION]Production) or Great Debate (spawns Inquisitor in each Courthouse, +25% pressure range for 10 turns; if[ICON_GOLDEN_AGE]GA active, +2%[ICON_STRENGTH]CS per Holy Site).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_STRATEGY">
+			<Text>The Jetsun is a unique Great Prophet replacement for the Tibetan Empire with two powerful abilities. Translation Project boosts Science (and Production during Golden Ages) based on religious buildings and specialists. Great Debate spawns Inquisitors in all Courthouse cities and increases religious pressure range (with combat bonuses during Golden Ages). Choose based on whether you need scientific advancement or religious dominance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_TEXT">
+			<Text>Jetsun, meaning "Venerable" or "Reverend" in Tibetan, is an honorific title given to accomplished Buddhist masters. These spiritual leaders were not merely religious figures but also scholars, diplomats, and advisors to emperors. The Jetsun presided over great monastic debates, supervised massive translation projects, and served as the teachers  of discples that would become the vanguard of spiritual authority in the Tibet.</Text>
+		</Row>
+		<!--Unique Improvement Holy Site-->
+		<Row Tag="TXT_KEY_IMPROVEMENT_HOLY_SITE">
+			<Text>Holy Site</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_HOLY_SITE_HELP">
+			<Text>Can only be constructed by Great Generals. Functions as a Citadel (100%[ICON_STRENGTH]Defense, damages adjacent enemies, claims adjacent tiles) while providing +2[ICON_PEACE]Faith and +1[ICON_CULTURE]Culture. During Great Debate in Golden Ages, each Holy Site provides combat bonuses to your units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_HOLY_SITE_TEXT">
+			<Text>Holy Sites in the Tibetan Empire were sacred locations where military fortifications merged with religious significance. These consecrated grounds, often marked by stupas, prayer flags, and defensive walls, served as both spiritual centers and strategic strongholds. Warriors would receive blessings here before battle, while monks would pray for the empire's protection.</Text>
+		</Row>
+		<!--Promotions-->
+		<Row Tag="TXT_KEY_PROMOTION_CHAKGO_HILL">
+			<Text>Mountain Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHAKGO_HILL_HELP">
+			<Text>+25%[ICON_STRENGTH]Combat Strength on Hills, +50% vs Cities when on Hills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHAKGO_MOUNTAIN">
+			<Text>Alpine Charge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHAKGO_MOUNTAIN_HELP">
+			<Text>+15%[ICON_STRENGTH]Combat Strength when adjacent to Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOLY_SITE_STRENGTH">
+			<Text>Sacred Ground</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOLY_SITE_STRENGTH_HELP">
+			<Text>+2%[ICON_STRENGTH]Combat Strength per Holy Site (Great Debate bonus)</Text>
+		</Row>
+		<!--Messages-->
+		<Row Tag="TXT_KEY_TRAIT_TRISONG_HOLY_SITE_BUILT">
+			<Text>[COLOR_POSITIVE_TEXT]Holy Site constructed![ENDCOLOR] Functions as a Citadel with Faith and Culture yields.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TRISONG_CHAKGO_CAPTURE">
+			<Text>[COLOR_POSITIVE_TEXT]Chakgo Tamak conquest![ENDCOLOR] Courthouse built, +{1_GAPoints} Golden Age points from {2_Followers} followers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_TRANSLATION_PROJECT">
+			<Text>[COLOR_POSITIVE_TEXT]Translation Project![ENDCOLOR] +{1_Science} Science and +1 per Specialist for {2_Turns} turns{3_GABonus}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_TRANSLATION_GA_BONUS">
+			<Text> (Golden Age bonus active!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_GREAT_DEBATE">
+			<Text>[COLOR_POSITIVE_TEXT]Great Debate![ENDCOLOR] Spawned {1_Inquisitors} Inquisitors, +25% pressure range for {2_Turns} turns{3_GABonus}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_DEBATE_GA_BONUS">
+			<Text> (+{1_Bonus}% CS from Holy Sites!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_TRANSLATION_ENDED">
+			<Text>Translation Project in {1_CityName} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JETSUN_DEBATE_ENDED">
+			<Text>Great Debate effects have ended.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

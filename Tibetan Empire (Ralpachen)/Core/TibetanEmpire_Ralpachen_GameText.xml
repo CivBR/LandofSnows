@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Language_en_US>
+        <!--CIVILIZATION-->
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_RALPACHEN_ADJECTIVE">
+            <Text>Tibetan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_RALPACHEN_DESC">
+            <Text>Tibetan Empire</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILIZATION_TIBETAN_EMPIRE_RALPACHEN_SHORT_DESC">
+            <Text>Tibet</Text>
+        </Row>
+        <!--Dummy Buildings for UA Effects-->
+        <Row Tag="TXT_KEY_BUILDING_TRADE_ROUTE_GOLD">
+            <Text>Silk Road Dividends</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TRADE_ROUTE_GOLD_HELP">
+            <Text>Gold generated from trade routes passing through your empire based on city connections.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HOLY_SITE_ROAD_BONUS">
+            <Text>Sacred Road Network</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_HOLY_SITE_ROAD_BONUS_HELP">
+            <Text>Roads on or adjacent to Holy Sites providing +1 Gold, +1 Production, and +1 Faith.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TITHE_ACTIVE">
+            <Text>Active Tithe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TITHE_ACTIVE_HELP">
+            <Text>City is converting Gold and Production into Faith through the Tithe process.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TITHE_FAITH_BONUS">
+            <Text>Tithe Faith Generation</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_TITHE_FAITH_BONUS_HELP">
+            <Text>Faith generated from converting 30% of Gold and Production through Tithe.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CORVEE_SPAWNER">
+            <Text>Corvée Conscription</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CORVEE_SPAWNER_HELP">
+            <Text>Marker for Corvée unit spawning during Tithe.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOLON_FAITH_BONUS">
+            <Text>Merchant Faith Network</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOLON_FAITH_BONUS_HELP">
+            <Text>Faith bonus from Chölön missions based on City-State connections.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ZIMCHONGPA_GARRISON">
+            <Text>Zimchongpa Garrison</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ZIMCHONGPA_GARRISON_HELP">
+            <Text>Zimchongpa is garrisoned in this city, providing connection to capital.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ZIMCHONGPA_CONNECTION">
+            <Text>Garrison Trade Route</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_ZIMCHONGPA_CONNECTION_HELP">
+            <Text>City is connected to capital via Zimchongpa garrison and provides Tithe benefits.</Text>
+        </Row>
+        <!--Process-->
+        <Row Tag="TXT_KEY_PROCESS_TITHE">
+            <Text>Tithe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_TITHE_HELP">
+            <Text>Convert 30% of this city's[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith. When purchasing units with Faith during Tithe, spawn a Corvée copy in your Capital (lasts 20 turns with -25%[ICON_STRENGTH]CS, cannot earn XP).</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_TITHE_STRATEGY">
+            <Text>The Tithe process is unique to Tibet under Ralpachen. It converts a portion of your city's Gold and Production into Faith, allowing you to focus on religious development. More importantly, any unit purchased with Faith while a city is running Tithe will spawn a weaker Corvée copy in your capital, effectively doubling your military production at the cost of unit quality. Use this to quickly build defensive armies or prepare for rapid expansion.</Text>
+        </Row>
+        <!--Cities-->
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_01">
+            <Text>Lhasa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_02">
+            <Text>Balpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_03">
+            <Text>Drakmar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_04">
+            <Text>Samdruptse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_05">
+            <Text>Nam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_06">
+            <Text>Nabo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_07">
+            <Text>Marma</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_08">
+            <Text>Zungkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_09">
+            <Text>Zupuk</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_10">
+            <Text>Yumbu Lakhar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_11">
+            <Text>Tsangbu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_12">
+            <Text>Maldro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_13">
+            <Text>Nyenkar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_14">
+            <Text>Merke</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_15">
+            <Text>Dzen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_16">
+            <Text>Tam</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_17">
+            <Text>Aga</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_18">
+            <Text>Odang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_19">
+            <Text>Mong</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_20">
+            <Text>Kyling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_21">
+            <Text>Phodamdo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_22">
+            <Text>Drak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_23">
+            <Text>Gyangtse</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_24">
+            <Text>Odang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_25">
+            <Text>Lhegang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_26">
+            <Text>Namtseling</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_27">
+            <Text>Chamdo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_28">
+            <Text>Rabka</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_29">
+            <Text>Dege</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_30">
+            <Text>Drom</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_31">
+            <Text>Barang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_32">
+            <Text>Dartsedo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_33">
+            <Text>Shey</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_34">
+            <Text>Medok</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_35">
+            <Text>Jyekundo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_36">
+            <Text>Tsaparang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_37">
+            <Text>Pasighato</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_38">
+            <Text>Litang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_39">
+            <Text>Paro</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_40">
+            <Text>Kardung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_41">
+            <Text>Talhe</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_42">
+            <Text>Semja</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_43">
+            <Text>Lo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_44">
+            <Text>Degen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_45">
+            <Text>Batang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_46">
+            <Text>Longyu</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_47">
+            <Text>Kargil</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_48">
+            <Text>Khotan</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_49">
+            <Text>Khabandha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_50">
+            <Text>Kucha</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_51">
+            <Text>Qocho</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_52">
+            <Text>Yizhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_53">
+            <Text>Shazhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_54">
+            <Text>Guazhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_55">
+            <Text>Ganzhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_56">
+            <Text>Liangzhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_57">
+            <Text>Huizhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_58">
+            <Text>Lanzhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_59">
+            <Text>Minzhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_60">
+            <Text>Songzhou</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_61">
+            <Text>Shule</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_62">
+            <Text>Charklik</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_63">
+            <Text>Peshawar</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_64">
+            <Text>Fuqi</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_65">
+            <Text>Liangzhou</Text>
+        </Row>
+        <!--Colonies-->
+        <Row Tag="TXT_KEY_COLONY_NAME_TIBETAN_EMPIRE_RALPACHEN_01">
+            <Text>Leh</Text>
+        </Row>
+        <!--Spies-->
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_0">
+            <Text>We Mangje Lhalo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_1">
+            <Text>Dro Trisumje Taknang</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_2">
+            <Text>Lhalung Pelgyi Dorje</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_3">
+            <Text>Namde Ösung</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_4">
+            <Text>Dranga Yongten</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_5">
+            <Text>Nyang Tingngezin Sangpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_6">
+            <Text>Rinchen Zangpo</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_7">
+            <Text>Shang Gyaltsen</Text>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_8">
+            <Text>Namkhai Nyingpo</Text>
+            <Gender>feminine</Gender>
+        </Row>
+        <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_9">
+            <Text>Kharchen Pelgyi Wangchuk</Text>
+        </Row>
+        <!--LEADER-->
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN">
+            <Text>Ralpachen</Text>
+        </Row>
+        <!--Pedia-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_1">
+            <Text>Chakravartin</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_1">
+            <Text>Ralpachen, also known as Tritsuk Détsen, was the third Dharma King of Tibet, whose reign marked both the apex of Buddhist patronage and the beginning of the empire's decline. Known for his extraordinary devotion to Buddhism and generous support of the monastic community, he transformed Tibet into a theocratic state where spiritual and temporal power became inseparable. His name, meaning "Long Hair," refers to his practice of allowing monks to sit upon his braided hair during religious ceremonies.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_2">
+            <Text>Master of the Silk Road</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_2">
+            <Text>Under Ralpachen's rule, Tibet controlled crucial sections of the Silk Road, extracting immense wealth from trade caravans passing between China, India, and Central Asia. He established a sophisticated system of tolls and taxes, while ensuring the safety of merchants through military garrisons stationed at strategic mountain passes. This control of trade routes filled the imperial treasury, funding his extensive religious projects and military campaigns.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_3">
+            <Text>Religious Patronage</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_3">
+            <Text>Ralpachen's devotion to Buddhism was unprecedented among Tibetan rulers. He decreed that seven households should support each monk, effectively creating a vast religious welfare system. Thousands of new temples were constructed, while existing monasteries received generous endowments. He invited Indian scholars to continue the translation of Buddhist texts, completing the monumental task begun by his predecessors. His reign saw the creation of standardized Buddhist terminology that remains in use today.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_4">
+            <Text>The Sino-Tibetan Treaty</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_4">
+            <Text>In 821 CE, Ralpachen negotiated the historic Sino-Tibetan Peace Treaty with Tang China, establishing borders and ensuring peace between the two empires. The treaty, inscribed on stone pillars in both Lhasa and Chang'an, recognized Tibet and China as equals, referring to them as "uncle and nephew." This diplomatic achievement secured Tibet's eastern borders and allowed Ralpachen to focus on internal development and religious activities.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_5">
+            <Text>Economic Innovation</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_5">
+            <Text>Ralpachen introduced revolutionary economic policies, including the Tithe system where a portion of all production was dedicated to religious purposes. He established a corvée labor system for public works, building roads that connected holy sites and facilitated both pilgrimage and trade. His reign saw the introduction of standardized weights and measures, as well as a sophisticated taxation system that balanced religious obligations with economic needs.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_6">
+            <Text>Tragic End</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_6">
+            <Text>Ralpachen's excessive religious spending and favoritism toward the Buddhist clergy eventually provoked a backlash from the aristocracy. In 841 CE, he was assassinated by supporters of his brother Langdarma, who would reverse his Buddhist policies and persecute the monastic community. Despite his violent end, Ralpachen is remembered as the most devout of Tibetan emperors, whose reign represented the culmination of the Tibetand Empire's Buddhist golden age. His economic and religious innovations influenced Tibetan governance for centuries to come.</Text>
+        </Row>
+        <!--Name-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_NAME">
+            <Text>Ralpachen</Text>
+        </Row>
+        <!--Lived-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_LIVED">
+            <Text>802 - 841 CE</Text>
+        </Row>
+        <!--Titles-->
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_SUBTITLE">
+            <Text>41st Emperor of Tibet</Text>
+        </Row>
+        <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TITLES_1">
+            <Text>Third Dharma King[NEWLINE]Emanation of Vajrapani</Text>
+        </Row>
+        <!--DOM-->
+        <Row Tag="TXT_KEY_CIV_DAWN_TIBETAN_EMPIRE_RALPACHEN_TEXT">
+            <Text>Honor to you, Ralpachen, third Dharma King and Chakravartin of the Silk Road, whose piety and wisdom brought unprecedented prosperity to the Land of Snows! You who controlled the great trade routes, extracting wealth from every caravan while ensuring their safe passage through your mountain realm. Your innovative Tithe system transformed temporal wealth into spiritual merit, while your corvée laborers built roads that united holy sites with centers of commerce.[NEWLINE][NEWLINE]Under your enlightened rule, merchants became missionaries and soldiers became guardians of the faith. Your Chölön traverse the world spreading both commerce and dharma, while your Zimchongpa warriors ensure that even the most remote cities remain connected to the beating heart of empire. Now, pious sovereign, Tibet calls upon your economic genius once more. Will you master the Silk Road and make trade routes generate wealth from your vast network of city connections? Can you implement the sacred Tithe to convert material prosperity into spiritual power while maintaining armies through corvée conscription?</Text>
+        </Row>
+        <!--Responses-->
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DENOUNCE_FRIEND_1">
+            <Text>It is regrettable that a friend would act with such duplicity. The Dharma teaches us to see through illusion, and I see your true intentions now.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_ATTACKED_HOSTILE_1">
+            <Text>You have chosen the path of violence. Know that the empire will not falter before your aggression.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DEFEATED_1">
+            <Text>Though my empire falls, the teachings of the Buddha endure. May you find wisdom in victory.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DOW_GENERIC_1">
+            <Text>So, you declare war. The wheel of fate turns, and your actions will be judged.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_EXPANSION_SERIOUS_WARNING_1">
+            <Text>Your expansion encroaches upon lands sacred to my people. Restraint is a virtue you would do well to learn.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_FIRSTGREETING_1">
+            <Text>I am Ralpachen, King of Dharma. May our meeting be auspicious.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_GREETING_HOSTILE_HELLO_1">
+            <Text>Our relations are strained, yet I remain steadfast. The empire will not be cowed by hostility.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_GREETING_NEUTRAL_HELLO_1">
+            <Text>We meet as equals, neither friend nor foe. Let us see what the future holds.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_GREETING_POLITE_HELLO_1">
+            <Text>Welcome. May our dealings be marked by wisdom and respect.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_HOSTILE_AGGRESSIVE_MILITARY_WARNING_1">
+            <Text>Your armies gather at my borders. Do not mistake patience for weakness.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_LUXURY_TRADE_1">
+            <Text>Let us trade in the spirit of prosperity. May both our peoples benefit.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_OPEN_BORDERS_EXCHANGE_1">
+            <Text>Open borders may foster trust, but I will not allow my empire to be exploited.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_PLOT_BUYING_SERIOUS_WARNING_1">
+            <Text>Do not covet the lands of Tibet. Such actions will not be tolerated.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_REQUEST_1">
+            <Text>Your request will be considered. The Dharma guides my generosity.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_RESPONSE_TO_BEING_DENOUNCED_1">
+            <Text>Denounce me if you must, but truth is not found in slander.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_TOO_SOON_FOR_DOF_1">
+            <Text>Friendship is earned, not given lightly. Let us build trust before formal bonds.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_TOO_SOON_NO_PEACE_1">
+            <Text>Peace cannot be rushed. Let wounds heal before we speak of reconciliation.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DENOUNCE_1">
+            <Text>Your actions trouble me. I must speak out for the sake of all beings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DEC_FRIENDSHIP_1">
+            <Text>Let us walk the path of friendship, guided by wisdom and mutual respect.</Text>
+        </Row>
+        <!--Unique Ability-->
+        <Row Tag="TXT_KEY_TRAIT_CHAKRAVARTIN_SILK_ROAD_SHORT">
+            <Text>Chakravartin of the Silk Road</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_CHAKRAVARTIN_SILK_ROAD">
+            <Text>Trade Routes passing through your Empire generate[ICON_GOLD]Gold for each City Connection. Roads on and adjacent to Holy Sites yield +1[ICON_GOLD]Gold,[ICON_PRODUCTION]Production, and[ICON_PEACE]Faith. Cities have a unique Process called Tithe: convert 30% of local[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith and spawn Corvée copies of Faith-purchased units in your Capital.</Text>
+        </Row>
+        <!--Unique Unit Chölön-->
+        <Row Tag="TXT_KEY_UNIT_CHOLON">
+            <Text>Chölön</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CHOLON_HELP">
+            <Text>Unique Great Merchant replacement. Conducting a mission on a City-State grants[ICON_PEACE]Faith instead of[ICON_GOLD]Gold and +10%[ICON_PEACE]Faith from the mission per distinct City-State you have a City Connection with. Can be expended to construct a Holy Site instead of a Customs House.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CHOLON_STRATEGY">
+            <Text>The Chölön is a unique Great Merchant replacement for the Tibetan Empire. Unlike regular Great Merchants, Chölön generate Faith instead of Gold when conducting trade missions with City-States, with bonuses based on your trade network. They can also construct Holy Sites instead of Customs Houses, providing both defensive benefits and yields. Use Chölön to spread your faith through commerce while building a network of fortified holy places.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CHOLON_TEXT">
+            <Text>The Chölön were monk ministers of the Tibetan Empire, wielding immense influence in state affairs. They oversaw taxation and managed business operations for the great monasteries, which became the economic engines of the empire. Through their guidance, monasteries grew into powerful centers of commerce and administration, driving both spiritual and material prosperity across Tibet.</Text>
+        </Row>
+        <!--Unique Unit Zimchongpa-->
+        <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA">
+            <Text>Zimchongpa</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_HELP">
+            <Text>Unique Longswordsman replacement. Faster and stronger when starting turn on a Hill or adjacent to a Mountain. When garrisoned in a City, the City is connected to the Capital and provides the bonuses of Tithe regardless of what the City is producing.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_STRATEGY">
+            <Text>The Zimchongpa is a unique Longswordsman replacement for the Tibetan Empire. It excels in mountainous terrain with combat and movement bonuses. More importantly, when garrisoned in a city, it creates a connection to your capital and automatically provides Tithe benefits without requiring the city to run the Tithe process. Use Zimchongpa to defend frontier cities while maintaining your economic and religious network.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_TEXT">
+            <Text>The Zimchongpa were the heavy infantry of the Tibetan Empire, renowned for their formidable defense and terrifying presence on the battlefield. Outfitted in advanced Tibetan armor crafted with superior metallurgy, these warriors gained an edge over their opponents and were feared for their resilience. The sight of the red-checked Tibetan ranks, bristling with heavy shields and weapons, struck fear into enemy armies and became a symbol of Tibetan military might.</Text>
+        </Row>
+        <!--Promotions-->
+        <Row Tag="TXT_KEY_PROMOTION_ZIMCHONGPA_HILL">
+            <Text>Zimchongpa Terrain Mastery</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZIMCHONGPA_HILL_HELP">
+            <Text>+15%[ICON_STRENGTH]Combat Strength on Hills and when adjacent to Mountains</Text>
+        </Row>
+        <!-- Combined promotion replaces previous hill and mountain bonuses -->
+        <Row Tag="TXT_KEY_PROMOTION_ZIMCHONGPA_TERRAIN">
+            <Text>Zimchongpa Terrain Mastery</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_ZIMCHONGPA_TERRAIN_HELP">
+            <Text>+15%[ICON_STRENGTH]Combat Strength on Hills and when adjacent to Mountains</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_CORVEE">
+            <Text>Corvée Conscript</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROMOTION_CORVEE_HELP">
+            <Text>-20%[ICON_STRENGTH]Combat Strength, cannot earn XP. Unit expires after 20 turns.</Text>
+        </Row>
+        <!--Messages-->
+        <Row Tag="TXT_KEY_TRAIT_RALPACHEN_TRADE_GOLD">
+            <Text>Trade Routes: +{1_Gold}[ICON_GOLD]Gold from {2_Connections} City Connections</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_RALPACHEN_CORVEE_SPAWNED">
+            <Text>[COLOR_POSITIVE_TEXT]Corvée unit spawned![ENDCOLOR] Will expire in {1_Turns} turns.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TRAIT_RALPACHEN_CORVEE_EXPIRED">
+            <Text>A Corvée unit has expired and been disbanded.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CHOLON_MISSION_COMPLETE">
+            <Text>[COLOR_POSITIVE_TEXT]Chölön mission complete![ENDCOLOR] +{1_Faith}[ICON_PEACE]Faith ({2_Bonus}% bonus from {3_Connections} CS connections)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_CHOLON_HOLY_SITE_BUILT">
+            <Text>[COLOR_POSITIVE_TEXT]Holy Site constructed![ENDCOLOR]</Text>
+        </Row>
+        <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_GARRISON">
+            <Text>Zimchongpa garrison: {1_CityName} is now connected to capital and has Tithe benefits!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PROCESS_TITHE_ACTIVE">
+            <Text>Tithe active: Converting Gold and Production to Faith</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

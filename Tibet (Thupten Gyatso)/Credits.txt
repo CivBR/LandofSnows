@@ -1,0 +1,33 @@
+-- Credits
+-- Author: Coiot
+-- DateCreated: Aug 10th, 2025
+
+----------------
+Coiot:
+	Art
+	Author
+	Coding
+	Design
+	Research
+	Writing
+
+----------------
+DarthKyofu:
+	Art Advisor
+----------------
+
+----------------
+JFD:
+	Code Advisor
+----------------
+
+----------------
+EmeraldRange:
+	Models
+----------------
+
+----------------
+Coibrox League:
+	Troubleshooting / Design
+	Being top lads
+----------------
