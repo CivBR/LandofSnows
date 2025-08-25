@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
     <Language_en_US>
         <!--CIVILIZATION-->
@@ -65,10 +65,12 @@
             <Text>Tithe</Text>
         </Row>
         <Row Tag="TXT_KEY_PROCESS_TITHE_HELP">
-            <Text>Convert 30% of this city's[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith. When purchasing units with Faith during Tithe, spawn a Corvée copy in your Capital (lasts 20 turns with -25%[ICON_STRENGTH]CS, cannot earn XP).</Text>
+            <Text
+			>Convert 30% of this city's[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith. When purchasing units with Faith during Tithe, spawn a Corvée copy in your Capital (lasts 20 turns with -25%[ICON_STRENGTH]CS, cannot earn XP).</Text>
         </Row>
         <Row Tag="TXT_KEY_PROCESS_TITHE_STRATEGY">
-            <Text>The Tithe process is unique to Tibet under Ralpachen. It converts a portion of your city's Gold and Production into Faith, allowing you to focus on religious development. More importantly, any unit purchased with Faith while a city is running Tithe will spawn a weaker Corvée copy in your capital, effectively doubling your military production at the cost of unit quality. Use this to quickly build defensive armies or prepare for rapid expansion.</Text>
+            <Text
+			>The Tithe process is unique to Tibet under Ralpachen. It converts a portion of your city's Gold and Production into Faith, allowing you to focus on religious development. More importantly, any unit purchased with Faith while a city is running Tithe will spawn a weaker Corvée copy in your capital, effectively doubling your military production at the cost of unit quality. Use this to quickly build defensive armies or prepare for rapid expansion.</Text>
         </Row>
         <!--Cities-->
         <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_01">
@@ -293,7 +295,7 @@
             <Text>Rinchen Zangpo</Text>
         </Row>
         <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_7">
-            <Text>Shang Gyaltsen</Text>
+            <Text>Zhang Gyaltsen</Text>
         </Row>
         <Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_RALPACHEN_8">
             <Text>Namkhai Nyingpo</Text>
@@ -311,37 +313,43 @@
             <Text>Chakravartin</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_1">
-            <Text>Ralpachen, also known as Tritsuk Détsen, was the third Dharma King of Tibet, whose reign marked both the apex of Buddhist patronage and the beginning of the empire's decline. Known for his extraordinary devotion to Buddhism and generous support of the monastic community, he transformed Tibet into a theocratic state where spiritual and temporal power became inseparable. His name, meaning "Long Hair," refers to his practice of allowing monks to sit upon his braided hair during religious ceremonies.</Text>
+            <Text
+			>Ralpachen, also known as Tritsuk Détsen, was the third Dharma King of Tibet, whose reign marked both the apex of Buddhist patronage and the beginning of the empire's decline. Known for his extraordinary devotion to Buddhism and generous support of the monastic community, he transformed Tibet into a theocratic state where spiritual and temporal power became inseparable. His name, meaning "Long Hair," refers to his practice of allowing monks to sit upon his braided hair during religious ceremonies.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_2">
             <Text>Master of the Silk Road</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_2">
-            <Text>Under Ralpachen's rule, Tibet controlled crucial sections of the Silk Road, extracting immense wealth from trade caravans passing between China, India, and Central Asia. He established a sophisticated system of tolls and taxes, while ensuring the safety of merchants through military garrisons stationed at strategic mountain passes. This control of trade routes filled the imperial treasury, funding his extensive religious projects and military campaigns.</Text>
+            <Text
+			>Under Ralpachen's rule, Tibet controlled crucial sections of the Silk Road, extracting immense wealth from trade caravans passing between China, India, and Central Asia. He established a sophisticated system of tolls and taxes, while ensuring the safety of merchants through military garrisons stationed at strategic mountain passes. This control of trade routes filled the imperial treasury, funding his extensive religious projects and military campaigns.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_3">
             <Text>Religious Patronage</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_3">
-            <Text>Ralpachen's devotion to Buddhism was unprecedented among Tibetan rulers. He decreed that seven households should support each monk, effectively creating a vast religious welfare system. Thousands of new temples were constructed, while existing monasteries received generous endowments. He invited Indian scholars to continue the translation of Buddhist texts, completing the monumental task begun by his predecessors. His reign saw the creation of standardized Buddhist terminology that remains in use today.</Text>
+            <Text
+			>Ralpachen's devotion to Buddhism was unprecedented among Tibetan rulers. He decreed that seven households should support each monk, effectively creating a vast religious welfare system. Thousands of new temples were constructed, while existing monasteries received generous endowments. He invited Indian scholars to continue the translation of Buddhist texts, completing the monumental task begun by his predecessors. His reign saw the creation of standardized Buddhist terminology that remains in use today.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_4">
             <Text>The Sino-Tibetan Treaty</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_4">
-            <Text>In 821 CE, Ralpachen negotiated the historic Sino-Tibetan Peace Treaty with Tang China, establishing borders and ensuring peace between the two empires. The treaty, inscribed on stone pillars in both Lhasa and Chang'an, recognized Tibet and China as equals, referring to them as "uncle and nephew." This diplomatic achievement secured Tibet's eastern borders and allowed Ralpachen to focus on internal development and religious activities.</Text>
+            <Text
+			>In 821 CE, Ralpachen negotiated the historic Sino-Tibetan Peace Treaty with Tang China, establishing borders and ensuring peace between the two empires. The treaty, inscribed on stone pillars in both Lhasa and Chang'an, recognized Tibet and China as equals, referring to them as "uncle and nephew." This diplomatic achievement secured Tibet's eastern borders and allowed Ralpachen to focus on internal development and religious activities.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_5">
             <Text>Economic Innovation</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_5">
-            <Text>Ralpachen introduced revolutionary economic policies, including the Tithe system where a portion of all production was dedicated to religious purposes. He established a corvée labor system for public works, building roads that connected holy sites and facilitated both pilgrimage and trade. His reign saw the introduction of standardized weights and measures, as well as a sophisticated taxation system that balanced religious obligations with economic needs.</Text>
+            <Text
+			>Ralpachen introduced revolutionary economic policies, including the Tithe system where a portion of all production was dedicated to religious purposes. He established a corvée labor system for public works, building roads that connected holy sites and facilitated both pilgrimage and trade. His reign saw the introduction of standardized weights and measures, as well as a sophisticated taxation system that balanced religious obligations with economic needs.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_HEADING_6">
             <Text>Tragic End</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_TEXT_6">
-            <Text>Ralpachen's excessive religious spending and favoritism toward the Buddhist clergy eventually provoked a backlash from the aristocracy. In 841 CE, he was assassinated by supporters of his brother Langdarma, who would reverse his Buddhist policies and persecute the monastic community. Despite his violent end, Ralpachen is remembered as the most devout of Tibetan emperors, whose reign represented the culmination of the Tibetand Empire's Buddhist golden age. His economic and religious innovations influenced Tibetan governance for centuries to come.</Text>
+            <Text
+			>Ralpachen's excessive religious spending and favoritism toward the Buddhist clergy eventually provoked a backlash from the aristocracy. In 841 CE, he was assassinated by supporters of his brother Langdarma, who would reverse his Buddhist policies and persecute the monastic community. Despite his violent end, Ralpachen is remembered as the most devout of Tibetan emperors, whose reign represented the culmination of the Tibetand Empire's Buddhist golden age. His economic and religious innovations influenced Tibetan governance for centuries to come.</Text>
         </Row>
         <!--Name-->
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN_NAME">
@@ -360,7 +368,8 @@
         </Row>
         <!--DOM-->
         <Row Tag="TXT_KEY_CIV_DAWN_TIBETAN_EMPIRE_RALPACHEN_TEXT">
-            <Text>Honor to you, Ralpachen, third Dharma King and Chakravartin of the Silk Road, whose piety and wisdom brought unprecedented prosperity to the Land of Snows! You who controlled the great trade routes, extracting wealth from every caravan while ensuring their safe passage through your mountain realm. Your innovative Tithe system transformed temporal wealth into spiritual merit, while your corvée laborers built roads that united holy sites with centers of commerce.[NEWLINE][NEWLINE]Under your enlightened rule, merchants became missionaries and soldiers became guardians of the faith. Your Chölön traverse the world spreading both commerce and dharma, while your Zimchongpa warriors ensure that even the most remote cities remain connected to the beating heart of empire. Now, pious sovereign, Tibet calls upon your economic genius once more. Will you master the Silk Road and make trade routes generate wealth from your vast network of city connections? Can you implement the sacred Tithe to convert material prosperity into spiritual power while maintaining armies through corvée conscription?</Text>
+            <Text
+			>Honor to you, Ralpachen, third Dharma King and Chakravartin of the Silk Road, whose piety and wisdom brought unprecedented prosperity to the Land of Snows! You who controlled the great trade routes, extracting wealth from every caravan while ensuring their safe passage through your mountain realm. Your innovative Tithe system transformed temporal wealth into spiritual merit, while your corvée laborers built roads that united holy sites with centers of commerce.[NEWLINE][NEWLINE]Under your enlightened rule, merchants became missionaries and soldiers became guardians of the faith. Your Chölön traverse the world spreading both commerce and dharma, while your Zimchongpa warriors ensure that even the most remote cities remain connected to the beating heart of empire. Now, pious sovereign, Tibet calls upon your economic genius once more. Will you master the Silk Road and make trade routes generate wealth from your vast network of city connections? Can you implement the sacred Tithe to convert material prosperity into spiritual power while maintaining armies through corvée conscription?</Text>
         </Row>
         <!--Responses-->
         <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DENOUNCE_FRIEND_1">
@@ -425,33 +434,40 @@
             <Text>Chakravartin of the Silk Road</Text>
         </Row>
         <Row Tag="TXT_KEY_TRAIT_CHAKRAVARTIN_SILK_ROAD">
-            <Text>Trade Routes passing through your Empire generate[ICON_GOLD]Gold for each City Connection. Roads on and adjacent to Holy Sites yield +1[ICON_GOLD]Gold,[ICON_PRODUCTION]Production, and[ICON_PEACE]Faith. Cities have a unique Process called Tithe: convert 30% of local[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith and spawn Corvée copies of Faith-purchased units in your Capital.</Text>
+            <Text
+			>Trade Routes passing through your Empire generate[ICON_GOLD]Gold for each City Connection. Roads on and adjacent to Holy Sites yield +1[ICON_GOLD]Gold,[ICON_PRODUCTION]Production, and[ICON_PEACE]Faith. Cities have a unique Process called Tithe: convert 30% of local[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith and spawn Corvée copies of Faith-purchased units in your Capital.</Text>
         </Row>
         <!--Unique Unit Chölön-->
         <Row Tag="TXT_KEY_UNIT_CHOLON">
             <Text>Chölön</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_CHOLON_HELP">
-            <Text>Unique Great Merchant replacement. Conducting a mission on a City-State grants[ICON_PEACE]Faith instead of[ICON_GOLD]Gold and +10%[ICON_PEACE]Faith from the mission per distinct City-State you have a City Connection with. Can be expended to construct a Holy Site instead of a Customs House.</Text>
+            <Text
+			>Unique Great Merchant replacement. Conducting a mission on a City-State grants[ICON_PEACE]Faith instead of[ICON_GOLD]Gold and +10%[ICON_PEACE]Faith from the mission per distinct City-State you have a City Connection with. Can be expended to construct a Holy Site instead of a Customs House.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_CHOLON_STRATEGY">
-            <Text>The Chölön is a unique Great Merchant replacement for the Tibetan Empire. Unlike regular Great Merchants, Chölön generate Faith instead of Gold when conducting trade missions with City-States, with bonuses based on your trade network. They can also construct Holy Sites instead of Customs Houses, providing both defensive benefits and yields. Use Chölön to spread your faith through commerce while building a network of fortified holy places.</Text>
+            <Text
+			>The Chölön is a unique Great Merchant replacement for the Tibetan Empire. Unlike regular Great Merchants, Chölön generate Faith instead of Gold when conducting trade missions with City-States, with bonuses based on your trade network. They can also construct Holy Sites instead of Customs Houses, providing both defensive benefits and yields. Use Chölön to spread your faith through commerce while building a network of fortified holy places.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_CHOLON_TEXT">
-            <Text>The Chölön were monk ministers of the Tibetan Empire, wielding immense influence in state affairs. They oversaw taxation and managed business operations for the great monasteries, which became the economic engines of the empire. Through their guidance, monasteries grew into powerful centers of commerce and administration, driving both spiritual and material prosperity across Tibet.</Text>
+            <Text
+			>The Chölön were monk ministers of the Tibetan Empire, wielding immense influence in state affairs. They oversaw taxation and managed business operations for the great monasteries, which became the economic engines of the empire. Through their guidance, monasteries grew into powerful centers of commerce and administration, driving both spiritual and material prosperity across Tibet.</Text>
         </Row>
         <!--Unique Unit Zimchongpa-->
         <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA">
             <Text>Zimchongpa</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_HELP">
-            <Text>Unique Longswordsman replacement. Faster and stronger when starting turn on a Hill or adjacent to a Mountain. When garrisoned in a City, the City is connected to the Capital and provides the bonuses of Tithe regardless of what the City is producing.</Text>
+            <Text
+			>Unique Longswordsman replacement. Faster and stronger when starting turn on a Hill or adjacent to a Mountain. When garrisoned in a City, the City is connected to the Capital and provides the bonuses of Tithe regardless of what the City is producing.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_STRATEGY">
-            <Text>The Zimchongpa is a unique Longswordsman replacement for the Tibetan Empire. It excels in mountainous terrain with combat and movement bonuses. More importantly, when garrisoned in a city, it creates a connection to your capital and automatically provides Tithe benefits without requiring the city to run the Tithe process. Use Zimchongpa to defend frontier cities while maintaining your economic and religious network.</Text>
+            <Text
+			>The Zimchongpa is a unique Longswordsman replacement for the Tibetan Empire. It excels in mountainous terrain with combat and movement bonuses. More importantly, when garrisoned in a city, it creates a connection to your capital and automatically provides Tithe benefits without requiring the city to run the Tithe process. Use Zimchongpa to defend frontier cities while maintaining your economic and religious network.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_ZIMCHONGPA_TEXT">
-            <Text>The Zimchongpa were the heavy infantry of the Tibetan Empire, renowned for their formidable defense and terrifying presence on the battlefield. Outfitted in advanced Tibetan armor crafted with superior metallurgy, these warriors gained an edge over their opponents and were feared for their resilience. The sight of the red-checked Tibetan ranks, bristling with heavy shields and weapons, struck fear into enemy armies and became a symbol of Tibetan military might.</Text>
+            <Text
+			>The Zimchongpa were the heavy infantry of the Tibetan Empire, renowned for their formidable defense and terrifying presence on the battlefield. Outfitted in advanced Tibetan armor crafted with superior metallurgy, these warriors gained an edge over their opponents and were feared for their resilience. The sight of the red-checked Tibetan ranks, bristling with heavy shields and weapons, struck fear into enemy armies and became a symbol of Tibetan military might.</Text>
         </Row>
         <!--Promotions-->
         <Row Tag="TXT_KEY_PROMOTION_ZIMCHONGPA_HILL">

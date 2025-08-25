@@ -1,5 +1,4 @@
--- Buddhist Religion Expansion - Main Functions
-print("Buddhist Religion Expansion: Loading Main Functions")
+print("Tibetan Tenets Pack: Loading Main Functions")
 
 -- Belief IDs
 local beliefSacredPeaks = GameInfo.Beliefs["BELIEF_SACRED_PEAKS"]
@@ -208,11 +207,11 @@ function ProcessNonSectarianism(iPlayer)
 		if currentMajority > 0 and currentMajority ~= myReligion then
 			if lastKnownReligions[iPlayer][cityID] ~= currentMajority then
 				-- New foreign religion has taken hold
-				faithBurst = faithBurst + 20 -- Base faith burst
+				faithBurst = faithBurst + 200 -- Base faith burst
 
 				-- Scale with city size
 				local population = pCity:GetPopulation()
-				faithBurst = faithBurst + (population * 2)
+				faithBurst = faithBurst + (population * 10)
 
 				-- Update tracking
 				lastKnownReligions[iPlayer][cityID] = currentMajority
@@ -309,4 +308,4 @@ GameEvents.CityConstructed.Add(BuddhistBeliefs_BuildingConstructed)
 GameEvents.ReligionFounded.Add(BuddhistBeliefs_ReligionFounded)
 GameEvents.ReligionEnhanced.Add(BuddhistBeliefs_ReligionEnhanced)
 
-print("Buddhist Religion Expansion: Main Functions Loaded Successfully")
+print("Tibetan Tenets Pack: Main Functions Loaded Successfully")

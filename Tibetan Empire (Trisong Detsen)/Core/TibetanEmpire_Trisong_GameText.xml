@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
 	<Language_en_US>
 		<!--CIVILIZATION-->
@@ -265,13 +265,13 @@
 			<Text>Go Pema Gungtsen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_3">
-			<Text>Shang Gyalsig</Text>
+			<Text>Zhang Gyalzik</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_4">
 			<Text>Takdra Lukhong</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_5">
-			<Text>Shang Gyaltsen</Text>
+			<Text>Zhang Gyaltsen</Text>
 		</Row>
 		<Row Tag="TXT_KEY_SPY_NAME_TIBETAN_EMPIRE_TRISONG_DETSEN_6">
 			<Text>Dro Trisu Ramsha</Text>
@@ -295,37 +295,43 @@
 			<Text>The Dharma King</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_1">
-			<Text>Trisong Détsen stands as one of the three Dharma Kings of Tibet, a ruler whose reign marked the golden age of the Tibetan Empire. Ascending to the throne as a child, he would grow to become Tibet's most culturally influential monarch, establishing Buddhism as the state religion and overseeing the empire's greatest territorial expansion. His reign witnessed the conquest of the Tang capital Chang'an and the establishment of Tibet as the dominant power in Central Asia.</Text>
+			<Text
+			>Trisong Détsen stands as one of the three Dharma Kings of Tibet, a ruler whose reign marked the golden age of the Tibetan Empire. Ascending to the throne as a child, he would grow to become Tibet's most culturally influential monarch, establishing Buddhism as the state religion and overseeing the empire's greatest territorial expansion. His reign witnessed the conquest of the Tang capital Chang'an and the establishment of Tibet as the dominant power in Central Asia.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_2">
 			<Text>Religious Revolution</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_2">
-			<Text>Trisong Détsen's greatest legacy lies in his transformation of Tibet into a Buddhist kingdom. He invited the Indian master Padmasambhava and the scholar Śāntarakṣita to Tibet, leading to the construction of Samye Monastery, Tibet's first Buddhist monastery. The famous Samye Debate between Indian and Chinese Buddhist schools, held under his patronage, determined the course of Tibetan Buddhism for centuries to come, establishing the Indian tradition as predominant.</Text>
+			<Text
+			>Trisong Détsen's greatest legacy lies in his transformation of Tibet into a Buddhist kingdom. He invited the Indian master Padmasambhava and the scholar Śāntarakṣita to Tibet, leading to the construction of Samye Monastery, Tibet's first Buddhist monastery. The famous Samye Debate between Indian and Chinese Buddhist schools, held under his patronage, determined the course of Tibetan Buddhism for centuries to come, establishing the Indian tradition as predominant.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_3">
 			<Text>Military Supremacy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_3">
-			<Text>Under Trisong Détsen's leadership, the Tibetan Empire reached its zenith of military power. His armies, funded and augmented through the riches and knowledge of the Silk Road, conquered vast swathes of Central Asia. The capture of Chang'an in 763 CE was a highlight against the waning Tang Dynasty, allowing unempeded Tibetan control which extended from the Pamirs to the borders of India, dominating the Silk Road trade routes and extracting wealth from countless peoples.</Text>
+			<Text
+			>Under Trisong Détsen's leadership, the Tibetan Empire reached its zenith of military power. His armies, funded and augmented through the riches and knowledge of the Silk Road, conquered vast swathes of Central Asia. The capture of Chang'an in 763 CE was a highlight against the waning Tang Dynasty, allowing unempeded Tibetan control which extended from the Pamirs to the borders of India, dominating the Silk Road trade routes and extracting wealth from countless peoples.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_4">
 			<Text>Cultural Flowering</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_4">
-			<Text>The reign of Trisong Détsen saw an unprecedented cultural renaissance in Tibet. He commissioned the translation of thousands of Buddhist texts from Sanskrit into Tibetan, creating a vast scriptural canon. The further development of Classical Tibetan as a literary language, the codification of Tibetan script, and the establishment of translation standards all occurred under his patronage. This cultural foundation would preserve Buddhist knowledge through centuries of change.</Text>
+			<Text
+			>The reign of Trisong Détsen saw an unprecedented cultural renaissance in Tibet. He commissioned the translation of thousands of Buddhist texts from Sanskrit into Tibetan, creating a vast scriptural canon. The further development of Classical Tibetan as a literary language, the codification of Tibetan script, and the establishment of translation standards all occurred under his patronage. This cultural foundation would preserve Buddhist knowledge through centuries of change.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_5">
 			<Text>Administrative Innovation</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_5">
-			<Text>Trisong Détsen revolutionized Tibetan governance by integrating Buddhist principles into state administration. It was the beginning of influential Buddhist masters having influence in state affairs, while a sophisticated bureaucracy centered around religious institutes and landmarks managed the vast empire. His establishment of the edict pillars throughout Tibet proclaimed laws that balanced traditional customs with Buddhist ethics, creating a unique form of governance that merged spiritual and temporal authority.</Text>
+			<Text
+			>Trisong Détsen revolutionized Tibetan governance by integrating Buddhist principles into state administration. It was the beginning of influential Buddhist masters having influence in state affairs, while a sophisticated bureaucracy centered around religious institutes and landmarks managed the vast empire. His establishment of the edict pillars throughout Tibet proclaimed laws that balanced traditional customs with Buddhist ethics, creating a unique form of governance that merged spiritual and temporal authority.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_HEADING_6">
 			<Text>Eternal Legacy</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_TEXT_6">
-			<Text>Trisong Détsen's influence reverberates throughout Tibetan history. The Buddhist institutions he established survived the empire's eventual fragmentation, preserving Tibetan culture through centuries of upheaval. Modern Tibetans still revere him as an emanation of Manjushri, the bodhisattva of wisdom, and his reign remains the benchmark for Tibet's cultural and political aspirations.</Text>
+			<Text
+			>Trisong Détsen's influence reverberates throughout Tibetan history. The Buddhist institutions he established survived the empire's eventual fragmentation, preserving Tibetan culture through centuries of upheaval. Modern Tibetans still revere him as an emanation of Manjushri, the bodhisattva of wisdom, and his reign remains the benchmark for Tibet's cultural and political aspirations.</Text>
 		</Row>
 		<!--Name-->
 		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TRISONG_DETSEN_NAME">
@@ -344,7 +350,8 @@
 		</Row>
 		<!--DOM-->
 		<Row Tag="TXT_KEY_CIV_DAWN_TIBETAN_EMPIRE_TRISONG_DETSEN_TEXT">
-			<Text>Blessings upon you, Trisong Détsen, Dharma King and emanation of Manjushri, whose wisdom illuminated the Land of Snows! You who transformed Tibet from a warrior kingdom into a bastion of Buddhist learning, establishing monasteries that became beacons of enlightenment across Asia. Under your reign, the empire's borders stretched from the gates of India to the heart of China, your armies sanctified by faith and your courthouses spreading both justice and dharma.[NEWLINE][NEWLINE]Your Translation Projects preserved the Buddha's teachings for all time, while your Great Debates determined the spiritual path of nations. The Holy Sites you consecrated with your generals became both fortresses and temples, defending the realm while nurturing the soul. Now, wise sovereign, Tibet calls upon your perfect fulfillment once more. Will you spread religious authority through courthouses that double as centers of faith? Can you lead armies blessed by mountain spirits to construct an empire where military might serves spiritual enlightenment?</Text>
+			<Text
+			>Blessings upon you, Trisong Détsen, Dharma King and emanation of Manjushri, whose wisdom illuminated the Land of Snows! You who transformed Tibet from a warrior kingdom into a bastion of Buddhist learning, establishing monasteries that became beacons of enlightenment across Asia. Under your reign, the empire's borders stretched from the gates of India to the heart of China, your armies sanctified by faith and your courthouses spreading both justice and dharma.[NEWLINE][NEWLINE]Your Translation Projects preserved the Buddha's teachings for all time, while your Great Debates determined the spiritual path of nations. The Holy Sites you consecrated with your generals became both fortresses and temples, defending the realm while nurturing the soul. Now, wise sovereign, Tibet calls upon your perfect fulfillment once more. Will you spread religious authority through courthouses that double as centers of faith? Can you lead armies blessed by mountain spirits to construct an empire where military might serves spiritual enlightenment?</Text>
 		</Row>
 		<!--Responses-->
 		<Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_TRISONG_DETSEN_FIRSTGREETING_1">
@@ -409,43 +416,52 @@
 			<Text>Perfect Fulfillment of Boundless Wishes</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_PERFECT_FULFILLMENT">
-			<Text>Courthouses boost religious pressure (double in a[ICON_GOLDEN_AGE]Golden Age). Great Generals can construct Holy Sites instead of Citadels, which function as Citadels but provide[ICON_PEACE]Faith and[ICON_CULTURE]Culture.</Text>
+			<Text
+			>Courthouses boost religious pressure (double in a[ICON_GOLDEN_AGE]Golden Age). Great Generals can construct Holy Sites instead of Citadels, which function as Citadels but provide[ICON_PEACE]Faith and[ICON_CULTURE]Culture.</Text>
 		</Row>
 		<!--Unique Unit Chakgo Tamak-->
 		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK">
 			<Text>Chakgo Tamak</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK_HELP">
-			<Text>Unique Knight replacement unlocked at Theology. Stronger and has no city attacking penalties if starting its turn on a Hill or adjacent to a Mountain. Constructs a Courthouse in captured Cities and yields[ICON_GOLDEN_AGE]Golden Age points for each follower of your Religion in the City upon capture.</Text>
+			<Text
+			>Unique Knight replacement unlocked at Theology. Stronger and has no city attacking penalties if starting its turn on a Hill or adjacent to a Mountain. Constructs a Courthouse in captured Cities and yields[ICON_GOLDEN_AGE]Golden Age points for each follower of your Religion in the City upon capture.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK_STRATEGY">
-			<Text>The Chakgo Tamak is a unique Knight replacement for the Tibetan Empire, available earlier at Theology. It excels at attacking cities from hills or when adjacent to mountains, suffering no penalty to city attacks from these positions. When capturing cities, it automatically builds a Courthouse and generates Golden Age points based on religious followers. Use Chakgo Tamak to expand your empire while spreading your faith and triggering Golden Ages.</Text>
+			<Text
+			>The Chakgo Tamak is a unique Knight replacement for the Tibetan Empire, available earlier at Theology. It excels at attacking cities from hills or when adjacent to mountains, suffering no penalty to city attacks from these positions. When capturing cities, it automatically builds a Courthouse and generates Golden Age points based on religious followers. Use Chakgo Tamak to expand your empire while spreading your faith and triggering Golden Ages.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CHAKGO_TAMAK_TEXT">
-			<Text>The Chakgo Tamak were elite cavalry units of the Tibetan Empire, combining the mobility of steppe warfare with the defensive advantages of mountain terrain. These warriors wore distinctive heavy armor and carried both lance and sword. Their ability to navigate treacherous mountain passes while maintaining combat effectiveness made them the terror of Central Asian battlefields.</Text>
+			<Text
+			>The Chakgo Tamak were elite cavalry units of the Tibetan Empire, combining the mobility of steppe warfare with the defensive advantages of mountain terrain. These warriors wore distinctive heavy armor and carried both lance and sword. Their ability to navigate treacherous mountain passes while maintaining combat effectiveness made them the terror of Central Asian battlefields.</Text>
 		</Row>
 		<!--Unique Unit Jetsun-->
 		<Row Tag="TXT_KEY_UNIT_JETSUN">
 			<Text>Jetsun</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JETSUN_HELP">
-			<Text>Unique Great Prophet replacement. Can be expended for Translation Project (+4[ICON_RESEARCH]Science per Religious Building, +1 per Specialist for 10 turns; if[ICON_GOLDEN_AGE]GA active, also +4[ICON_PRODUCTION]Production) or Great Debate (spawns Inquisitor in each Courthouse, +25% pressure range for 10 turns; if[ICON_GOLDEN_AGE]GA active, +2%[ICON_STRENGTH]CS per Holy Site).</Text>
+			<Text
+			>Unique Great Prophet replacement. Can be expended for Translation Project (+4[ICON_RESEARCH]Science per Religious Building, +1 per Specialist for 10 turns; if[ICON_GOLDEN_AGE]GA active, also +4[ICON_PRODUCTION]Production) or Great Debate (spawns Inquisitor in each Courthouse, +25% pressure range for 10 turns; if[ICON_GOLDEN_AGE]GA active, +2%[ICON_STRENGTH]CS per Holy Site).</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JETSUN_STRATEGY">
-			<Text>The Jetsun is a unique Great Prophet replacement for the Tibetan Empire with two powerful abilities. Translation Project boosts Science (and Production during Golden Ages) based on religious buildings and specialists. Great Debate spawns Inquisitors in all Courthouse cities and increases religious pressure range (with combat bonuses during Golden Ages). Choose based on whether you need scientific advancement or religious dominance.</Text>
+			<Text
+			>The Jetsun is a unique Great Prophet replacement for the Tibetan Empire with two powerful abilities. Translation Project boosts Science (and Production during Golden Ages) based on religious buildings and specialists. Great Debate spawns Inquisitors in all Courthouse cities and increases religious pressure range (with combat bonuses during Golden Ages). Choose based on whether you need scientific advancement or religious dominance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_JETSUN_TEXT">
-			<Text>Jetsun, meaning "Venerable" or "Reverend" in Tibetan, is an honorific title given to accomplished Buddhist masters. These spiritual leaders were not merely religious figures but also scholars, diplomats, and advisors to emperors. The Jetsun presided over great monastic debates, supervised massive translation projects, and served as the teachers  of discples that would become the vanguard of spiritual authority in the Tibet.</Text>
+			<Text
+			>Jetsun, meaning "Venerable" or "Reverend" in Tibetan, is an honorific title given to accomplished Buddhist masters. These spiritual leaders were not merely religious figures but also scholars, diplomats, and advisors to emperors. The Jetsun presided over great monastic debates, supervised massive translation projects, and served as the teachers  of discples that would become the vanguard of spiritual authority in the Tibet.</Text>
 		</Row>
 		<!--Unique Improvement Holy Site-->
 		<Row Tag="TXT_KEY_IMPROVEMENT_HOLY_SITE">
 			<Text>Holy Site</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_HOLY_SITE_HELP">
-			<Text>Can only be constructed by Great Generals. Functions as a Citadel (100%[ICON_STRENGTH]Defense, damages adjacent enemies, claims adjacent tiles) while providing +2[ICON_PEACE]Faith and +1[ICON_CULTURE]Culture. During Great Debate in Golden Ages, each Holy Site provides combat bonuses to your units.</Text>
+			<Text
+			>Can only be constructed by Great Generals. Functions as a Citadel (100%[ICON_STRENGTH]Defense, damages adjacent enemies, claims adjacent tiles) while providing +2[ICON_PEACE]Faith and +1[ICON_CULTURE]Culture. During Great Debate in Golden Ages, each Holy Site provides combat bonuses to your units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_IMPROVEMENT_HOLY_SITE_TEXT">
-			<Text>Holy Sites in the Tibetan Empire were sacred locations where military fortifications merged with religious significance. These consecrated grounds, often marked by stupas, prayer flags, and defensive walls, served as both spiritual centers and strategic strongholds. Warriors would receive blessings here before battle, while monks would pray for the empire's protection.</Text>
+			<Text
+			>Holy Sites in the Tibetan Empire were sacred locations where military fortifications merged with religious significance. These consecrated grounds, often marked by stupas, prayer flags, and defensive walls, served as both spiritual centers and strategic strongholds. Warriors would receive blessings here before battle, while monks would pray for the empire's protection.</Text>
 		</Row>
 		<!--Promotions-->
 		<Row Tag="TXT_KEY_PROMOTION_CHAKGO_HILL">

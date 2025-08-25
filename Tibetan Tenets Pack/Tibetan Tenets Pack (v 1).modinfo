@@ -3,7 +3,7 @@
   <Properties>
     <Name>Tibetan Tenets Pack</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Adds Buddhist-themed religious tenets to Civilization V</Teaser>
+    <Teaser>Adds Tibetan Buddhist themed religious tenets to Civilization V</Teaser>
     <Description>Adds new Pantheon, Founder, Follower, Enhancer, and Reformation beliefs with Tibetan Buddhist themes including Sacred Peaks, Universal Compassion, Gompas, Monastic Debate, and Non-Sectarianism.</Description>
     <Authors>Coiot</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -22,10 +22,10 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="" import="0">SQL/Beliefs.sql</File>
-    <File md5="" import="0">SQL/Buildings.sql</File>
-    <File md5="" import="0">XML/GameText.xml</File>
-    <File md5="" import="0">Lua/Functions.lua</File>
+    <File md5="dc7b8cd57f6729925383d9c773dc9691" import="0">SQL/Beliefs.sql</File>
+    <File md5="4a371c950896558d4fd3def3669accc6" import="0">SQL/Buildings.sql</File>
+    <File md5="2ac87f082be6843433d75ff57561db4a" import="0">XML/GameText.xml</File>
+    <File md5="69dc0710db3215b1186d8f73abb3180c" import="0">Lua/Functions.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
