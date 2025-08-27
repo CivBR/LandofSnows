@@ -49,6 +49,10 @@
 		<File md5="79B23D4AB178C23F9F3CB6EC6C1A7E01" import="1">Art/Leaderscene/Tibet_Thupten_Gyatso_Scene.xml</File>
 		<File md5="E75A7D6964F9FCC5213904EAC3E78B01" import="1">Art/Maps/Map_Tibet_Thupten_Gyatso.dds</File>
 		<File md5="F0828159764C8E9153EFCB5E3A06EDBF" import="1">Art/Maps/DOM_Tibet_Thupten_Gyatso.dds</File>
+		<File md5="B4E7A9C2F8D163A5E92C4B7D3F861A2E" import="1">Art/UnitModels/er_kusung.fxsxml</File>
+		<File md5="C9F3D6A8E1B247C9A5E8D2F4B7C93E61" import="1">Art/UnitModels/er_kusung.gr2</File>
+		<File md5="D2A5E9B7C3F8164A9E7C5B8D4F2A6E83" import="1">Art/UnitModels/er_kusung_DIFF.dds</File>
+		<File md5="E8B6C4D9A2F3175B6D8E9A3C5F7B2E94" import="1">Art/UnitModels/er_kusung_SREF.dds</File>
 		<File md5="A128FEF4C7BA59C63453D3B7034EAFC9" import="1">Audio/Tibet_Thupten_Gyatso_Peace.mp3</File>
 		<File md5="5C8C827F94FFCA9F4984BEE403F92BCB" import="1">Audio/Tibet_Thupten_Gyatso_War.mp3</File>
 		<File md5="CA1FDCE37B5C9B93723EA4D7A0F8E51D" import="0">Core/Tibet_Thupten_Gyatso_ArtDefines.sql</File>

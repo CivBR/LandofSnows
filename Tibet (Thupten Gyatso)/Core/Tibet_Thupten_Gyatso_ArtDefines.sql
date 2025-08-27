@@ -2,7 +2,7 @@
 INSERT INTO
 	ArtDefine_UnitInfos (Type, DamageStates, Formation)
 SELECT
-	'ART_DEF_UNIT_TIBET_KUSUNG',
+	'ART_DEF_UNIT_KUSUNG',
 	DamageStates,
 	Formation
 FROM
@@ -14,8 +14,8 @@ WHERE
 INSERT INTO
 	ArtDefine_UnitInfoMemberInfos (UnitInfoType, UnitMemberInfoType, NumMembers)
 SELECT
-	'ART_DEF_UNIT_TIBET_KUSUNG',
-	'ART_DEF_UNIT_MEMBER_TIBET_KUSUNG',
+	'ART_DEF_UNIT_KUSUNG',
+	'ART_DEF_UNIT_MEMBER_KUSUNG',
 	NumMembers
 FROM
 	ArtDefine_UnitInfoMemberInfos
@@ -26,7 +26,7 @@ WHERE
 INSERT INTO
 	ArtDefine_UnitMemberCombats (UnitMemberType, EnableActions, DisableActions, MoveRadius, ShortMoveRadius, ChargeRadius, AttackRadius, RangedAttackRadius, MoveRate, ShortMoveRate, TurnRateMin, TurnRateMax, TurnFacingRateMin, TurnFacingRateMax, RollRateMin, RollRateMax, PitchRateMin, PitchRateMax, LOSRadiusScale, TargetRadius, TargetHeight, HasShortRangedAttack, HasLongRangedAttack, HasLeftRightAttack, HasStationaryMelee, HasStationaryRangedAttack, HasRefaceAfterCombat, ReformBeforeCombat, HasIndependentWeaponFacing, HasOpponentTracking, HasCollisionAttack, AttackAltitude, AltitudeDecelerationDistance, OnlyTurnInMovementActions, RushAttackFormation)
 SELECT
-	'ART_DEF_UNIT_MEMBER_TIBET_KUSUNG',
+	'ART_DEF_UNIT_MEMBER_KUSUNG',
 	EnableActions,
 	DisableActions,
 	MoveRadius,
@@ -70,7 +70,7 @@ WHERE
 INSERT INTO
 	ArtDefine_UnitMemberCombatWeapons (UnitMemberType, "Index", SubIndex, ID, VisKillStrengthMin, VisKillStrengthMax, ProjectileSpeed, ProjectileTurnRateMin, ProjectileTurnRateMax, HitEffect, HitEffectScale, HitRadius, ProjectileChildEffectScale, AreaDamageDelay, ContinuousFire, WaitForEffectCompletion, TargetGround, IsDropped, WeaponTypeTag, WeaponTypeSoundOverrideTag)
 SELECT
-	'ART_DEF_UNIT_MEMBER_TIBET_KUSUNG',
+	'ART_DEF_UNIT_MEMBER_KUSUNG',
 	"Index",
 	SubIndex,
 	ID,
@@ -99,11 +99,11 @@ WHERE
 INSERT INTO
 	ArtDefine_UnitMemberInfos (Type, Scale, ZOffset, Domain, Model, MaterialTypeTag, MaterialTypeSoundOverrideTag)
 SELECT
-	'ART_DEF_UNIT_MEMBER_TIBET_KUSUNG',
+	'ART_DEF_UNIT_MEMBER_KUSUNG',
 	Scale,
 	ZOffset,
 	Domain,
-	Model,
+	'er_kusung.fxsxml',
 	MaterialTypeTag,
 	MaterialTypeSoundOverrideTag
 FROM
@@ -143,17 +143,14 @@ INSERT INTO
 	IconTextureAtlases (Atlas, IconSize, Filename, IconsPerRow, IconsPerColumn)
 VALUES
 	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 128, 'Tibet_Thupten_Gyatso_AlphaAtlas_128.dds', 1, 1),
-	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 80, 'Tibet_Thupten_Gyatso_AlphaAtlas_80.dds', 1, 1),
 	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 64, 'Tibet_Thupten_Gyatso_AlphaAtlas_64.dds', 1, 1),
 	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 48, 'Tibet_Thupten_Gyatso_AlphaAtlas_48.dds', 1, 1),
 	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 45, 'Tibet_Thupten_Gyatso_AlphaAtlas_45.dds', 1, 1),
 	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 32, 'Tibet_Thupten_Gyatso_AlphaAtlas_32.dds', 1, 1),
 	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 24, 'Tibet_Thupten_Gyatso_AlphaAtlas_24.dds', 1, 1),
-	('TIBET_THUPTEN_GYATSO_ALPHA_ATLAS', 16, 'Tibet_Thupten_Gyatso_AlphaAtlas_16.dds', 1, 1),
 	('TIBET_THUPTEN_GYATSO_ICON_ATLAS', 256, 'Tibet_Thupten_Gyatso_IconAtlas_256.dds', 2, 2),
 	('TIBET_THUPTEN_GYATSO_ICON_ATLAS', 128, 'Tibet_Thupten_Gyatso_IconAtlas_128.dds', 2, 2),
 	('TIBET_THUPTEN_GYATSO_ICON_ATLAS', 80, 'Tibet_Thupten_Gyatso_IconAtlas_80.dds', 2, 2),
 	('TIBET_THUPTEN_GYATSO_ICON_ATLAS', 64, 'Tibet_Thupten_Gyatso_IconAtlas_64.dds', 2, 2),
-	('TIBET_THUPTEN_GYATSO_ICON_ATLAS', 45, 'Tibet_Thupten_Gyatso_IconAtlas_45.dds', 2, 2),
 	('TIBET_THUPTEN_GYATSO_ICON_ATLAS', 32, 'Tibet_Thupten_Gyatso_IconAtlas_32.dds', 2, 2),
 	('TIBET_THUPTEN_GYATSO_UNIT_FLAG_ATLAS', 32, 'Tibet_Thupten_Gyatso_UnitFlagAtlas_32.dds', 1, 1);
