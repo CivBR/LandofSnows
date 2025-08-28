@@ -8,7 +8,7 @@ SELECT
 FROM
 	ArtDefine_UnitInfos
 WHERE
-	Type = 'ART_DEF_UNIT_GREAT_WAR_INFANTRY';
+	Type = 'ART_DEF_UNIT_WW1_INFANTRY';
 
 -- ArtDefine_UnitInfoMemberInfos
 INSERT INTO
@@ -20,7 +20,7 @@ SELECT
 FROM
 	ArtDefine_UnitInfoMemberInfos
 WHERE
-	UnitInfoType = 'ART_DEF_UNIT_GREAT_WAR_INFANTRY';
+	UnitInfoType = 'ART_DEF_UNIT_WW1_INFANTRY';
 
 -- ArtDefine_UnitMemberCombats
 INSERT INTO
@@ -64,7 +64,7 @@ SELECT
 FROM
 	ArtDefine_UnitMemberCombats
 WHERE
-	UnitMemberType = 'ART_DEF_UNIT_MEMBER_GREAT_WAR_INFANTRY';
+	UnitMemberType = 'ART_DEF_UNIT_MEMBER_WW1_INFANTRY';
 
 -- ArtDefine_UnitMemberCombatWeapons
 INSERT INTO
@@ -93,7 +93,7 @@ SELECT
 FROM
 	ArtDefine_UnitMemberCombatWeapons
 WHERE
-	UnitMemberType = 'ART_DEF_UNIT_MEMBER_GREAT_WAR_INFANTRY';
+	UnitMemberType = 'ART_DEF_UNIT_MEMBER_WW1_INFANTRY';
 
 -- ArtDefine_UnitMemberInfos
 INSERT INTO
@@ -109,7 +109,13 @@ SELECT
 FROM
 	ArtDefine_UnitMemberInfos
 WHERE
-	Type = 'ART_DEF_UNIT_MEMBER_GREAT_WAR_INFANTRY';
+	Type = 'ART_DEF_UNIT_MEMBER_WW1_INFANTRY';
+
+-- ArtDefine_StrategicView
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_StrategicView
+        (StrategicViewType,                 TileType,        Asset)
+VALUES    ('ART_DEF_UNIT_MEMBER_KUSUNG',            'Unit',         'Tibet_Thupten_Gyatso_UnitFlagAtlas_128.dds');
 
 -- Audio_Sounds
 INSERT INTO
@@ -137,6 +143,8 @@ INSERT INTO
 	PlayerColors (Type, PrimaryColor, SecondaryColor, TextColor)
 VALUES
 	('PLAYERCOLOR_TIBET_THUPTEN_GYATSO', 'COLOR_PLAYER_TIBET_THUPTEN_GYATSO_ICON', 'COLOR_PLAYER_TIBET_THUPTEN_GYATSO_BACKGROUND', 'COLOR_PLAYER_WHITE_TEXT');
+
+
 
 -- IconTextureAtlases
 INSERT INTO
