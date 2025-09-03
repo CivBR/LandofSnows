@@ -502,6 +502,12 @@
         <Row Tag="TXT_KEY_UNIT_CHOLON_MISSION_COMPLETE">
             <Text>[COLOR_POSITIVE_TEXT]Chölön mission complete![ENDCOLOR] +{1_Faith}[ICON_PEACE]Faith ({2_Bonus}% bonus from {3_Connections} CS connections)</Text>
         </Row>
+        <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB">
+            <Text>Construct Holy Site</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_HELP">
+            <Text>Expends a Chölön to construct a Holy Site improvement, spreading your faith and providing powerful yields. (Tibetan Empire only)</Text>
+        </Row>
         <Row Tag="TXT_KEY_UNIT_CHOLON_HOLY_SITE_BUILT">
             <Text>[COLOR_POSITIVE_TEXT]Holy Site constructed![ENDCOLOR]</Text>
         </Row>
