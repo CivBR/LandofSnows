@@ -219,6 +219,13 @@ FROM
 WHERE
 	Type = 'ART_DEF_UNIT_MEMBER_LONGSWORDSMAN';
 
+-- ArtDefine_StrategicView
+--------------------------------------------------------------------------------------------------------------------------
+INSERT INTO ArtDefine_StrategicView
+        (StrategicViewType,                 TileType,        Asset)
+VALUES    ('ART_DEF_UNIT_MEMBER_ZIMCHONGPA',            'Unit',         'Tibet_Thupten_Gyatso_UnitFlagAtlas_128.dds'),
+          ('ART_DEF_UNIT_MEMBER_CHOLON',            'Unit',         'Tibet_Thupten_Gyatso_UnitFlagAtlas_128.dds');
+
 -- Audio_Sounds
 INSERT INTO
 	Audio_Sounds (SoundID, Filename, LoadType)
@@ -237,8 +244,8 @@ VALUES
 INSERT INTO
 	Colors (Type, Red, Green, Blue, Alpha)
 VALUES
-	('COLOR_PLAYER_TIBETAN_EMPIRE_RALPACHEN_ICON', 0.75, 0.52, 0.12, 1),
-	('COLOR_PLAYER_TIBETAN_EMPIRE_RALPACHEN_BACKGROUND', 0.94, 0.91, 0.86, 1);
+	('COLOR_PLAYER_TIBETAN_EMPIRE_RALPACHEN_ICON', 0.48, 0.20, 0.04, 1),
+	('COLOR_PLAYER_TIBETAN_EMPIRE_RALPACHEN_BACKGROUND', 0.94, 0.73, 0.13, 1);
 
 -- PlayerColors
 INSERT INTO
@@ -251,13 +258,10 @@ INSERT INTO
 	IconTextureAtlases (Atlas, IconSize, Filename, IconsPerRow, IconsPerColumn)
 VALUES
 	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 128, 'TibetanEmpire_Ralpachen_AlphaAtlas_128.dds', 1, 1),
-	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 80, 'TibetanEmpire_Ralpachen_AlphaAtlas_80.dds', 1, 1),
 	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 64, 'TibetanEmpire_Ralpachen_AlphaAtlas_64.dds', 1, 1),
 	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 48, 'TibetanEmpire_Ralpachen_AlphaAtlas_48.dds', 1, 1),
-	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 45, 'TibetanEmpire_Ralpachen_AlphaAtlas_45.dds', 1, 1),
 	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 32, 'TibetanEmpire_Ralpachen_AlphaAtlas_32.dds', 1, 1),
 	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 24, 'TibetanEmpire_Ralpachen_AlphaAtlas_24.dds', 1, 1),
-	('TIBETAN_EMPIRE_RALPACHEN_ALPHA_ATLAS', 16, 'TibetanEmpire_Ralpachen_AlphaAtlas_16.dds', 1, 1),
 	('TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 256, 'TibetanEmpire_Ralpachen_IconAtlas_256.dds', 2, 2),
 	('TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 128, 'TibetanEmpire_Ralpachen_IconAtlas_128.dds', 2, 2),
 	('TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 80, 'TibetanEmpire_Ralpachen_IconAtlas_80.dds', 2, 2),

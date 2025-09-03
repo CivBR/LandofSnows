@@ -2,7 +2,7 @@
 <!-- Created for Tibetan Buddhist Schools -->
 <glyphgen>
 	<textures width="66" height="66">
-		<texture name="" src="TibetanBuddhism_FontIcons.dds" allowcolor="1" alloweffects="1" inuse="1" />
+		<texture name="" src="TibetanReligions_FontIcons.dds" allowcolor="1" alloweffects="1" inuse="1" />
 	</textures>
 	<styles count="1">
 		<style name="">

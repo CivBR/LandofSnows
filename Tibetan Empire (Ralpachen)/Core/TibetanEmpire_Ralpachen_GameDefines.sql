@@ -50,7 +50,7 @@ VALUES
 -- UNITS
 -- Chölön (Great Merchant replacement)
 INSERT INTO
-	Units (Type, Class, PrereqTech, Combat, RangedCombat, Cost, FaithCost, RequiresFaithPurchaseEnabled, Moves, Range, CombatClass, Domain, Description, Help, Strategy, Civilopedia, MilitarySupport, MilitaryProduction, Pillage, Mechanized, ObsoleteTech, AdvancedStartCost, MinAreaSize, XPValueAttack, XPValueDefense, UnitArtInfo, UnitFlagAtlas, UnitFlagIconOffset, IconAtlas, PortraitIndex, MoveRate, BaseLandAirDefense)
+	Units (Type, Class, PrereqTech, Combat, RangedCombat, Cost, FaithCost, RequiresFaithPurchaseEnabled, Moves, Range, CombatClass, Domain, Description, Help, Strategy, Civilopedia, MilitarySupport, MilitaryProduction, Pillage, Mechanized, ObsoleteTech, AdvancedStartCost, MinAreaSize, XPValueAttack, XPValueDefense, UnitArtInfo, UnitFlagAtlas, UnitFlagIconOffset, IconAtlas, PortraitIndex, MoveRate)
 SELECT
 	'UNIT_CHOLON',
 	'UNITCLASS_MERCHANT',
@@ -82,8 +82,7 @@ SELECT
 	0,
 	'TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS',
 	3,
-	MoveRate,
-	BaseLandAirDefense
+	MoveRate
 FROM
 	Units
 WHERE
@@ -120,9 +119,9 @@ SELECT
 	XPValueDefense,
 	'ART_DEF_UNIT_LONGSWORDSMAN',
 	'TIBETAN_EMPIRE_RALPACHEN_UNIT_FLAG_ATLAS',
-	1,
+	0,
 	'TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS',
-	4,
+	2,
 	MoveRate
 FROM
 	Units
@@ -165,7 +164,7 @@ VALUES
 INSERT INTO
 	Leaders (Type, Description, Civilopedia, CivilopediaTag, ArtDefineTag, IconAtlas, PortraitIndex)
 VALUES
-	('LEADER_TIBETAN_EMPIRE_RALPACHEN', 'TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN', 'TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_PEDIA', 'TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN', 'Ralpachen_Scene.xml', 'TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 0);
+	('LEADER_TIBETAN_EMPIRE_RALPACHEN', 'TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN', 'TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_PEDIA', 'TXT_KEY_CIVILOPEDIA_LEADERS_RALPACHEN', 'Ralpachen_Scene.xml', 'TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 1);
 
 UPDATE Leaders
 SET

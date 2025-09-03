@@ -48,7 +48,9 @@ UPDATE Buildings SET
 	ConquestProb = 66,
 	ArtDefineTag = 'TEMPLE',
 	MinAreaSize = -1,
-	PortraitIndex = 33
+	PortraitIndex = 33,
+	IconAtlas = 'GOMPA_ATLAS',
+	PortraitIndex = 0
 WHERE Type = 'BUILDING_GOMPA';
 
 -- Gompa Base Yields
@@ -257,3 +259,13 @@ VALUES (
 	'TXT_KEY_BUILDING_BUDDHIST_NON_SECTARIAN_HELP',
 	1
 );
+
+-- IconTextureAtlases
+INSERT INTO
+	IconTextureAtlases (Atlas, IconSize, Filename, IconsPerRow, IconsPerColumn)
+VALUES
+	('GOMPA_ATLAS', 256, 'gompa_256.dds', 2, 2),
+	('GOMPA_ATLAS', 128, 'gompa_128.dds', 2, 2),
+	('GOMPA_ATLAS', 80, 'gompa_80.dds', 2, 2),
+	('GOMPA_ATLAS', 64, 'gompa_64.dds', 2, 2),
+	('GOMPA_ATLAS', 32, 'gompa_32.dds', 2, 2);

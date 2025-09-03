@@ -76,7 +76,60 @@ WHERE
 
 END;
 
--- Bhutan (if using a Bhutan civilization mod)
+-- Bhutans –– Drukpa Kagyu school
+DELETE FROM Civilization_Religions
+WHERE
+	CivilizationType = 'CIVILIZATION_JFD_BHUTAN';
+
+INSERT INTO
+	Civilization_Religions (CivilizationType, ReligionType)
+SELECT
+	Type,
+	('RELIGION_BUDDHISM')
+FROM
+	Civilizations
+WHERE
+	Type = 'CIVILIZATION_JFD_BHUTAN';
+
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_DRUKPA_KAGYU'
+			) THEN 'RELIGION_DRUKPA_KAGYU'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_JFD_BHUTAN';
+
+CREATE TRIGGER TibetanBuddhism_Bhutan AFTER INSERT ON Civilization_Religions WHEN 'CIVILIZATION_JFD_BHUTAN' = NEW.CivilizationType BEGIN
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_DRUKPA_KAGYU'
+			) THEN 'RELIGION_DRUKPA_KAGYU'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_JFD_BHUTAN';
+
+END;
+
 DELETE FROM Civilization_Religions
 WHERE
 	CivilizationType = 'CIVILIZATION_BHUTAN';
@@ -186,8 +239,8 @@ SET
 				FROM
 					Religions
 				WHERE
-					Type = 'RELIGION_GELUK'
-			) THEN 'RELIGION_GELUK'
+					Type = 'RELIGION_SAKYA'
+			) THEN 'RELIGION_SAKYA'
 			ELSE (
 				CASE
 					WHEN EXISTS (
@@ -196,8 +249,8 @@ SET
 						FROM
 							Religions
 						WHERE
-							Type = 'RELIGION_SAKYA'
-					) THEN 'RELIGION_SAKYA'
+							Type = 'RELIGION_GELUK'
+					) THEN 'RELIGION_GELUK'
 					ELSE 'RELIGION_BUDDHISM'
 				END
 			)
@@ -424,7 +477,6 @@ WHERE
 
 END;
 
--- Tibet (Thupten Gyatso) - Geluk school
 DELETE FROM Civilization_Religions
 WHERE
 	CivilizationType = 'CIVILIZATION_TIBET_THUPTEN_GYATSO';
@@ -475,5 +527,167 @@ SET
 	)
 WHERE
 	CivilizationType = 'CIVILIZATION_TIBET_THUPTEN_GYATSO';
+
+END;
+
+-- Guge (Thp Guge) - Kadam school
+DELETE FROM Civilization_Religions
+WHERE
+	CivilizationType = 'CIVILIZATION_THP_GUGE';
+
+INSERT INTO
+	Civilization_Religions (CivilizationType, ReligionType)
+SELECT
+	Type,
+	('RELIGION_BUDDHISM')
+FROM
+	Civilizations
+WHERE
+	Type = 'CIVILIZATION_THP_GUGE';
+
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_KADAM'
+			) THEN 'RELIGION_KADAM'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_THP_GUGE';
+
+CREATE TRIGGER TibetanBuddhism_ThpGuge AFTER INSERT ON Civilization_Religions WHEN 'CIVILIZATION_THP_GUGE' = NEW.CivilizationType BEGIN
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_KADAM'
+			) THEN 'RELIGION_KADAM'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_THP_GUGE';
+
+END;
+
+-- Dzungars - Geluk school
+DELETE FROM Civilization_Religions
+WHERE
+	CivilizationType = 'CIVILIZATION_COIOT_DZUNGARS';
+
+INSERT INTO
+	Civilization_Religions (CivilizationType, ReligionType)
+SELECT
+	Type,
+	('RELIGION_BUDDHISM')
+FROM
+	Civilizations
+WHERE
+	Type = 'CIVILIZATION_COIOT_DZUNGARS';
+
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_GELUK'
+			) THEN 'RELIGION_GELUK'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_COIOT_DZUNGARS';
+
+CREATE TRIGGER TibetanBuddhism_CoiotDzungars AFTER INSERT ON Civilization_Religions WHEN 'CIVILIZATION_COIOT_DZUNGARS' = NEW.CivilizationType BEGIN
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_GELUK'
+			) THEN 'RELIGION_GELUK'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_COIOT_DZUNGARS';
+
+END;
+
+-- Khoshut - Geluk school
+DELETE FROM Civilization_Religions
+WHERE
+	CivilizationType = 'CIVILIZATION_EW_KHOSHUT';
+
+INSERT INTO
+	Civilization_Religions (CivilizationType, ReligionType)
+SELECT
+	Type,
+	('RELIGION_BUDDHISM')
+FROM
+	Civilizations
+WHERE
+	Type = 'CIVILIZATION_EW_KHOSHUT';
+
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_GELUK'
+			) THEN 'RELIGION_GELUK'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_EW_KHOSHUT';
+
+CREATE TRIGGER TibetanBuddhism_EWKhoshut AFTER INSERT ON Civilization_Religions WHEN 'CIVILIZATION_EW_KHOSHUT' = NEW.CivilizationType BEGIN
+UPDATE Civilization_Religions
+SET
+	ReligionType = (
+		CASE
+			WHEN EXISTS (
+				SELECT
+					Type
+				FROM
+					Religions
+				WHERE
+					Type = 'RELIGION_GELUK'
+			) THEN 'RELIGION_GELUK'
+			ELSE 'RELIGION_BUDDHISM'
+		END
+	)
+WHERE
+	CivilizationType = 'CIVILIZATION_EW_KHOSHUT';
 
 END;

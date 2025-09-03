@@ -45,16 +45,16 @@ Each school brings its unique philosophical perspectives, meditation practices, 
   <References />
   <Blocks />
   <Files>
-    <File md5="294BE03C1E33DBE3F175FE92DFB12F92" import="1">Art/TibetanBuddhism128.dds</File>
-    <File md5="74D62129B02073B9BDBC544BD6F2A530" import="1">Art/TibetanBuddhism16.dds</File>
-    <File md5="8BF1A83D5942CE816725E50F1A5B5695" import="1">Art/TibetanBuddhism214.dds</File>
-    <File md5="7930CA595E35BA297990170E64D30CEA" import="1">Art/TibetanBuddhism24.dds</File>
-    <File md5="863504616AC660F5475142A3D63A3513" import="1">Art/TibetanBuddhism256.dds</File>
-    <File md5="B6503BE3918F0AADA9D936FD6B02982F" import="1">Art/TibetanBuddhism32.dds</File>
-    <File md5="7689EB2A8D9DA0B6272535F55CE25B08" import="1">Art/TibetanBuddhism48.dds</File>
-    <File md5="94C79CF6D898A1AA7118B56D6187CB01" import="1">Art/TibetanBuddhism64.dds</File>
-    <File md5="3C9DC54F073AEB40EB5136E2A6A09EAC" import="1">Art/TibetanBuddhism80.dds</File>
-    <File md5="9B32E1A38F19C137402659B9B722068F" import="1">Art/TibetanBuddhism_FontIcons.dds</File>
+    <File md5="294BE03C1E33DBE3F175FE92DFB12F92" import="1">Art/TibetanReligionsAtlas_128.dds</File>
+    <File md5="74D62129B02073B9BDBC544BD6F2A530" import="1">Art/TibetanReligionsAtlas_16.dds</File>
+    <File md5="8BF1A83D5942CE816725E50F1A5B5695" import="1">Art/TibetanReligionsAtlas_214.dds</File>
+    <File md5="7930CA595E35BA297990170E64D30CEA" import="1">Art/TibetanReligionsAtlas_24.dds</File>
+    <File md5="863504616AC660F5475142A3D63A3513" import="1">Art/TibetanReligionsAtlas_256.dds</File>
+    <File md5="B6503BE3918F0AADA9D936FD6B02982F" import="1">Art/TibetanReligionsAtlas_32.dds</File>
+    <File md5="7689EB2A8D9DA0B6272535F55CE25B08" import="1">Art/TibetanReligionsAtlas_48.dds</File>
+    <File md5="94C79CF6D898A1AA7118B56D6187CB01" import="1">Art/TibetanReligionsAtlas_64.dds</File>
+    <File md5="3C9DC54F073AEB40EB5136E2A6A09EAC" import="1">Art/TibetanReligionsAtlas_80.dds</File>
+    <File md5="9B32E1A38F19C137402659B9B722068F" import="1">Art/TibetanReligions_FontIcons.dds</File>
     <File md5="C27F82898967215A94DAC51A028C273B" import="1">Art/TibetanBuddhism_FontIcons.ggxml</File>
     <File md5="F5835951962DB1B40102940EDBA7D255" import="0">SQL/TibetanBuddhism_Art.sql</File>
     <File md5="E51A150587486452F97035D9E73417DB" import="0">SQL/TibetanBuddhism_Preferences.sql</File>
