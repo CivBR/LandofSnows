@@ -70,7 +70,7 @@
         </Row>
         <Row Tag="TXT_KEY_PROCESS_TITHE_STRATEGY">
             <Text
-			>The Tithe process is unique to Tibet under Ralpachen. It converts a portion of your city's Gold and Production into Faith, allowing you to focus on religious development. More importantly, any unit purchased with Faith while a city is running Tithe will spawn a weaker Corvée copy in your capital, effectively doubling your military production at the cost of unit quality. Use this to quickly build defensive armies or prepare for rapid expansion.</Text>
+			>The Tithe process is unique to Tibet under Ralpachen. It converts a portion of your city's Gold and Production into Faith, allowing you to focus on religious development. More importantly, any combat unit purchased while a city is running Tithe will spawn a weaker Corvée copy in your capital, effectively doubling your military production at the cost of unit quality. Use this to quickly build defensive armies or prepare for rapid expansion.</Text>
         </Row>
         <!--Cities-->
         <Row Tag="TXT_KEY_CITY_NAME_TIBETAN_EMPIRE_RALPACHEN_01">
@@ -369,7 +369,11 @@
         <!--DOM-->
         <Row Tag="TXT_KEY_CIV_DAWN_TIBETAN_EMPIRE_RALPACHEN_TEXT">
             <Text
-			>Honor to you, Ralpachen, third Dharma King and Chakravartin of the Silk Road, whose piety and wisdom brought unprecedented prosperity to the Land of Snows! You who controlled the great trade routes, extracting wealth from every caravan while ensuring their safe passage through your mountain realm. Your innovative Tithe system transformed temporal wealth into spiritual merit, while your corvée laborers built roads that united holy sites with centers of commerce.[NEWLINE][NEWLINE]Under your enlightened rule, merchants became missionaries and soldiers became guardians of the faith. Your Chölön traverse the world spreading both commerce and dharma, while your Zimchongpa warriors ensure that even the most remote cities remain connected to the beating heart of empire. Now, pious sovereign, Tibet calls upon your economic genius once more. Will you master the Silk Road and make trade routes generate wealth from your vast network of city connections? Can you implement the sacred Tithe to convert material prosperity into spiritual power while maintaining armies through corvée conscription?</Text>
+			>Honor to you, Ralpachen, Third Dharma King of Tibet and devout patron of Buddhism, whose piety and wisdom brought unprecedented prosperity to the Land of Snows! You controlled the great Silk Road caravan routes of Asia, extracting wealth from every merchant train while ensuring their safe passage through your formidable mountain realm. Under your reign, the Tibetan Empire stretched from the scorching oases of the Tarim Basin to the emerald plains of Bengal, and from the lofty Pamir mountains to the distant provinces of Gansu and Yunnan in China. Even the mighty Tang Empire was compelled to treat with you as an equal: you forged a lasting peace and inscribed its terms on stone pillars in Lhasa and Chang'an, a testament to your diplomacy and sagacity.
+
+In your zeal for the Dharma, you raised temples across the high plateau—legend holds you built one thousand shrines to glorify the Buddha. Among these was a magnificent nine-tiered temple crowned with a golden roof, built to house sacred scriptures and learned sages Your innovative Tithe system transformed temporal wealth into spiritual merit by assigning the revenue of seven households to sustain each monk under your protection, ensuring the monastic order flourished throughout your domain. Meanwhile, armies built roads over rugged passes, binding holy monasteries with bustling market towns in every corner of your realm. Under your enlightened rule, merchants doubled as missionaries, carrying the Dharma to foreign lands along with their wares, while soldiers stood as guardians of the faith, protecting the realm and its sacred sites from all threats. Your intrepid Chölön spread the dharma, while your formidable warriors ensure that even the most remote mountain citadel remains connected to the beating heart of your empire.
+
+Now, pious sovereign, Tibet calls upon your wisdom once more. Will you master the Silk Road and make trade routes generate untold wealth from your vast network of city connections? Can you bring harmony to the six realms? Can you build a civilization to stand the test of time?</Text>
         </Row>
         <!--Responses-->
         <Row Tag="TXT_KEY_LEADER_TIBETAN_EMPIRE_RALPACHEN_DENOUNCE_FRIEND_1">
@@ -435,7 +439,7 @@
         </Row>
         <Row Tag="TXT_KEY_TRAIT_CHAKRAVARTIN_SILK_ROAD">
             <Text
-			>Trade Routes passing through your Empire generate[ICON_GOLD]Gold for each City Connection. Roads on and adjacent to Holy Sites yield +1[ICON_GOLD]Gold,[ICON_PRODUCTION]Production, and[ICON_PEACE]Faith. Cities have a unique Process called Tithe: convert 30% of local[ICON_GOLD]Gold and[ICON_PRODUCTION]Production into[ICON_PEACE]Faith and spawn Corvée copies of Faith-purchased units in your Capital.</Text>
+			>Trade Routes passing through your land grant Gold per City Connection. Roads on or next to Holy Sites yield +1[ICON_GOLD]Gold,[ICON_PRODUCTION]Production, and[ICON_PEACE]Faith. Cities may Tithe to convert Gold / Production to[ICON_PEACE]Faith and spawn extra purchased units.</Text>
         </Row>
         <!--Unique Unit Chölön-->
         <Row Tag="TXT_KEY_UNIT_CHOLON">
@@ -502,12 +506,6 @@
         <Row Tag="TXT_KEY_UNIT_CHOLON_MISSION_COMPLETE">
             <Text>[COLOR_POSITIVE_TEXT]Chölön mission complete![ENDCOLOR] +{1_Faith}[ICON_PEACE]Faith ({2_Bonus}% bonus from {3_Connections} CS connections)</Text>
         </Row>
-        <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB">
-            <Text>Construct Holy Site</Text>
-        </Row>
-        <Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_HELP">
-            <Text>Expends a Chölön to construct a Holy Site improvement, spreading your faith and providing powerful yields. (Tibetan Empire only)</Text>
-        </Row>
         <Row Tag="TXT_KEY_UNIT_CHOLON_HOLY_SITE_BUILT">
             <Text>[COLOR_POSITIVE_TEXT]Holy Site constructed![ENDCOLOR]</Text>
         </Row>
@@ -517,5 +515,9 @@
         <Row Tag="TXT_KEY_PROCESS_TITHE_ACTIVE">
             <Text>Tithe active: Converting Gold and Production to Faith</Text>
         </Row>
+        <Replace Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP">
+            <Text
+			>If the unit is inside a City State's territory that you're not at war with, this order will have the unit conduct a trade mission, giving you a large amount of [ICON_GOLD] Gold and improving relations with the City State. It consumes the Great Person.</Text>
+        </Replace>
     </Language_en_US>
 </GameData>

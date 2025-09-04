@@ -44,7 +44,13 @@
 		<File md5="116306385C167396AA83C92D300C7F3C" import="1">Art/Icons/TibetanEmpire_Ralpachen_IconAtlas_45.dds</File>
 		<File md5="DAF1F1818AB6D4D5DA31C96FF2E5EB8B" import="1">Art/Icons/TibetanEmpire_Ralpachen_IconAtlas_64.dds</File>
 		<File md5="272913814FE12B5901C1B848728394AA" import="1">Art/Icons/TibetanEmpire_Ralpachen_IconAtlas_80.dds</File>
-		<File md5="42E5F74964D52A419D53ADE9293D7D53" import="1">Art/Icons/TibetanEmpire_Ralpachen_UnitFlagAtlas_32.dds</File>
+		<File md5="42E5F74964D52A419D53ADE9293D7D53" import="1">Art/Icons/Cholon32.dds</File>
+		<File md5="7016F614FC81697196D7CCDCC7BD3A87" import="1">Art/Icons/Zimchongpa32.dds</File>
+		<File md5="C157AC00D5439ABC75D707A357179C20" import="1">Art/Icons/JFD_Processes_IconAtlas_128.dds</File>
+	    <File md5="8633DD2017ADC76A5148BD3C93363479" import="1">Art/Icons/JFD_Processes_IconAtlas_256.dds</File>
+	    <File md5="3F25932616E39B6E65ADBEB9FD4E8EFA" import="1">Art/Icons/JFD_Processes_IconAtlas_45.dds</File>
+	    <File md5="6F38E2E56515ACBD5D91AEBC3D687A0B" import="1">Art/Icons/JFD_Processes_IconAtlas_64.dds</File>
+	    <File md5="5DB09B7E014D84D9A6D2E72C16AC981B" import="1">Art/Icons/JFD_Processes_IconAtlas_80.dds</File>
 		<File md5="6103A8FA7C3DADEDF56570C4AEABD0E7" import="1">Art/Leaderscene/Ralpachen_Diplo.dds</File>
 		<File md5="79B23D4AB178C23F9F3CB6EC6C1A7E02" import="1">Art/Leaderscene/Ralpachen_Scene.xml</File>
 		<File md5="E75A7D6964F9FCC5213904EAC3E78B03" import="1">Art/Maps/Map_Tibetan_Empire_Ralpachen.dds</File>

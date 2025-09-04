@@ -223,8 +223,8 @@ WHERE
 --------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ArtDefine_StrategicView
         (StrategicViewType,                 TileType,        Asset)
-VALUES    ('ART_DEF_UNIT_MEMBER_ZIMCHONGPA',            'Unit',         'Tibet_Thupten_Gyatso_UnitFlagAtlas_128.dds'),
-          ('ART_DEF_UNIT_MEMBER_CHOLON',            'Unit',         'Tibet_Thupten_Gyatso_UnitFlagAtlas_128.dds');
+VALUES    ('ART_DEF_UNIT_MEMBER_ZIMCHONGPA',            'Unit',         'ZimchongpaSV.dds'),
+          ('ART_DEF_UNIT_MEMBER_CHOLON',            'Unit',         'CholonSV.dds');
 
 -- Audio_Sounds
 INSERT INTO
@@ -268,4 +268,10 @@ VALUES
 	('TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 64, 'TibetanEmpire_Ralpachen_IconAtlas_64.dds', 2, 2),
 	('TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 45, 'TibetanEmpire_Ralpachen_IconAtlas_45.dds', 2, 2),
 	('TIBETAN_EMPIRE_RALPACHEN_ICON_ATLAS', 32, 'TibetanEmpire_Ralpachen_IconAtlas_32.dds', 2, 2),
-	('TIBETAN_EMPIRE_RALPACHEN_UNIT_FLAG_ATLAS', 32, 'TibetanEmpire_Ralpachen_UnitFlagAtlas_32.dds', 2, 1);
+	('CHOLON_UNIT_FLAG_ATLAS', 32, 'Cholon32.dds', 1, 1),
+	('ZIMCHONGPA_UNIT_FLAG_ATLAS', 32, 'Zimchongpa32.dds', 1, 1),
+	('JFD_PROCESSES_ICON_ATLAS', 	256, 		'JFD_Processes_IconAtlas_256.dds',	7, 				2),
+	('JFD_PROCESSES_ICON_ATLAS', 	128, 		'JFD_Processes_IconAtlas_128.dds',	7, 				2),
+	('JFD_PROCESSES_ICON_ATLAS', 	80, 		'JFD_Processes_IconAtlas_80.dds',	7, 				2),
+	('JFD_PROCESSES_ICON_ATLAS', 	64, 		'JFD_Processes_IconAtlas_64.dds',	7, 				2),
+	('JFD_PROCESSES_ICON_ATLAS', 	45, 		'JFD_Processes_IconAtlas_45.dds',	7, 				2);

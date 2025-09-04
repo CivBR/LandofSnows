@@ -42,7 +42,7 @@ local IMPROVEMENT_HOLY_SITE = GameInfoTypes.IMPROVEMENT_HOLY_SITE
 local IMPROVEMENT_CUSTOMS_HOUSE = GameInfoTypes.IMPROVEMENT_CUSTOMS_HOUSE
 
 -- Constants
-local TITHE_CONVERSION_RATE = 0.3     -- 30% of Gold/Production to Faith
+local TITHE_CONVERSION_RATE = 0.5     -- 50% of Gold/Production to Faith
 local CORVEE_DURATION = 20            -- turns
 local CHOLON_FAITH_BONUS_PER_CS = 0.1 -- 10% per CS connection
 
@@ -70,7 +70,6 @@ end
 -- Helper function to count CS connections
 function CountCSConnections(player)
 	local count = 0
-	local iPlayer = player:GetID()
 	local capital = player:GetCapitalCity()
 	if not capital then
 		return 0
@@ -107,31 +106,19 @@ function OnPlayerDoTurn_TradeRouteGold(iPlayer)
 	local cityConnections = CountCityConnections(player)
 	local totalGold = 0
 
-	-- Check each trade route
-	for city in player:Cities() do
-		for i = 0, city:GetNumTradeRoutes() - 1 do
-			local route = city:GetTradeRoute(i)
-			if route then
-				-- Check if route passes through our territory
-				local passesThroughOurTerritory = false
-				-- Simplified check - if destination is one of our cities
-				local destCity = route:GetDestinationCity()
-				if destCity and destCity:GetOwner() ~= iPlayer then
-					-- Foreign trade route - assume it passes through if we have cities nearby
-					passesThroughOurTerritory = true
-				end
-
-				if passesThroughOurTerritory then
-					totalGold = totalGold + (cityConnections * 10)
-				end
-			end
+	-- Loop through all active trade routes
+	local tradeRoutes = player:GetTradeRoutes()
+	for _, route in ipairs(tradeRoutes) do
+		-- Only count outgoing international trade routes
+		if route.FromID == iPlayer and route.ToID ~= iPlayer then
+			-- You can add more logic here if you want to check for specific civs or city-states
+			totalGold = totalGold + (cityConnections * 5)
 		end
 	end
 
 	-- Apply gold bonus
 	if totalGold > 0 then
 		capital:SetNumRealBuilding(BUILDING_TRADE_ROUTE_GOLD, totalGold)
-
 		if player:IsHuman() and player:IsTurnActive() then
 			Events.GameplayAlertMessage(string.format("Trade Routes: +%d Gold from %d City Connections", totalGold,
 				cityConnections))
@@ -302,10 +289,6 @@ GameEvents.PlayerDoTurn.Add(OnCityDoTurn_TitheProcess)
 
 -- UA: Corvée unit spawning during Tithe
 function OnCityTrained_Corvee(iPlayer, iCity, iUnit, bGold, bFaith)
-	if not bFaith then
-		return
-	end -- Must be Faith purchase
-
 	local player = Players[iPlayer]
 	if not player or not player:IsAlive() then
 		return
@@ -396,31 +379,8 @@ end
 GameEvents.PlayerDoTurn.Add(OnPlayerDoTurn_CorveeExpiry)
 
 -- UU: Chölön Faith mission on City-States
-function OnCholonMission(iPlayer, iUnit, iX, iY)
+function OnCholonMission(iPlayer, cityOwner)
 	local player = Players[iPlayer]
-	if not player then
-		return false
-	end
-
-	local unit = player:GetUnitByID(iUnit)
-	if not unit or unit:GetUnitType() ~= unitCholonID then
-		return false
-	end
-
-	local plot = Map.GetPlot(iX, iY)
-	if not plot or not plot:IsCity() then
-		return false
-	end
-
-	local city = plot:GetPlotCity()
-	if not city then
-		return false
-	end
-
-	local cityOwner = Players[city:GetOwner()]
-	if not cityOwner or not cityOwner:IsMinorCiv() then
-		return false
-	end
 
 	-- Count CS connections
 	local csConnections = CountCSConnections(player)
@@ -433,77 +393,60 @@ function OnCholonMission(iPlayer, iUnit, iX, iY)
 	-- Grant Faith instead of Gold
 	player:ChangeFaith(totalFaith)
 
-	-- Also grant influence
-	cityOwner:ChangeMinorCivFriendshipWithMajor(iPlayer, 30)
+	-- Convert city-state to player's religion if player has a religion
+	local playerReligion = player:GetReligionCreatedByPlayer()
+	if playerReligion > 0 then
+		local majorReligion = playerReligion
+		local pressure = 100
+		local city = cityOwner:GetCapitalCity()
+		if city then
+			city:ConvertPercentFollowers(majorReligion, pressure)
+		end
+	end
 
-	-- Kill the unit
-	unit:Kill()
-
-	if player:IsHuman() then
+	if player:IsHuman() and player:IsTurnActive() then
 		Events.GameplayAlertMessage(string.format(
 			"[COLOR_POSITIVE_TEXT]Chölön mission complete![ENDCOLOR] +%d Faith (%.0f%% bonus from %d CS connections)",
 			totalFaith, (bonusMultiplier - 1) * 100, csConnections))
 	end
-
 	return true
 end
 
--- UU: Chölön builds Holy Site
-function OnUnitCanHaveMission_Cholon(iPlayer, iUnit, iMission, iData1, iData2, iData3, bTestVisible)
-	local player = Players[iPlayer]
-	if not player then return false end
-	local unit = player:GetUnitByID(iUnit)
-	if not unit or unit:GetUnitType() ~= unitCholonID then return false end
-
-	if bTestVisible then return true end
-
-	local plot = unit:GetPlot()
-	if not plot then return false end
-
-	if iMission == GameInfoTypes.MISSION_TRADE then
-		-- Trade mission on CS
-		return plot:IsCity() and Players[plot:GetPlotCity():GetOwner()]:IsMinorCiv()
-	elseif iMission == GameInfoTypes.MISSION_CULTURE_BOMB then
-		-- Build Holy Site
-		return not plot:IsCity() and not plot:IsWater() and plot:GetImprovementType() < 0
+--CholonMission_UnitPrekill
+function CholonMission_UnitPrekill(playerID, unitID, unitType, iX, iY, bDelay, killerID)
+	if not bDelay then
+		return
 	end
-	return false
+
+	local iCholon = GameInfoTypes.UNIT_CHOLON
+
+	if unitType ~= iCholon then
+		return
+	end
+
+	if killerID ~= -1 then
+		return
+	end
+
+	local pPlot = Map.GetPlot(iX, iY)
+	if not pPlot then
+		return
+	end
+
+	local iOwner = pPlot:GetOwner()
+	print("Plot owner:", iOwner)
+	if iOwner == -1 then
+		return
+	end
+
+	local pOwner = Players[iOwner]
+	if not pOwner:IsMinorCiv() then
+		return
+	end
+	OnCholonMission(playerID, pOwner)
 end
 
-GameEvents.CustomMissionPossible.Add(OnUnitCanHaveMission_Cholon)
-
-function OnUnitDoMission_Cholon(iPlayer, iUnit, iMission, iData1, iData2, iData3)
-	local player = Players[iPlayer]
-	if not player then
-		return false
-	end
-
-	local unit = player:GetUnitByID(iUnit)
-	if not unit or unit:GetUnitType() ~= unitCholonID then
-		return false
-	end
-
-	if iMission == GameInfoTypes.MISSION_TRADE then
-		-- Faith mission on CS
-		return OnCholonMission(iPlayer, iUnit, unit:GetX(), unit:GetY())
-	elseif iMission == GameInfoTypes.MISSION_CULTURE_BOMB then
-		-- Build Holy Site
-		local plot = unit:GetPlot()
-		if plot and not plot:IsCity() and not plot:IsWater() then
-			plot:SetImprovementType(IMPROVEMENT_HOLY_SITE)
-			unit:Kill()
-
-			if player:IsHuman() then
-				Events.GameplayAlertMessage("[COLOR_POSITIVE_TEXT]Holy Site constructed![ENDCOLOR]")
-			end
-			return true
-		end
-	end
-
-	return false
-end
-
-GameEvents.CustomMissionCompleted.Add(OnUnitDoMission_Cholon)
+GameEvents.UnitPrekill.Add(CholonMission_UnitPrekill)
 
 
 -- Initialize tables on game load
