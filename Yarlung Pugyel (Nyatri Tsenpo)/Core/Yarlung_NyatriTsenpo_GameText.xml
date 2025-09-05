@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
     <Language_en_US>
         <!--CIVILIZATION-->
@@ -231,31 +231,36 @@
             <Text>Mythical Origins</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_1">
-            <Text>Nyatri Tsenpo, the legendary first king of Tibet, is said to have descended from heaven on a sky-cord, landing on the sacred mountain Yarlha Shampo. According to Tibetan tradition, he was recognized as a divine ruler by the people of the Yarlung Valley, who carried him on their shoulders to establish the first royal dynasty. His reign marks the beginning of recorded Tibetan history and the foundation of the Yarlung Dynasty.</Text>
+            <Text
+			>Nyatri Tsenpo, the legendary first king of Tibet, is said to have descended from heaven on a sky-cord, landing on the sacred mountain Yarlha Shampo. According to Tibetan tradition, he was recognized as a divine ruler by the people of the Yarlung Valley, who carried him on their shoulders to establish the first royal dynasty. His reign marks the beginning of recorded Tibetan history and the foundation of the Yarlung Dynasty.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_2">
             <Text>The Heavenly Cord</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_2">
-            <Text>Central to the mythology of early Tibetan kings was the mu-thag or "heavenly cord" - a divine rope that connected the rulers to the celestial realm. It was believed that the first seven kings, including Nyatri Tsenpo, did not die but ascended back to heaven via this cord, leaving no earthly remains. This connection between heaven and earth became fundamental to Tibetan concepts of divine kingship.</Text>
+            <Text
+			>Central to the mythology of early Tibetan kings was the mu-thag or "heavenly cord" - a divine rope that connected the rulers to the celestial realm. It was believed that the first seven kings, including Nyatri Tsenpo, did not die but ascended back to heaven via this cord, leaving no earthly remains. This connection between heaven and earth became fundamental to Tibetan concepts of divine kingship.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_3">
             <Text>Foundation of Tradition</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_3">
-            <Text>Under Nyatri Tsenpo's legendary rule, the foundations of Tibetan culture were established. The Bon religion, with its emphasis on sky burial and mountain worship, flourished. Sacred peaks were venerated as dwelling places of deities, and the practice of sky burial connected the deceased with the heavens. These traditions would endure for millennia, shaping Tibetan spiritual and cultural identity.</Text>
+            <Text
+			>Under Nyatri Tsenpo's legendary rule, the foundations of Tibetan culture were established. The Bon religion, with its emphasis on sky burial and mountain worship, flourished. Sacred peaks were venerated as dwelling places of deities, and the practice of sky burial connected the deceased with the heavens. These traditions would endure for millennia, shaping Tibetan spiritual and cultural identity.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_4">
             <Text>Yumbulakang Palace</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_4">
-            <Text>Nyatri Tsenpo is credited with building Yumbulakang, considered Tibet's first palace and one of its oldest structures. Perched on a hill in the Yarlung Valley, this fortress-palace served as the seat of the early Tibetan kings. Its strategic location allowed control over the fertile valley below, establishing the pattern of hilltop fortresses that would characterize Tibetan architecture.</Text>
+            <Text
+			>Nyatri Tsenpo is credited with building Yumbulakang, considered Tibet's first palace and one of its oldest structures. Perched on a hill in the Yarlung Valley, this fortress-palace served as the seat of the early Tibetan kings. Its strategic location allowed control over the fertile valley below, establishing the pattern of hilltop fortresses that would characterize Tibetan architecture.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_HEADING_5">
             <Text>Legacy of the First King</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_TEXT_5">
-            <Text>Whether historical figure or mythical archetype, Nyatri Tsenpo represents the dawn of Tibetan civilization. His story embodies the unique Tibetan worldview that sees rulers as intermediaries between heaven and earth. The dynasty he founded would eventually unite the Tibetan plateau, creating an empire that at its height rivaled Tang China. His legacy lives on in Tibetan cultural memory as the divine ancestor of all subsequent rulers.</Text>
+            <Text
+			>Whether historical figure or mythical archetype, Nyatri Tsenpo represents the dawn of Tibetan civilization. His story embodies the unique Tibetan worldview that sees rulers as intermediaries between heaven and earth. The dynasty he founded would eventually unite the Tibetan plateau, creating an empire that at its height rivaled Tang China. His legacy lives on in Tibetan cultural memory as the divine ancestor of all subsequent rulers.</Text>
         </Row>
         <!--Name-->
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_NAME">
@@ -274,7 +279,11 @@
         </Row>
         <!--DOM-->
         <Row Tag="TXT_KEY_CIV_DAWN_YARLUNG_PUGYEL_TEXT">
-            <Text>Blessings upon you, Nyatri Tsenpo, first among kings, descended from heaven on the sacred cord that unites the celestial and earthly realms. You who were carried on the shoulders of your people to found the eternal dynasty of the Yarlung Valley. Through your divine wisdom, the sacred peaks became dwelling places of the gods, and the practice of sky burial united your people with the heavens above. Your palace at Yumbulakang stands as testament to the birth of Tibetan civilization, a beacon that would guide your descendants to forge an empire spanning the roof of the world.[NEWLINE][NEWLINE]Now, divine sovereign, your people call upon you once more. Will you designate new sacred peaks to channel the blessings of heaven? Can you guide great persons to sanctify the mountains and perform the ancient ceremonies that bind earth to sky? Will you build a civilization where the cord between heaven and earth remains forever unbroken?</Text>
+            <Text
+			>Blessings upon you, Nyatri Tsenpo, first among kings—Tsenpo of the Sky-Cord—who descended upon the Yarlung Valley borne on the shoulders of the people, your feet too sacred to touch the earth. From the cradle of Yarlung you raised the standard of kingship and set the order of heaven upon the land. Your palace at Yumbu Lagang rose like a falcon upon the ridge, a beacon for clans to gather and a seed from which Tibetan civilization would unfurl across the high snows.
+            [NEWLINE][NEWLINE] By your divine wisdom, the mountain gods were given their seats and the winds were yoked to banners of the Wind Horse. You bound valley to valley with oath and custom, decreed rites that returned the noble dead to the open sky, and taught that peaks themselves could be sanctuaries where earth receives the blessing of the heavens. Terraces bit into the slopes, watchtowers crowned the passes, and sacred ways climbed toward the sun and moon—each stone a vow that the sky-cord would never be severed.
+            [NEWLINE][NEWLINE] Now, divine sovereign, your people call upon you once more. Will you designate new sacred peaks to channel the favor of the heavens? Will you raise palaces and sanctuaries from Yarlung to the world’s edge? Can you build a civilization to stand the test of time?
+            </Text>
         </Row>
         <!--Responses-->
         <Row Tag="TXT_KEY_LEADER_YARLUNG_NYATRI_TSENPO_FIRSTGREETING_1">
@@ -339,30 +348,36 @@
             <Text>The Cord Uniting Heaven and Earth</Text>
         </Row>
         <Row Tag="TXT_KEY_TRAIT_CORD_HEAVEN_EARTH">
-            <Text>When a Great Person is born, designate the nearest Mountain as a Sacred Peak for 25 turns (max 3). Each Sacred Peak grants its nearest city +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith (doubled if a Sky Burial Ground is adjacent). When that Great Person is expended, transfer the Sacred Peak to the expending city's nearest Mountain and refresh its duration.</Text>
+            <Text
+			>When a Great Person is born, designate the nearest Mountain as a Sacred Peak for 25 turns (max 3). Each Sacred Peak grants its nearest city +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith (doubled if a Sky Burial Ground is adjacent). When that Great Person is expended, transfer the Sacred Peak to the expending city's nearest Mountain and refresh its duration.</Text>
         </Row>
         <!--Unique Unit Pawo-->
         <Row Tag="TXT_KEY_UNIT_PAWO">
             <Text>Pawo</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_PAWO_HELP">
-            <Text>Unique Great Musician replacement. Can perform a Chöd Ceremony: one-time ability that expends the Pawo in a city. For 10 turns, that city gains +33%[ICON_GREAT_PEOPLE]Great Person Rate per Great Work it contains and +50% theming bonus. If the city is within 2 tiles of a Mountain, gain +50%[ICON_TOURISM]Tourism from Great Works for the duration.</Text>
+            <Text
+			>Unique Great Musician replacement. Can perform a Chöd Ceremony: one-time ability that expends the Pawo in a city. For 10 turns, that city gains +33%[ICON_GREAT_PEOPLE]Great Person Rate per Great Work it contains and +50% theming bonus. If the city is within 2 tiles of a Mountain, gain +50%[ICON_TOURISM]Tourism from Great Works for the duration.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_PAWO_STRATEGY">
-            <Text>The Pawo is a unique Great Musician replacement for Yarlung. Instead of a concert tour, the Pawo can perform a Chöd Ceremony in a city, providing powerful cultural bonuses for 10 turns. The ceremony is especially effective in cities near mountains. Use Pawos to boost your cultural victory by enhancing cities with multiple Great Works and theming bonuses.</Text>
+            <Text
+			>The Pawo is a unique Great Musician replacement for Yarlung. Instead of a concert tour, the Pawo can perform a Chöd Ceremony in a city, providing powerful cultural bonuses for 10 turns. The ceremony is especially effective in cities near mountains. Use Pawos to boost your cultural victory by enhancing cities with multiple Great Works and theming bonuses.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_PAWO_TEXT">
-            <Text>Pawos are heroic dancers and mediums in the Tibetan spiritual tradition. Through elaborate costumes and ritualistic performances, they conduct the Chöd ceremony - a practice of offering one's body to demons and spirits to cultivate compassion and overcome ego. These spiritual warriors dance at the boundary between the physical and spiritual worlds, channeling divine energies to benefit all sentient beings.</Text>
+            <Text
+			>Pawos are heroic dancers and mediums in the Tibetan spiritual tradition. Through elaborate costumes and ritualistic performances, they conduct the Chöd ceremony - a practice of offering one's body to demons and spirits to cultivate compassion and overcome ego. These spiritual warriors dance at the boundary between the physical and spiritual worlds, channeling divine energies to benefit all sentient beings.</Text>
         </Row>
         <!--Unique Improvement Sky Burial Ground-->
         <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND">
             <Text>Sky Burial Ground</Text>
         </Row>
         <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND_HELP">
-            <Text>Must be built adjacent to a Mountain and cannot be adjacent to another Sky Burial Ground. Yields +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith, plus +1 of each for every adjacent Mountain and Great Person Improvement. Yields +1[ICON_TOURISM]Tourism after researching Archaeology.</Text>
+            <Text
+			>Must be built adjacent to a Mountain and cannot be adjacent to another Sky Burial Ground. Yields +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith, plus +1 of each for every adjacent Mountain and Great Person Improvement. Yields +1[ICON_TOURISM]Tourism after researching Archaeology.</Text>
         </Row>
         <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND_TEXT">
-            <Text>Sky burial grounds are sacred sites where the deceased are offered to vultures and the elements, returning the body to nature and sending the spirit skyward. These charnel grounds serve as powerful reminders of impermanence and the cycle of life and death. Located near mountains - the abodes of gods and spirits - they represent the intersection of earth and heaven, making them places of profound spiritual significance in Tibetan culture.</Text>
+            <Text
+			>Sky burial grounds are sacred sites where the deceased are offered to vultures and the elements, returning the body to nature and sending the spirit skyward. These charnel grounds serve as powerful reminders of impermanence and the cycle of life and death. Located near mountains - the abodes of gods and spirits - they represent the intersection of earth and heaven, making them places of profound spiritual significance in Tibetan culture.</Text>
         </Row>
         <!--Messages-->
         <Row Tag="TXT_KEY_TRAIT_YARLUNG_SACRED_PEAK_DESIGNATED">

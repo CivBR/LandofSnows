@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
     <Language_en_US>
         <!--CIVILIZATION-->
@@ -241,37 +241,43 @@
             <Text>Early Life and Ascension</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_1">
-            <Text>Thupten Gyatso, born in 1876 in Thakpo Langdun, was recognized as the 13th Dalai Lama at a young age. His early years were marked by spiritual training and preparation for leadership in a time of great uncertainty for Tibet. Enthroned in 1879, he would become a pivotal figure in the modernization and preservation of Tibetan sovereignty, guiding his people through periods of foreign intervention and internal reform. His wisdom, compassion, and vision for a strong, independent Tibet would shape the nation's destiny for decades to come.</Text>
+            <Text
+			>Thupten Gyatso, born in 1876 in Thakpo Langdun, was recognized as the 13th Dalai Lama at a young age. His early years were marked by spiritual training and preparation for leadership in a time of great uncertainty for Tibet. Enthroned in 1879, he would become a pivotal figure in the modernization and preservation of Tibetan sovereignty, guiding his people through periods of foreign intervention and internal reform. His wisdom, compassion, and vision for a strong, independent Tibet would shape the nation's destiny for decades to come.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_2">
             <Text>Struggles for Sovereignty</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_2">
-            <Text>During Thupten Gyatso's reign, Tibet faced significant challenges from foreign powers, particularly British and Chinese interests. The Dalai Lama's efforts to maintain Tibetan independence led to diplomatic missions, military confrontations, and periods of exile. Despite these hardships, he remained steadfast in his commitment to the welfare of his people, seeking to balance tradition with the need for reform and modernization. His leadership was marked by resilience and a deep sense of responsibility for Tibet's future.</Text>
+            <Text
+			>During Thupten Gyatso's reign, Tibet faced significant challenges from foreign powers, particularly British and Chinese interests. The Dalai Lama's efforts to maintain Tibetan independence led to diplomatic missions, military confrontations, and periods of exile. Despite these hardships, he remained steadfast in his commitment to the welfare of his people, seeking to balance tradition with the need for reform and modernization. His leadership was marked by resilience and a deep sense of responsibility for Tibet's future.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_3">
             <Text>Modernization and Reform</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_3">
-            <Text>Recognizing the need for change, Thupten Gyatso initiated a series of reforms to modernize Tibet's military, administration, and education. He established new schools, introduced modern technology, and sought to strengthen Tibet's defenses. The Dalai Lama's vision was to preserve Tibetan culture and religion while ensuring the nation could stand independently in a rapidly changing world. His reforms laid the groundwork for a more resilient and progressive Tibet.</Text>
+            <Text
+			>Recognizing the need for change, Thupten Gyatso initiated a series of reforms to modernize Tibet's military, administration, and education. He established new schools, introduced modern technology, and sought to strengthen Tibet's defenses. The Dalai Lama's vision was to preserve Tibetan culture and religion while ensuring the nation could stand independently in a rapidly changing world. His reforms laid the groundwork for a more resilient and progressive Tibet.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_4">
             <Text>Spiritual Leadership</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_4">
-            <Text>As both a spiritual and temporal leader, Thupten Gyatso worked to strengthen the role of Buddhism in Tibetan society. He promoted monastic education, supported the construction and restoration of monasteries, and encouraged the study of Buddhist philosophy. His leadership helped preserve Tibetan identity and spiritual traditions during a period of great upheaval, inspiring his people to remain united and resilient.</Text>
+            <Text
+			>As both a spiritual and temporal leader, Thupten Gyatso worked to strengthen the role of Buddhism in Tibetan society. He promoted monastic education, supported the construction and restoration of monasteries, and encouraged the study of Buddhist philosophy. His leadership helped preserve Tibetan identity and spiritual traditions during a period of great upheaval, inspiring his people to remain united and resilient.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_5">
             <Text>Later Years and Legacy</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_5">
-            <Text>In his later years, Thupten Gyatso continued to advocate for Tibetan autonomy and the well-being of his people. Despite facing renewed threats and personal hardship, he remained a symbol of hope and unity. His passing in 1933 marked the end of an era, but his legacy endures in the hearts of Tibetans and all who value peace, wisdom, and compassion. The 13th Dalai Lama is remembered as a visionary leader who guided Tibet through one of its most challenging periods.</Text>
+            <Text
+			>In his later years, Thupten Gyatso continued to advocate for Tibetan autonomy and the well-being of his people. Despite facing renewed threats and personal hardship, he remained a symbol of hope and unity. His passing in 1933 marked the end of an era, but his legacy endures in the hearts of Tibetans and all who value peace, wisdom, and compassion. The 13th Dalai Lama is remembered as a visionary leader who guided Tibet through one of its most challenging periods.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_HEADING_6">
             <Text>Enduring Inspiration</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_TEXT_6">
-            <Text>Thupten Gyatso's life and leadership continue to inspire those who seek peace, justice, and the preservation of culture. His efforts to modernize Tibet, defend its independence, and promote spiritual values have left a lasting mark on Tibetan history. The 13th Dalai Lama is celebrated as a wise and compassionate leader whose vision and courage helped shape the destiny of his nation.</Text>
+            <Text
+			>Thupten Gyatso's life and leadership continue to inspire those who seek peace, justice, and the preservation of culture. His efforts to modernize Tibet, defend its independence, and promote spiritual values have left a lasting mark on Tibetan history. The 13th Dalai Lama is celebrated as a wise and compassionate leader whose vision and courage helped shape the destiny of his nation.</Text>
         </Row>
         <!--Name-->
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_TIBET_THUPTEN_GYATSO_NAME">
@@ -290,7 +296,10 @@
         </Row>
         <!--DOM-->
         <Row Tag="TXT_KEY_CIV_DAWN_TIBET_THUPTEN_GYATSO_TEXT">
-            <Text>Welcome, Thupten Gyatso, the 13th Dalai Lama—enlightened leader, reformer, and steadfast guardian of the Land of Snows. Through wisdom, courage, and boundless compassion, you guided your people through the storms of foreign encroachment and internal strife, preserving the sacred traditions and sovereignty of Tibet. Under your vision, monasteries flourished and education was reformed. You modernized the nation's defenses, fostered unity among the Tibetan people, and stood as a symbol of hope in the face of adversity. Now, as the winds of change once again sweep across the plateau, your legacy calls out for a leader who can unite faith and progress, strength and compassion. Will you rise to embody the virtues of the Dharma Kings, and lead Tibet to peace, prosperity, and enduring greatness? Can you build a civilization to stand the test of time?</Text>
+            <Text
+			>Welcome, Thupten Gyatso—the 13th Dalai Lama, the Great Thirteenth—enlightened leader, reformer, and steadfast guardian of the Land of Snows. With resolve and compassion you steered Tibet through the tumult of empires: you endured invasion and exile, returned in strength, and reclaimed the reins of state. You affirmed Tibet’s sovereignty to the world, raised the Snow Lion standard over Lhasa, and balanced diplomacy with vigilance so that the plateau’s ancient spirit might endure beneath a modern sky.
+            [NEWLINE][NEWLINE] Under your vision, monasteries remained the heart of the nation even as new institutions took shape. You minted national coinage and issued banknotes, established a postal service and schools, and nurtured a cadre of officials versed in both scripture and statecraft. You reorganized the army, drilled modern regiments, and secured the passes with disciplined troops and improved defenses—so that prayer and progress could stand side by side. In your councils, old law met new reform; in your courtyards, the teachings of the Dharma walked in step with the tools of a changing age.
+            [NEWLINE][NEWLINE] Now, as the winds of change once more sweep across the plateau, your legacy calls for a leader to unite faith and progress, strength and compassion. Will you found schools and workshops while safeguarding the great monasteries? Will you mint a stable economy, dispatch posts to the far valleys, and train a modern army to guard the frontiers? Can you forge treaties with distant powers without yielding the soul of the nation? Can you build a civilization to stand the test of time?</Text>
         </Row>
         <!--Responses-->
         <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_FIRSTGREETING_1">
@@ -306,7 +315,8 @@
             <Text>Let us walk the path of friendship and mutual respect, for the benefit of all beings.</Text>
         </Row>
         <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DENOUNCE_1">
-            <Text>Your actions bring disharmony. I must speak out for the good of my people.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+            <Text
+			>Your actions bring disharmony. I must speak out for the good of my people.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
         </Row>
         <Row Tag="TXT_KEY_LEADER_TIBET_THUPTEN_GYATSO_DENOUNCE_FRIEND_1">
             <Text>Even friends must be honest. I cannot condone your path.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
@@ -369,27 +379,33 @@
             <Text>Gains Strength for each active Research Agreement and Embassy. Upgrading one triggers a short 'We Love the King Day' in your cities. Obsoletes later at Penicillin.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_KUSUNG_STRATEGY">
-            <Text>The Kusung is a unique Great War Infantry for Tibet. It gains Strength for each active Research Agreement and Embassy. Upgrading a Kusung triggers a short 'We Love the King Day' in your cities. Obsoletes later at Penicillin. Use diplomacy and agreements to maximize their power.</Text>
+            <Text
+			>The Kusung is a unique Great War Infantry for Tibet. It gains Strength for each active Research Agreement and Embassy. Upgrading a Kusung triggers a short 'We Love the King Day' in your cities. Obsoletes later at Penicillin. Use diplomacy and agreements to maximize their power.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_KUSUNG_TEXT">
-            <Text>The Kusung were the elite bodyguards of the Dalai Lama, renowned for their loyalty and martial prowess. In the modern era, they symbolize the unity of spiritual and temporal authority, standing ready to defend Tibet during times of change and reform.</Text>
+            <Text
+			>The Kusung were the elite bodyguards of the Dalai Lama, renowned for their loyalty and martial prowess. In the modern era, they symbolize the unity of spiritual and temporal authority, standing ready to defend Tibet during times of change and reform.</Text>
         </Row>
         <!--Unique Building Mentsikhang-->
         <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG">
             <Text>Mentsikhang</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_HELP">
-            <Text>+4 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement.</Text>
+            <Text
+			>+4 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_STRATEGY">
-            <Text>The Mentsikhang is a unique Research Lab for Tibet. It provides +4 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement. Build Mentsikhang to boost your science, economy, and support your armies.</Text>
+            <Text
+			>The Mentsikhang is a unique Research Lab for Tibet. It provides +4 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement. Build Mentsikhang to boost your science, economy, and support your armies.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_MENTSIKHANG_TEXT">
-            <Text>The Mentsikhang, founded by the 13th Dalai Lama, is Tibet's premier institute for traditional medicine and astrology. As a center of learning and healing, it advances the well-being of the Tibetan people and supports the nation's progress through knowledge and compassion.</Text>
+            <Text
+			>The Mentsikhang, founded by the 13th Dalai Lama, is Tibet's premier institute for traditional medicine and astrology. As a center of learning and healing, it advances the well-being of the Tibetan people and supports the nation's progress through knowledge and compassion.</Text>
         </Row>
         <!--MOD-->
         <Row Tag="TXT_KEY_MOD_TIBET_THUPTEN_GYATSO_DESCRIPTION">
-            <Text>TIBET (THUPTEN GYATSO)[NEWLINE][NEWLINE]UNIQUE TRAIT: ZEPHYR OF THE WIND HORSE[NEWLINE]Diplomats with another Civilization provide a percentage of the target's Science for each tech gap. Friendly City-States periodically grant Great People based on their type.[NEWLINE][NEWLINE]UNIQUE UNIT: Kusung (Great War Infantry)[NEWLINE]Gains Strength for each active Research Agreement and completed Policy Tree. Upgrading one triggers a short 'We Love the King Day' in your cities.[NEWLINE][NEWLINE]UNIQUE BUILDING: Mentsikhang (Research Lab)[NEWLINE]+1 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement.</Text>
+            <Text
+			>TIBET (THUPTEN GYATSO)[NEWLINE][NEWLINE]UNIQUE TRAIT: ZEPHYR OF THE WIND HORSE[NEWLINE]Diplomats with another Civilization provide a percentage of the target's Science for each tech gap. Friendly City-States periodically grant Great People based on their type.[NEWLINE][NEWLINE]UNIQUE UNIT: Kusung (Great War Infantry)[NEWLINE]Gains Strength for each active Research Agreement and completed Policy Tree. Upgrading one triggers a short 'We Love the King Day' in your cities.[NEWLINE][NEWLINE]UNIQUE BUILDING: Mentsikhang (Research Lab)[NEWLINE]+1 Food and Production per Friendly City-State or Declaration of Friendship (doubled with an Observatory). Heals friendly units in your borders for each active Research Agreement.</Text>
         </Row>
     </Language_en_US>
 </GameData>

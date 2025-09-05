@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <GameData>
     <Language_en_US>
         <!--CIVILIZATION-->
@@ -303,37 +303,43 @@
             <Text>The Great Fifth</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_1">
-            <Text>Ngawang Lobsang Gyatso, known as the Great Fifth Dalai Lama, was the first Dalai Lama to wield effective temporal and spiritual power over all of Tibet. Rising to prominence during a period of civil war and foreign intervention, he unified the fractured Tibetan plateau under the Ganden Phodrang government, establishing a theocratic state that would endure for three centuries. His reign marked the transformation of the Dalai Lama from a primarily religious figure to the sovereign ruler of Tibet.</Text>
+            <Text
+			>Ngawang Lobsang Gyatso, known as the Great Fifth Dalai Lama, was the first Dalai Lama to wield effective temporal and spiritual power over all of Tibet. Rising to prominence during a period of civil war and foreign intervention, he unified the fractured Tibetan plateau under the Ganden Phodrang government, establishing a theocratic state that would endure for three centuries. His reign marked the transformation of the Dalai Lama from a primarily religious figure to the sovereign ruler of Tibet.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_2">
             <Text>Master of Statecraft</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_2">
-            <Text>Lobsang Gyatso demonstrated exceptional political acumen, navigating the complex relationships between Mongol khans, the Qing court, and rival Tibetan factions. He cultivated a vast intelligence network of monks and merchants who served as his eyes and ears across Asia. His diplomatic missions to Beijing in 1652 secured Qing recognition of his authority while maintaining Tibet's autonomy. Through careful manipulation of religious symbolism and political alliances, he created a government that balanced spiritual authority with practical governance.</Text>
+            <Text
+			>Lobsang Gyatso demonstrated exceptional political acumen, navigating the complex relationships between Mongol khans, the Qing court, and rival Tibetan factions. He cultivated a vast intelligence network of monks and merchants who served as his eyes and ears across Asia. His diplomatic missions to Beijing in 1652 secured Qing recognition of his authority while maintaining Tibet's autonomy. Through careful manipulation of religious symbolism and political alliances, he created a government that balanced spiritual authority with practical governance.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_3">
             <Text>The Potala Palace</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_3">
-            <Text>The Fifth Dalai Lama's most visible legacy is the magnificent Potala Palace in Lhasa, which he commissioned in 1645. This architectural marvel, built on the site of Songtsen Gampo's ancient fortress, became both the seat of government and a symbol of Tibetan identity. The palace complex, with its thousand rooms, served as monastery, fortress, and administrative center, embodying the fusion of spiritual and temporal power that characterized his rule.</Text>
+            <Text
+			>The Fifth Dalai Lama's most visible legacy is the magnificent Potala Palace in Lhasa, which he commissioned in 1645. This architectural marvel, built on the site of Songtsen Gampo's ancient fortress, became both the seat of government and a symbol of Tibetan identity. The palace complex, with its thousand rooms, served as monastery, fortress, and administrative center, embodying the fusion of spiritual and temporal power that characterized his rule.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_4">
             <Text>Religious Synthesis</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_4">
-            <Text>While firmly rooted in the Geluk tradition, Lobsang Gyatso promoted religious tolerance and incorporated elements from other Tibetan Buddhist schools, in particular Nyingma traditions, into greater scholarship. He was a prolific author, composing texts on philosophy, poetry, and history. His establishment of the Dansa (monastic colleges) as centers of learning ensured the preservation and transmission of Buddhist knowledge. He also revived many ancient Tibetan customs and festivals, creating a unique synthesis of Buddhist philosophy and indigenous tradition.</Text>
+            <Text
+			>While firmly rooted in the Geluk tradition, Lobsang Gyatso promoted religious tolerance and incorporated elements from other Tibetan Buddhist schools, in particular Nyingma traditions, into greater scholarship. He was a prolific author, composing texts on philosophy, poetry, and history. His establishment of the Dansa (monastic colleges) as centers of learning ensured the preservation and transmission of Buddhist knowledge. He also revived many ancient Tibetan customs and festivals, creating a unique synthesis of Buddhist philosophy and indigenous tradition.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_5">
             <Text>Medical and Scientific Advancement</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_5">
-            <Text>The Fifth Dalai Lama established Tibet's medical system, founding institutions that trained Amchi (traditional doctors) who combined spiritual practice with medical knowledge. He patronized astronomical observations and calendar reforms, while his support for scholarly translation projects brought scientific and philosophical texts from India, China, and Mongolia to Tibet. This intellectual flowering made Lhasa a center of learning that attracted scholars from across the Buddhist world.</Text>
+            <Text
+			>The Fifth Dalai Lama established Tibet's medical system, founding institutions that trained Amchi (traditional doctors) who combined spiritual practice with medical knowledge. He patronized astronomical observations and calendar reforms, while his support for scholarly translation projects brought scientific and philosophical texts from India, China, and Mongolia to Tibet. This intellectual flowering made Lhasa a center of learning that attracted scholars from across the Buddhist world.</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_HEADING_6">
             <Text>Enduring Authority</Text>
         </Row>
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_TEXT_6">
-            <Text>Lobsang Gyatso's death in 1682 was concealed for fifteen years by his regent to maintain political stability, testament to the importance of his personal authority. His establishment of the Ganden Phodrang government created institutions that survived until 1959. Known as the "Great Fifth," he remains the most revered figure in Tibetan history after the Buddha himself, embodying the ideal of the bodhisattva-king who wields power solely for the benefit of all beings.</Text>
+            <Text
+			>Lobsang Gyatso's death in 1682 was concealed for fifteen years by his regent to maintain political stability, testament to the importance of his personal authority. His establishment of the Ganden Phodrang government created institutions that survived until 1959. Known as the "Great Fifth," he remains the most revered figure in Tibetan history after the Buddha himself, embodying the ideal of the bodhisattva-king who wields power solely for the benefit of all beings.</Text>
         </Row>
         <!--Name-->
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_LOBSANG_GYATSO_NAME">
@@ -352,7 +358,8 @@
         </Row>
         <!--DOM-->
         <Row Tag="TXT_KEY_CIV_DAWN_GANDEN_PHODRANG_LOBSANG_GYATSO_TEXT">
-            <Text>Homage to you, Lobsang Gyatso, the Great Fifth, Ocean of Wisdom and unifier of the Roof of the World! You who transformed the office of Dalai Lama from spiritual teacher to sovereign ruler, establishing the Ganden Phodrang that would govern Tibet for centuries. Through your vast network of spies and diplomats, you gathered intelligence from across Asia, turning information into power and converting enemies into followers of the dharma.[NEWLINE][NEWLINE]Your Amchi healers served as both physicians and defenders, while your Dansa observatories became centers of learning that illuminated both the heavens and the earth. The Potala Palace you built stands eternal, a monument to the union of spiritual and temporal authority. Now, Great Fifth, Tibet needs your wisdom once more. Will you deploy spies to steal population and spread your faith through covert action? Can you establish a theocratic state where medicine serves military might and contemplation generates power?</Text>
+            <Text
+			>Homage to you, Lobsang Gyatso—the Great Fifth, Ocean of Wisdom and unifier of the Roof of the World! With the patronage of Güshi Khan you raised the Ganden Phodrang to rule a pacified Tibet, returned the seat of government to Lhasa, and set law in order—balancing the Dalai Lama’s spiritual authority with a Desi’s secular administration. You fixed the Nechung Oracle as the state oracle and yoked prophecy to policy, that the affairs of men might proceed in harmony with the Dharma. [NEWLINE][NEWLINE]From Marpori you raised the Potala, white walls and golden roofs proclaiming the union of religion and state. Beyond its halls you renewed the Jokhang and other sanctuaries, secured roads and caravan posts, founded the Shöl printing house, and fostered a renaissance in letters and learning. Under your aegis Tibetan medicine flourished: court-sponsored medical paintings and the Blue Beryl treatise standardized the healing arts, and the Chakpori college took root to train physicians for the realm. [NEWLINE][NEWLINE]Statesman as well as sage, you received the young Shunzhi Emperor in Beijing and kept patron–priest ties with Mongol khans, placing Tibet on equal footing among courts and steppe. Now, Great Fifth, Tibet needs your wisdom once more. Will you weave patron–priest diplomacy, bind the valleys with roads and posts, and seat the Ganden Phodrang in unshaken authority? Will the Potala’s light guides your people to peace, prosperity, and enduring greatness? Can you build a civilization to stand the test of time?</Text>
         </Row>
         <!--Responses-->
         <Row Tag="TXT_KEY_LEADER_GANDEN_PHODRANG_LOBSANG_GYATSO_FIRSTGREETING_1">
@@ -417,33 +424,40 @@
             <Text>The Ten Syllables of Power</Text>
         </Row>
         <Row Tag="TXT_KEY_TRAIT_TEN_SYLLABLES_POWER">
-            <Text>Spies that rig Elections or Steal Technology send Population to one of your Cities. Spies that perform a Coup d'État convert all Population in the City to your Religion and provide you with an additional Spy once per City-State.</Text>
+            <Text
+			>Spies that rig Elections or Steal Technology send Population to one of your Cities. Spies that perform a Coup d'État convert all Population in the City to your Religion and provide you with an additional Spy once per City-State.</Text>
         </Row>
         <!--Unique Unit Amchi-->
         <Row Tag="TXT_KEY_UNIT_AMCHI">
             <Text>Amchi</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_AMCHI_HELP">
-            <Text>Unique Inquisitor replacement. When stationed, provides trained Units with the March promotion and increases City[ICON_STRENGTH]Defense for each follower of your Religion in the City. When expended, heals all adjacent units by 50 HP and provides them the Medic promotion.</Text>
+            <Text
+			>Unique Inquisitor replacement. When stationed, provides trained Units with the March promotion and increases City[ICON_STRENGTH]Defense for each follower of your Religion in the City. When expended, heals all adjacent units by 50 HP and provides them the Medic promotion.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_AMCHI_STRATEGY">
-            <Text>The Amchi is a unique Inquisitor replacement for Ganden Phodrang. While retaining the ability to remove heresy, Amchi provide powerful garrison bonuses: units trained in cities with stationed Amchi receive the March promotion (heal every turn), and the city gains defense based on religious followers. When expended, Amchi heal all adjacent units and grant them the Medic promotion. Use Amchi to create resilient defensive positions while maintaining religious unity.</Text>
+            <Text
+			>The Amchi is a unique Inquisitor replacement for Ganden Phodrang. While retaining the ability to remove heresy, Amchi provide powerful garrison bonuses: units trained in cities with stationed Amchi receive the March promotion (heal every turn), and the city gains defense based on religious followers. When expended, Amchi heal all adjacent units and grant them the Medic promotion. Use Amchi to create resilient defensive positions while maintaining religious unity.</Text>
         </Row>
         <Row Tag="TXT_KEY_UNIT_AMCHI_TEXT">
-            <Text>Amchi are traditional Tibetan medical practitioners who combine Buddhist spiritual practice with empirical medical knowledge. In the Ganden Phodrang system, these healer-monks served multiple roles: physicians to the populace, spiritual advisors to the military, and maintainers of public health. Their knowledge of both body and spirit made them invaluable in times of both peace and war.</Text>
+            <Text
+			>Amchi are traditional Tibetan medical practitioners who combine Buddhist spiritual practice with empirical medical knowledge. In the Ganden Phodrang system, these healer-monks served multiple roles: physicians to the populace, spiritual advisors to the military, and maintainers of public health. Their knowledge of both body and spirit made them invaluable in times of both peace and war.</Text>
         </Row>
         <!--Unique Building Dansa-->
         <Row Tag="TXT_KEY_BUILDING_DANSA">
             <Text>Dansa</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_DANSA_HELP">
-            <Text>Unique Observatory replacement. Requires a University. Unemployed Citizens generate[ICON_PEACE]Faith and[ICON_CULTURE]Culture in the City. Each time a Religious Unit is trained or born in the City, unemployed citizens provide yields for 10 turns.</Text>
+            <Text
+			>Unique Observatory replacement. Requires a University. Unemployed Citizens generate[ICON_PEACE]Faith and[ICON_CULTURE]Culture in the City. Each time a Religious Unit is trained or born in the City, unemployed citizens provide yields for 10 turns.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_DANSA_STRATEGY">
-            <Text>The Dansa is a unique Observatory replacement for Ganden Phodrang. In addition to the science bonus of a regular Observatory, the Dansa activates special bonuses when religious units are trained or Great Prophets are born in the city. For 10 turns after such an event, unemployed citizens generate Faith and Culture, with additional bonuses from religious buildings. This encourages maintaining some unemployed citizens and makes the Dansa especially powerful in large cities with strong religious infrastructure.</Text>
+            <Text
+			>The Dansa is a unique Observatory replacement for Ganden Phodrang. In addition to the science bonus of a regular Observatory, the Dansa activates special bonuses when religious units are trained or Great Prophets are born in the city. For 10 turns after such an event, unemployed citizens generate Faith and Culture, with additional bonuses from religious buildings. This encourages maintaining some unemployed citizens and makes the Dansa especially powerful in large cities with strong religious infrastructure.</Text>
         </Row>
         <Row Tag="TXT_KEY_BUILDING_DANSA_TEXT">
-            <Text>Dansa were the great monastic colleges of Tibet, combining religious education with secular learning. These institutions taught not only Buddhist philosophy but also medicine, astronomy, mathematics, and art. The most famous Dansa attracted students from across Asia, making them centers of intellectual exchange. Their observatories tracked celestial movements for both scientific and astrological purposes, while their libraries preserved centuries of accumulated wisdom.</Text>
+            <Text
+			>Dansa were the great monastic colleges of Tibet, combining religious education with secular learning. These institutions taught not only Buddhist philosophy but also medicine, astronomy, mathematics, and art. The most famous Dansa attracted students from across Asia, making them centers of intellectual exchange. Their observatories tracked celestial movements for both scientific and astrological purposes, while their libraries preserved centuries of accumulated wisdom.</Text>
         </Row>
         <!--Promotions-->
         <Row Tag="TXT_KEY_PROMOTION_MARCH">
