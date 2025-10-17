@@ -54,8 +54,7 @@ local tSacredPeaks = {}       -- [playerID] = {peak1 = {plotID, expiryTurn, city
 local tChodCeremonies = {}    -- [playerID][cityID] = {expiryTurn, hasMountain}
 local tGreatPersonToPeak = {} -- [playerID][unitID] = peakSlot
 
--- Table to track last known Great Person locations for each player
-local tLastGreatPeople = {} -- [playerID][unitID] = {x, y, type}
+
 
 -- Custom Fallout
 local FEATURE_SACRED_PEAK = GameInfoTypes.FEATURE_SACRED_PEAK
@@ -137,25 +136,6 @@ function SetSacredPeakFeature(plot, set)
 		end
 	end
 end
-
--- Track all Great People and their locations
-function TrackGreatPeople()
-	for iPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
-		local player = Players[iPlayer]
-		if player and player:IsAlive() and HasTrait(player, traitCordHeavenEarth) then
-			tLastGreatPeople[iPlayer] = tLastGreatPeople[iPlayer] or {}
-			local currentGPs = {}
-			for unit in player:Units() do
-				if unit:IsGreatPerson() then
-					currentGPs[unit:GetID()] = { x = unit:GetX(), y = unit:GetY(), type = unit:GetUnitType() }
-				end
-			end
-			tLastGreatPeople[iPlayer] = currentGPs
-		end
-	end
-end
-
-GameEvents.PlayerDoTurn.Add(TrackGreatPeople)
 
 -- UA: Sacred Peak designation when Great Person is born
 function OnUnitCreated_SacredPeak(iPlayer, iUnitID)
@@ -340,7 +320,7 @@ function RemoveSacredPeakBonus(player, city, mountain)
 end
 
 -- UA: Transfer Sacred Peak when Great Person is expended
-function OnGreatPersonExpended(iPlayer, iUnitType)
+function OnGreatPersonExpended(iPlayer, iUnitID, iUnitType, iX, iY)
 	local player = Players[iPlayer]
 	if not player or not player:IsAlive() then
 		return
@@ -349,31 +329,8 @@ function OnGreatPersonExpended(iPlayer, iUnitType)
 		return
 	end
 
-	-- Find which Great Person of this type was expended by comparing last known table to current units
-	local lastGPs = tLastGreatPeople[iPlayer] or {}
-	local expendedUnitID = nil
-	local expendedData = nil
-
-	-- Build a set of current GP unit IDs
-	local currentGPs = {}
-	for unit in player:Units() do
-		if unit:IsGreatPerson() then
-			currentGPs[unit:GetID()] = true
-		end
-	end
-
-	-- Find the missing GP of the correct type
-	for unitID, data in pairs(lastGPs) do
-		if data.type == iUnitType and not currentGPs[unitID] then
-			expendedUnitID = unitID
-			expendedData = data
-			break
-		end
-	end
-
-	if not expendedUnitID or not expendedData then
-		return
-	end
+	-- Use the unit ID provided by the event
+	local expendedUnitID = iUnitID
 
 	if not tGreatPersonToPeak[iPlayer] or not tGreatPersonToPeak[iPlayer][expendedUnitID] then
 		return
@@ -393,11 +350,8 @@ function OnGreatPersonExpended(iPlayer, iUnitType)
 		SetSacredPeakFeature(oldMountain, false)
 	end
 
-	-- Find new location (where GP was expended)
-	local expendPlot = nil
-	if expendedData.x and expendedData.y then
-		expendPlot = Map.GetPlot(expendedData.x, expendedData.y)
-	end
+	-- Find new location (where GP was expended) using actual expend coordinates
+	local expendPlot = Map.GetPlot(iX, iY)
 	local newCity = nil
 	if expendPlot and expendPlot:IsCity() then
 		newCity = expendPlot:GetPlotCity()
@@ -695,7 +649,7 @@ Events.LoadScreenClose.Add(OnLoadScreenClose)
 -- Rebuild any existing Fallout/Sacred Peak feature symbols so FX starts now (no reload needed)
 local NO_FEATURE  = -1
 local iFallout    = GameInfoTypes.FEATURE_FALLOUT
-local iSacredPeak = GameInfoTypes.FEATURE_SACRED_PEAK  -- if you're using a separate feature
+local iSacredPeak = GameInfoTypes.FEATURE_SACRED_PEAK -- if you're using a separate feature
 
 local function RebuildFeatureAt(plot)
 	local fid = plot:GetFeatureType()

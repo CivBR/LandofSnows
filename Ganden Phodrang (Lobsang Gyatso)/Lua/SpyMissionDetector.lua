@@ -77,7 +77,7 @@ local function CheckStolenTech(iPlayer)
 			-- Tech is considered stolen if:
 			-- 1. We have it now but didn't before
 			-- 2. Previous progress was below threshold (not almost complete)
-			if previousProgress < TECH_PROGRESS_THRESHOLD and previousProgress > 0 then
+			if previousProgress < TECH_PROGRESS_THRESHOLD then
 				-- Likely stolen!
 				local targetData = {
 					techID = techID,
@@ -130,13 +130,7 @@ local function CheckRiggedElection(iPlayer)
 				-- We detect rigging if there's a large jump without obvious cause
 
 				-- Additional check: see if player has spies
-				local hasSpies = false
-				for unit in player:Units() do
-					if unit:GetUnitClassType() == GameInfoTypes.UNITCLASS_SPY then
-						hasSpies = true
-						break
-					end
-				end
+				local hasSpies = player:GetNumSpies() > 0
 
 				if hasSpies then
 					local targetData = {
@@ -186,13 +180,7 @@ local function CheckCoup(iPlayer)
 				if math.abs(influence - allyThreshold) <= 5 or
 					(influence >= allyThreshold and previousInfluence < allyThreshold - 20) then
 					-- Check for spies
-					local hasSpies = false
-					for unit in player:Units() do
-						if unit:GetUnitClassType() == GameInfoTypes.UNITCLASS_SPY then
-							hasSpies = true
-							break
-						end
-					end
+					local hasSpies = player:GetNumSpies() > 0
 
 					if hasSpies then
 						local targetData = {

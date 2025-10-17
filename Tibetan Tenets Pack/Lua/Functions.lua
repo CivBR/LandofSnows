@@ -234,104 +234,98 @@ end
 
 -- Main turn processing
 function BuddhistBeliefs_PlayerDoTurn(iPlayer)
-	local player = Players[iPlayer]
-	if (not player:IsAlive()) then return end
-	if (not player:HasCreatedReligion()) then return end
+	local pPlayer = Players[iPlayer]
+	if not pPlayer or not pPlayer:IsAlive() then return end
+	if not pPlayer:HasCreatedReligion() then return end
 
-	function BuddhistBeliefs_PlayerDoTurn(iPlayer)
-		local pPlayer = Players[iPlayer]
-		if not pPlayer or not pPlayer:IsAlive() then return end
-		if not pPlayer:HasCreatedReligion() then return end
+	local religion = pPlayer:GetReligionCreatedByPlayer()
+	local beliefs = Game.GetBeliefsInReligion(religion)
 
-		local religion = pPlayer:GetReligionCreatedByPlayer()
-		local beliefs = Game.GetBeliefsInReligion(religion)
-
-		for _, v in ipairs(beliefs) do
-			if v == beliefSacredPeaks.ID then
-				-- Sacred Peaks: Mountain Culture Bonus
-				for pCity in pPlayer:Cities() do
-					local shouldHaveBonus = false
-					if IsCityAdjacentToMountain(pCity) then
-						shouldHaveBonus = true
-					else
-						local majorityReligion = pCity:GetReligiousMajority()
-						if majorityReligion > 0 then
-							for _, b in ipairs(Game.GetBeliefsInReligion(majorityReligion)) do
-								if b == beliefSacredPeaks.ID and IsCityAdjacentToMountain(pCity) then
-									shouldHaveBonus = true
-									break
-								end
-							end
-						end
-					end
-					if shouldHaveBonus then
-						if pCity:GetNumBuilding(buildingMountainCulture) == 0 then
-							pCity:SetNumRealBuilding(buildingMountainCulture, 1)
-						end
-					else
-						if pCity:GetNumBuilding(buildingMountainCulture) > 0 then
-							pCity:SetNumRealBuilding(buildingMountainCulture, 0)
-						end
-					end
-				end
-			elseif v == beliefUniversalCompassion.ID then
-				-- Universal Compassion: Happiness from foreign cities following religion
-				local happinessCount = 0
-				-- City-States
-				for iCSPlayer = GameDefines.MAX_MAJOR_CIVS, GameDefines.MAX_CIV_PLAYERS - 1 do
-					local pCSPlayer = Players[iCSPlayer]
-					if pCSPlayer and pCSPlayer:IsAlive() and pCSPlayer:IsMinorCiv() then
-						for pCity in pCSPlayer:Cities() do
-							if pCity:GetReligiousMajority() == religion then
-								happinessCount = happinessCount + 2
+	for _, v in ipairs(beliefs) do
+		if v == beliefSacredPeaks.ID then
+			-- Sacred Peaks: Mountain Culture Bonus
+			for pCity in pPlayer:Cities() do
+				local shouldHaveBonus = false
+				if IsCityAdjacentToMountain(pCity) then
+					shouldHaveBonus = true
+				else
+					local majorityReligion = pCity:GetReligiousMajority()
+					if majorityReligion > 0 then
+						for _, b in ipairs(Game.GetBeliefsInReligion(majorityReligion)) do
+							if b == beliefSacredPeaks.ID and IsCityAdjacentToMountain(pCity) then
+								shouldHaveBonus = true
 								break
 							end
 						end
 					end
 				end
-				-- Foreign capitals
-				for iOtherPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
-					if iOtherPlayer ~= iPlayer then
-						local pOtherPlayer = Players[iOtherPlayer]
-						if pOtherPlayer and pOtherPlayer:IsAlive() then
-							local pCapital = pOtherPlayer:GetCapitalCity()
-							if pCapital and pCapital:GetReligiousMajority() == religion then
-								happinessCount = happinessCount + 2
-							end
+				if shouldHaveBonus then
+					if pCity:GetNumBuilding(buildingMountainCulture) == 0 then
+						pCity:SetNumRealBuilding(buildingMountainCulture, 1)
+					end
+				else
+					if pCity:GetNumBuilding(buildingMountainCulture) > 0 then
+						pCity:SetNumRealBuilding(buildingMountainCulture, 0)
+					end
+				end
+			end
+		elseif v == beliefUniversalCompassion.ID then
+			-- Universal Compassion: Happiness from foreign cities following religion
+			local happinessCount = 0
+			-- City-States
+			for iCSPlayer = GameDefines.MAX_MAJOR_CIVS, GameDefines.MAX_CIV_PLAYERS - 1 do
+				local pCSPlayer = Players[iCSPlayer]
+				if pCSPlayer and pCSPlayer:IsAlive() and pCSPlayer:IsMinorCiv() then
+					for pCity in pCSPlayer:Cities() do
+						if pCity:GetReligiousMajority() == religion then
+							happinessCount = happinessCount + 2
+							break
 						end
 					end
 				end
-				local pCapital = pPlayer:GetCapitalCity()
-				if pCapital then
-					pCapital:SetNumRealBuilding(buildingUniversalCompassion, 0)
-					if happinessCount > 0 then
-						pCapital:SetNumRealBuilding(buildingUniversalCompassion, happinessCount)
-					end
-				end
-			elseif v == beliefMonasticDebate.ID then
-				-- Monastic Debate: Enhanced Trade Route Pressure
-				for pCity in pPlayer:Cities() do
-					if pCity:GetNumBuilding(buildingTradeRoutePressure) == 0 then
-						pCity:SetNumRealBuilding(buildingTradeRoutePressure, 1)
-					end
-				end
-			elseif v == beliefNonSectarianism.ID then
-				-- Non-Sectarianism: Faith burst when other religions spread
-				ProcessNonSectarianism(iPlayer)
 			end
+			-- Foreign capitals
+			for iOtherPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
+				if iOtherPlayer ~= iPlayer then
+					local pOtherPlayer = Players[iOtherPlayer]
+					if pOtherPlayer and pOtherPlayer:IsAlive() then
+						local pCapital = pOtherPlayer:GetCapitalCity()
+						if pCapital and pCapital:GetReligiousMajority() == religion then
+							happinessCount = happinessCount + 2
+						end
+					end
+				end
+			end
+			local pCapital = pPlayer:GetCapitalCity()
+			if pCapital then
+				pCapital:SetNumRealBuilding(buildingUniversalCompassion, 0)
+				if happinessCount > 0 then
+					pCapital:SetNumRealBuilding(buildingUniversalCompassion, happinessCount)
+				end
+			end
+		elseif v == beliefMonasticDebate.ID then
+			-- Monastic Debate: Enhanced Trade Route Pressure
+			for pCity in pPlayer:Cities() do
+				if pCity:GetNumBuilding(buildingTradeRoutePressure) == 0 then
+					pCity:SetNumRealBuilding(buildingTradeRoutePressure, 1)
+				end
+			end
+		elseif v == beliefNonSectarianism.ID then
+			-- Non-Sectarianism: Faith burst when other religions spread
+			ProcessNonSectarianism(iPlayer)
 		end
+	end
 
-		-- Gompa Mountain Faith Bonus for all cities
-		for pCity in pPlayer:Cities() do
-			ProcessGompaMountainBonus(iPlayer, pCity:GetID())
-		end
+	-- Gompa Mountain Faith Bonus for all cities
+	for pCity in pPlayer:Cities() do
+		ProcessGompaMountainBonus(iPlayer, pCity:GetID())
 	end
 end
 
 -- City capture handler
 function BuddhistBeliefs_CityCaptured(iOldOwner, bCapital, iX, iY, iNewOwner, iPop, bConquest)
-	local player = Players[iPlayer]
-	if (not player:IsAlive()) then return end
+	local newOwnerPlayer = Players[iNewOwner]
+	if not newOwnerPlayer or not newOwnerPlayer:IsAlive() then return end
 
 	local pPlot = Map.GetPlot(iX, iY)
 	if not pPlot then return end
@@ -362,7 +356,7 @@ end
 function BuddhistBeliefs_ReligionFounded(iPlayer, iHolyCity, eReligion, eBelief1, eBelief2, eBelief3, eBelief4, eBelief5)
 	local pPlayer = Players[iPlayer]
 	if not pPlayer or not pPlayer:IsAlive() then return end
-	if (not player:HasCreatedReligion()) then return end
+	if (not pPlayer:HasCreatedReligion()) then return end
 
 	-- Check for our beliefs and apply initial effects
 	local beliefs = { eBelief1, eBelief2, eBelief3, eBelief4, eBelief5 }

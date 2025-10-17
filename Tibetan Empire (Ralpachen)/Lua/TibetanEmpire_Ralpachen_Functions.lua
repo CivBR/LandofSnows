@@ -176,23 +176,32 @@ function OnPlayerDoTurn_HolySiteRoadBonus(iPlayer)
 
 	local bonusCount = 0
 
-	-- Check all plots owned by player
-	for i = 0, Map.GetNumPlots() - 1 do
-		local plot = Map.GetPlotByIndex(i)
-		if plot and plot:GetOwner() == iPlayer then
-			-- Check if plot has road
-			if plot:IsRoute() then
-				-- Check if plot has Holy Site
-				if plot:GetImprovementType() == IMPROVEMENT_HOLY_SITE then
-					bonusCount = bonusCount + 1
-				else
-					-- Check if adjacent to Holy Site
-					for direction = 0, DirectionTypes.NUM_DIRECTION_TYPES - 1 do
-						local adjacentPlot = Map.PlotDirection(plot:GetX(), plot:GetY(), direction)
-						if adjacentPlot and adjacentPlot:GetOwner() == iPlayer and adjacentPlot:GetImprovementType() ==
-							IMPROVEMENT_HOLY_SITE then
+	-- Check plots owned by player via city working ranges (much more efficient than checking entire map)
+	for city in player:Cities() do
+		local cityPlot = city:Plot()
+		local cityX = cityPlot:GetX()
+		local cityY = cityPlot:GetY()
+
+		-- Check all plots in city working range (3 tile radius)
+		for dx = -3, 3 do
+			for dy = -3, 3 do
+				local plot = Map.PlotXY(cityX, cityY, dx, dy)
+				if plot and plot:GetOwner() == iPlayer then
+					-- Check if plot has road
+					if plot:IsRoute() then
+						-- Check if plot has Holy Site
+						if plot:GetImprovementType() == IMPROVEMENT_HOLY_SITE then
 							bonusCount = bonusCount + 1
-							break
+						else
+							-- Check if adjacent to Holy Site
+							for direction = 0, DirectionTypes.NUM_DIRECTION_TYPES - 1 do
+								local adjacentPlot = Map.PlotDirection(plot:GetX(), plot:GetY(), direction)
+								if adjacentPlot and adjacentPlot:GetOwner() == iPlayer and adjacentPlot:GetImprovementType() ==
+									IMPROVEMENT_HOLY_SITE then
+									bonusCount = bonusCount + 1
+									break
+								end
+							end
 						end
 					end
 				end
