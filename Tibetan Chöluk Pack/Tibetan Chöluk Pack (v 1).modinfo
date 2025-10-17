@@ -3,7 +3,7 @@
   <Properties>
     <Name>Tibetan Chöluk Pack</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Adds a range of [COLOR_YIELD_FOOD]Tibetan Buddhist schools[ENDCOLOR] as religions to the game</Teaser>
+    <Teaser>Adds a range of [COLOR_YIELD_FOOD]Tibetan Buddhist schools[ENDCOLOR] as religions</Teaser>
     <Description>This mod adds nine prominent schools and traditions of Tibetan Buddhism as religions to the game, representing the rich spiritual diversity of the Land of Snows.
 
 Nyingma: The "Ancient" school, the oldest of the Tibetan Buddhist traditions, tracing its origins to Padmasambhava in the 8th century.
@@ -55,16 +55,14 @@ Each school brings its unique philosophical perspectives, meditation practices, 
     <File md5="94C79CF6D898A1AA7118B56D6187CB01" import="1">Art/TibetanReligionsAtlas_64.dds</File>
     <File md5="3C9DC54F073AEB40EB5136E2A6A09EAC" import="1">Art/TibetanReligionsAtlas_80.dds</File>
     <File md5="9B32E1A38F19C137402659B9B722068F" import="1">Art/TibetanReligions_FontIcons.dds</File>
-    <File md5="C27F82898967215A94DAC51A028C273B" import="1">Art/TibetanBuddhism_FontIcons.ggxml</File>
+    <File md5="C27F82898967215A94DAC51A028C273B" import="1">Art/TibetanReligions_FontIcons.ggxml</File>
     <File md5="F5835951962DB1B40102940EDBA7D255" import="0">SQL/TibetanBuddhism_Art.sql</File>
     <File md5="E51A150587486452F97035D9E73417DB" import="0">SQL/TibetanBuddhism_Preferences.sql</File>
-    <File md5="7814EB9D7E82D363A555307AD4D0DA43" import="0">SQL/TibetanBuddhism_Religion.sql</File>
     <File md5="CF5A009E55F8A411E149E75DCE86F07C" import="0">SQL/TibetanBuddhism_Text.xml</File>
   </Files>
   <Actions>
     <OnModActivated>
       <UpdateDatabase>SQL/TibetanBuddhism_Art.sql</UpdateDatabase>
-      <UpdateDatabase>SQL/TibetanBuddhism_Religion.sql</UpdateDatabase>
       <UpdateDatabase>SQL/TibetanBuddhism_Text.xml</UpdateDatabase>
       <UpdateDatabase>SQL/TibetanBuddhism_Preferences.sql</UpdateDatabase>
     </OnModActivated>

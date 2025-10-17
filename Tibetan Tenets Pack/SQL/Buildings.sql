@@ -264,8 +264,8 @@ VALUES (
 INSERT INTO
 	IconTextureAtlases (Atlas, IconSize, Filename, IconsPerRow, IconsPerColumn)
 VALUES
-	('GOMPA_ATLAS', 256, 'gompa_256.dds', 2, 2),
-	('GOMPA_ATLAS', 128, 'gompa_128.dds', 2, 2),
-	('GOMPA_ATLAS', 80, 'gompa_80.dds', 2, 2),
-	('GOMPA_ATLAS', 64, 'gompa_64.dds', 2, 2),
-	('GOMPA_ATLAS', 32, 'gompa_32.dds', 2, 2);
+	('GOMPA_ATLAS', 256, 'GompaAtlas_256.dds', 1, 1),
+	('GOMPA_ATLAS', 128, 'GompaAtlas_128.dds', 1, 1),
+	('GOMPA_ATLAS', 80, 'GompaAtlas_80.dds', 1, 1),
+	('GOMPA_ATLAS', 64, 'GompaAtlas_64.dds', 1, 1),
+	('GOMPA_ATLAS', 45, 'GompaAtlas_45.dds', 1, 1);

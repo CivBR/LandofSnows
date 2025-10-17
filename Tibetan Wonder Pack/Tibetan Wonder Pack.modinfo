@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="a7b2c3d4-e5f6-7890-abcd-ef1234567890" version="1">
+  <Properties>
+    <Name>Tibetan Wonder Pack</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Tibetan Wonder Pack - Ancient to Industrial Era Wonders</Teaser>
+    <Description>A collection of 8 Tibetan-themed wonders spanning from Ancient to Industrial eras, featuring unique mechanics and cultural bonuses.</Description>
+    <Authors>Coiot</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>1</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>1</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="00000000000000000000000000000000" import="0">TibetanWonders_Database.sql</File>
+    <File md5="00000000000000000000000000000000" import="0">TibetanWonders_Text.xml</File>
+    <File md5="00000000000000000000000000000000" import="0">TibetanWonders_Code.lua</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>TibetanWonders_Database.sql</UpdateDatabase>
+      <UpdateDatabase>TibetanWonders_Text.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

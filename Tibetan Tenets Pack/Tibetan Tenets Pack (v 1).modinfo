@@ -3,7 +3,7 @@
   <Properties>
     <Name>Tibetan Tenets Pack</Name>
     <Stability>Alpha</Stability>
-    <Teaser>Adds Tibetan Buddhist themed religious tenets to Civilization V</Teaser>
+    <Teaser>Adds [COLOR_YIELD_FOOD]Tibetan Buddhist themed religious tenets[ENDCOLOR]</Teaser>
     <Description>Adds new Pantheon, Founder, Follower, Enhancer, and Reformation beliefs with Tibetan Buddhist themes including Sacred Peaks, Universal Compassion, Gompas, Monastic Debate, and Non-Sectarianism.</Description>
     <Authors>Coiot</Authors>
     <HideSetupGame>0</HideSetupGame>
@@ -22,10 +22,16 @@
   <References />
   <Blocks />
   <Files>
-    <File md5="dc7b8cd57f6729925383d9c773dc9691" import="0">SQL/Beliefs.sql</File>
-    <File md5="4a371c950896558d4fd3def3669accc6" import="0">SQL/Buildings.sql</File>
-    <File md5="2ac87f082be6843433d75ff57561db4a" import="0">XML/GameText.xml</File>
-    <File md5="69dc0710db3215b1186d8f73abb3180c" import="0">Lua/Functions.lua</File>
+	<File md5="7016F614FC81697196D7CCDCC7BD3A81" import="1">Art/GompaAtlas_128.dds</File>
+	<File md5="61D3071ACB2A000FF09A0766E33E0422" import="1">Art/GompaAtlas_256.dds</File>
+	<File md5="116306385C167396AA83C92D300C7F3F" import="1">Art/GompaAtlas_45.dds</File>
+	<File md5="DAF1F1818AB6D4D5DA31C96FF2E5EB8C" import="1">Art/GompaAtlas_64.dds</File>
+	<File md5="272913814FE12B5901C1B848728394AE" import="1">Art/GompaAtlas_80.dds</File>
+    <File md5="dc7b8cd57f6729925383d9c773dc9692" import="0">SQL/Beliefs.sql</File>
+    <File md5="4a371c950896558d4fd3def3669accc2" import="0">SQL/Buildings.sql</File>
+    <File md5="2ac87f082be6843433d75ff57561db4b" import="0">XML/GameText.xml</File>
+    <File md5="69dc0710db3215b1186d8f73abb3180a" import="0">Lua/Functions.lua</File>
+    <File md5="69dc0710db3215b1186d8f73abb3180d" import="0">Lua/PlotIterators.lua</File>
   </Files>
   <Actions>
     <OnModActivated>
@@ -38,6 +44,10 @@
     <EntryPoint type="InGameUIAddin" file="Lua/Functions.lua">
       <Name>Functions</Name>
       <Description>Tibetan Buddhist Tenets Main Functions</Description>
+    </EntryPoint>
+    <EntryPoint type="InGameUIAddin" file="Lua/PlotIterators.lua">
+      <Name>PlotIterators</Name>
+      <Description>Tibetan Buddhist Tenets Plot Iterators</Description>
     </EntryPoint>
   </EntryPoints>
 </Mod>

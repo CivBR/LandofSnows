@@ -8,7 +8,35 @@ SELECT
 FROM
     ArtDefine_UnitInfos
 WHERE
-    Type = 'ART_DEF_UNIT_GREAT_MUSICIAN';
+    Type = 'ART_DEF_UNIT_MUSICIAN';
+
+-- ArtDefine_Landmarks for Sky Burial Ground
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES
+('Any', 'UnderConstruction', 0.12, 'ART_DEF_IMPROVEMENT_SKY_BURIAL_GROUND', 'SNAPSHOT', 'ART_DEF_RESOURCE_ALL', 'er_burial_ground.fxsxml', 1),
+('Any', 'Constructed',		 0.12, 'ART_DEF_IMPROVEMENT_SKY_BURIAL_GROUND', 'SNAPSHOT', 'ART_DEF_RESOURCE_ALL', 'er_burial_ground.fxsxml', 1),
+('Any', 'Pillaged', 		 0.12, 'ART_DEF_IMPROVEMENT_SKY_BURIAL_GROUND', 'SNAPSHOT', 'ART_DEF_RESOURCE_ALL', 'er_burial_ground.fxsxml', 1);
+
+-- ArtDefine_Landmarks for Sacred Peak Feature
+INSERT INTO ArtDefine_Landmarks (Era, State, Scale, ImprovementType, LayoutHandler, ResourceType, Model, TerrainContour)
+VALUES
+('Any', 'Any', 0.3, 'ART_DEF_IMPROVEMENT_NONE', 'SNAPSHOT', 'ART_DEF_FEATURE_SACRED_PEAK', 'feature_sacred_peak.fxsxml', 1);
+
+-- ArtDefine_LandmarkTypes for Sky Burial Ground
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_IMPROVEMENT_SKY_BURIAL_GROUND', 'Improvement', 'Sky Burial Ground');
+
+-- ArtDefine_LandmarkTypes for Sacred Peak Feature
+INSERT INTO ArtDefine_LandmarkTypes (Type, LandmarkType, FriendlyName)
+VALUES ('ART_DEF_FEATURE_SACRED_PEAK', 'Feature', 'Sacred Peak');
+
+-- ArtDefine_StrategicView for Sky Burial Ground
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_IMPROVEMENT_SKY_BURIAL_GROUND', 'Improvement', 'er_burial_vulture_sref.dds');
+
+-- ArtDefine_StrategicView for Sacred Peak Feature
+INSERT INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_FEATURE_SACRED_PEAK', 'Feature', 'plague_decal_h.dds');
 
 -- ArtDefine_UnitInfoMemberInfos for Pawo
 INSERT INTO
@@ -20,7 +48,7 @@ SELECT
 FROM
     ArtDefine_UnitInfoMemberInfos
 WHERE
-    UnitInfoType = 'ART_DEF_UNIT_GREAT_MUSICIAN';
+    UnitInfoType = 'ART_DEF_UNIT_MUSICIAN';
 
 -- ArtDefine_UnitMemberCombats for Pawo
 INSERT INTO
@@ -64,7 +92,7 @@ SELECT
 FROM
     ArtDefine_UnitMemberCombats
 WHERE
-    UnitMemberType = 'ART_DEF_UNIT_MEMBER_GREAT_MUSICIAN';
+    UnitMemberType = 'ART_DEF_UNIT_MEMBER_MUSICIAN';
 
 -- ArtDefine_UnitMemberCombatWeapons for Pawo
 INSERT INTO
@@ -93,7 +121,7 @@ SELECT
 FROM
     ArtDefine_UnitMemberCombatWeapons
 WHERE
-    UnitMemberType = 'ART_DEF_UNIT_MEMBER_GREAT_MUSICIAN';
+    UnitMemberType = 'ART_DEF_UNIT_MEMBER_MUSICIAN';
 
 -- ArtDefine_UnitMemberInfos for Pawo
 INSERT INTO
@@ -109,7 +137,11 @@ SELECT
 FROM
     ArtDefine_UnitMemberInfos
 WHERE
-    Type = 'ART_DEF_UNIT_MEMBER_GREAT_MUSICIAN';
+    Type = 'ART_DEF_UNIT_MEMBER_MUSICIAN';
+
+-- ArtDefine_StrategicView
+INSERT OR REPLACE INTO ArtDefine_StrategicView (StrategicViewType, TileType, Asset)
+VALUES ('ART_DEF_UNIT_MEMBER_PAWO', 'Unit', 'Yarlung_Nyatri_UnitFlagAtlas_128.dds');
 
 -- Audio_Sounds
 INSERT INTO
@@ -129,8 +161,8 @@ VALUES
 INSERT INTO
     Colors (Type, Red, Green, Blue, Alpha)
 VALUES
-    ('COLOR_PLAYER_YARLUNG_NYATRI_ICON', 0.54, 0.11, 0.15, 1),
-    ('COLOR_PLAYER_YARLUNG_NYATRI_BACKGROUND', 0.95, 0.87, 0.74, 1);
+    ('COLOR_PLAYER_YARLUNG_NYATRI_ICON', 0.94, 0.98, 0.68, 1),
+    ('COLOR_PLAYER_YARLUNG_NYATRI_BACKGROUND', 0.01, 0.47, 0.41, 1);
 
 -- PlayerColors
 INSERT INTO
@@ -143,17 +175,16 @@ INSERT INTO
     IconTextureAtlases (Atlas, IconSize, Filename, IconsPerRow, IconsPerColumn)
 VALUES
     ('YARLUNG_NYATRI_ALPHA_ATLAS', 128, 'Yarlung_Nyatri_AlphaAtlas_128.dds', 1, 1),
-    ('YARLUNG_NYATRI_ALPHA_ATLAS', 80, 'Yarlung_Nyatri_AlphaAtlas_80.dds', 1, 1),
     ('YARLUNG_NYATRI_ALPHA_ATLAS', 64, 'Yarlung_Nyatri_AlphaAtlas_64.dds', 1, 1),
     ('YARLUNG_NYATRI_ALPHA_ATLAS', 48, 'Yarlung_Nyatri_AlphaAtlas_48.dds', 1, 1),
-    ('YARLUNG_NYATRI_ALPHA_ATLAS', 45, 'Yarlung_Nyatri_AlphaAtlas_45.dds', 1, 1),
     ('YARLUNG_NYATRI_ALPHA_ATLAS', 32, 'Yarlung_Nyatri_AlphaAtlas_32.dds', 1, 1),
     ('YARLUNG_NYATRI_ALPHA_ATLAS', 24, 'Yarlung_Nyatri_AlphaAtlas_24.dds', 1, 1),
-    ('YARLUNG_NYATRI_ALPHA_ATLAS', 16, 'Yarlung_Nyatri_AlphaAtlas_16.dds', 1, 1),
     ('YARLUNG_NYATRI_ICON_ATLAS', 256, 'Yarlung_Nyatri_IconAtlas_256.dds', 2, 2),
     ('YARLUNG_NYATRI_ICON_ATLAS', 128, 'Yarlung_Nyatri_IconAtlas_128.dds', 2, 2),
     ('YARLUNG_NYATRI_ICON_ATLAS', 80, 'Yarlung_Nyatri_IconAtlas_80.dds', 2, 2),
     ('YARLUNG_NYATRI_ICON_ATLAS', 64, 'Yarlung_Nyatri_IconAtlas_64.dds', 2, 2),
     ('YARLUNG_NYATRI_ICON_ATLAS', 45, 'Yarlung_Nyatri_IconAtlas_45.dds', 2, 2),
     ('YARLUNG_NYATRI_ICON_ATLAS', 32, 'Yarlung_Nyatri_IconAtlas_32.dds', 2, 2),
-    ('YARLUNG_NYATRI_UNIT_FLAG_ATLAS', 32, 'Yarlung_Nyatri_UnitFlagAtlas_32.dds', 1, 1);
+    ('YARLUNG_NYATRI_UNIT_FLAG_ATLAS', 32, 'Yarlung_Nyatri_UnitFlagAtlas_32.dds', 1, 1),
+    ('YARLUNG_NYATRI_UI_ATLAS', 45, 'YarlungButtonUI_45.dds', 1, 1),
+    ('YARLUNG_NYATRI_UI_ATLAS', 64, 'YarlungButtonUI_64.dds', 1, 1);

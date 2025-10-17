@@ -1,9 +1,10 @@
 print("Tibetan Tenets Pack: Loading Main Functions")
 
+include("PlotIterators.lua")
+
 -- Belief IDs
 local beliefSacredPeaks = GameInfo.Beliefs["BELIEF_SACRED_PEAKS"]
 local beliefUniversalCompassion = GameInfo.Beliefs["BELIEF_UNIVERSAL_COMPASSION"]
-local beliefGompas = GameInfo.Beliefs["BELIEF_GOMPAS"]
 local beliefMonasticDebate = GameInfo.Beliefs["BELIEF_MONASTIC_DEBATE"]
 local beliefNonSectarianism = GameInfo.Beliefs["BELIEF_NON_SECTARIANISM"]
 
@@ -12,7 +13,6 @@ local buildingMountainCulture = GameInfoTypes["BUILDING_BUDDHIST_MOUNTAIN_CULTUR
 local buildingGompaMountainFaith = GameInfoTypes["BUILDING_BUDDHIST_GOMPA_MOUNTAIN_FAITH"]
 local buildingUniversalCompassion = GameInfoTypes["BUILDING_BUDDHIST_UNIVERSAL_COMPASSION"]
 local buildingTradeRoutePressure = GameInfoTypes["BUILDING_BUDDHIST_TRADE_PRESSURE"]
-local buildingNonSectarian = GameInfoTypes["BUILDING_BUDDHIST_NON_SECTARIAN"]
 local buildingGompa = GameInfoTypes["BUILDING_GOMPA"]
 
 -- Helper function to check if a city is adjacent to a mountain
@@ -20,9 +20,9 @@ function IsCityAdjacentToMountain(pCity)
 	local pPlot = pCity:Plot()
 	if not pPlot then return false end
 
-	for direction = 0, DirectionTypes.NUM_DIRECTION_TYPES - 1 do
-		local pAdjacentPlot = Map.PlotDirection(pPlot:GetX(), pPlot:GetY(), direction)
-		if pAdjacentPlot and pAdjacentPlot:IsMountain() then
+	-- Use PlotAreaSpiralIterator to check all plots within 3 tiles (excluding the city plot itself)
+	for pAreaPlot in PlotAreaSpiralIterator(pPlot, 3, nil, false, false, false) do
+		if pAreaPlot and pAreaPlot:IsMountain() then
 			return true
 		end
 	end
@@ -207,7 +207,7 @@ function ProcessNonSectarianism(iPlayer)
 		if currentMajority > 0 and currentMajority ~= myReligion then
 			if lastKnownReligions[iPlayer][cityID] ~= currentMajority then
 				-- New foreign religion has taken hold
-				faithBurst = faithBurst + 200 -- Base faith burst
+				faithBurst = faithBurst + 400 -- Base faith burst
 
 				-- Scale with city size
 				local population = pCity:GetPopulation()
@@ -234,14 +234,94 @@ end
 
 -- Main turn processing
 function BuddhistBeliefs_PlayerDoTurn(iPlayer)
-	ProcessSacredPeaks(iPlayer)
-	ProcessUniversalCompassion(iPlayer)
-	ProcessMonasticDebate(iPlayer)
-	ProcessNonSectarianism(iPlayer)
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+	if (not player:HasCreatedReligion()) then return end
 
-	-- Check all cities for Gompa mountain bonus
-	local pPlayer = Players[iPlayer]
-	if pPlayer and pPlayer:IsAlive() then
+	function BuddhistBeliefs_PlayerDoTurn(iPlayer)
+		local pPlayer = Players[iPlayer]
+		if not pPlayer or not pPlayer:IsAlive() then return end
+		if not pPlayer:HasCreatedReligion() then return end
+
+		local religion = pPlayer:GetReligionCreatedByPlayer()
+		local beliefs = Game.GetBeliefsInReligion(religion)
+
+		for _, v in ipairs(beliefs) do
+			if v == beliefSacredPeaks.ID then
+				-- Sacred Peaks: Mountain Culture Bonus
+				for pCity in pPlayer:Cities() do
+					local shouldHaveBonus = false
+					if IsCityAdjacentToMountain(pCity) then
+						shouldHaveBonus = true
+					else
+						local majorityReligion = pCity:GetReligiousMajority()
+						if majorityReligion > 0 then
+							for _, b in ipairs(Game.GetBeliefsInReligion(majorityReligion)) do
+								if b == beliefSacredPeaks.ID and IsCityAdjacentToMountain(pCity) then
+									shouldHaveBonus = true
+									break
+								end
+							end
+						end
+					end
+					if shouldHaveBonus then
+						if pCity:GetNumBuilding(buildingMountainCulture) == 0 then
+							pCity:SetNumRealBuilding(buildingMountainCulture, 1)
+						end
+					else
+						if pCity:GetNumBuilding(buildingMountainCulture) > 0 then
+							pCity:SetNumRealBuilding(buildingMountainCulture, 0)
+						end
+					end
+				end
+			elseif v == beliefUniversalCompassion.ID then
+				-- Universal Compassion: Happiness from foreign cities following religion
+				local happinessCount = 0
+				-- City-States
+				for iCSPlayer = GameDefines.MAX_MAJOR_CIVS, GameDefines.MAX_CIV_PLAYERS - 1 do
+					local pCSPlayer = Players[iCSPlayer]
+					if pCSPlayer and pCSPlayer:IsAlive() and pCSPlayer:IsMinorCiv() then
+						for pCity in pCSPlayer:Cities() do
+							if pCity:GetReligiousMajority() == religion then
+								happinessCount = happinessCount + 2
+								break
+							end
+						end
+					end
+				end
+				-- Foreign capitals
+				for iOtherPlayer = 0, GameDefines.MAX_MAJOR_CIVS - 1 do
+					if iOtherPlayer ~= iPlayer then
+						local pOtherPlayer = Players[iOtherPlayer]
+						if pOtherPlayer and pOtherPlayer:IsAlive() then
+							local pCapital = pOtherPlayer:GetCapitalCity()
+							if pCapital and pCapital:GetReligiousMajority() == religion then
+								happinessCount = happinessCount + 2
+							end
+						end
+					end
+				end
+				local pCapital = pPlayer:GetCapitalCity()
+				if pCapital then
+					pCapital:SetNumRealBuilding(buildingUniversalCompassion, 0)
+					if happinessCount > 0 then
+						pCapital:SetNumRealBuilding(buildingUniversalCompassion, happinessCount)
+					end
+				end
+			elseif v == beliefMonasticDebate.ID then
+				-- Monastic Debate: Enhanced Trade Route Pressure
+				for pCity in pPlayer:Cities() do
+					if pCity:GetNumBuilding(buildingTradeRoutePressure) == 0 then
+						pCity:SetNumRealBuilding(buildingTradeRoutePressure, 1)
+					end
+				end
+			elseif v == beliefNonSectarianism.ID then
+				-- Non-Sectarianism: Faith burst when other religions spread
+				ProcessNonSectarianism(iPlayer)
+			end
+		end
+
+		-- Gompa Mountain Faith Bonus for all cities
 		for pCity in pPlayer:Cities() do
 			ProcessGompaMountainBonus(iPlayer, pCity:GetID())
 		end
@@ -250,6 +330,9 @@ end
 
 -- City capture handler
 function BuddhistBeliefs_CityCaptured(iOldOwner, bCapital, iX, iY, iNewOwner, iPop, bConquest)
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+
 	local pPlot = Map.GetPlot(iX, iY)
 	if not pPlot then return end
 
@@ -267,6 +350,9 @@ end
 
 -- Building constructed handler
 function BuddhistBeliefs_BuildingConstructed(iPlayer, iCity, iBuilding)
+	local player = Players[iPlayer]
+	if (not player:IsAlive()) then return end
+
 	if iBuilding == buildingGompa then
 		ProcessGompaMountainBonus(iPlayer, iCity)
 	end
@@ -276,6 +362,7 @@ end
 function BuddhistBeliefs_ReligionFounded(iPlayer, iHolyCity, eReligion, eBelief1, eBelief2, eBelief3, eBelief4, eBelief5)
 	local pPlayer = Players[iPlayer]
 	if not pPlayer or not pPlayer:IsAlive() then return end
+	if (not player:HasCreatedReligion()) then return end
 
 	-- Check for our beliefs and apply initial effects
 	local beliefs = { eBelief1, eBelief2, eBelief3, eBelief4, eBelief5 }
@@ -301,11 +388,10 @@ function BuddhistBeliefs_ReligionEnhanced(iPlayer, eReligion, eBelief1, eBelief2
 	BuddhistBeliefs_ReligionFounded(iPlayer, -1, eReligion, eBelief1, eBelief2, -1, -1, -1)
 end
 
--- Hook up events
 GameEvents.PlayerDoTurn.Add(BuddhistBeliefs_PlayerDoTurn)
 GameEvents.CityCaptureComplete.Add(BuddhistBeliefs_CityCaptured)
 GameEvents.CityConstructed.Add(BuddhistBeliefs_BuildingConstructed)
 GameEvents.ReligionFounded.Add(BuddhistBeliefs_ReligionFounded)
 GameEvents.ReligionEnhanced.Add(BuddhistBeliefs_ReligionEnhanced)
 
-print("Tibetan Tenets Pack: Main Functions Loaded Successfully")
+print("Tibetan Tenets Pack: Functions Loaded Successfully")

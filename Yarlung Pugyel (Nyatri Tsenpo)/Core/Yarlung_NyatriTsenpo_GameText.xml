@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <GameData>
     <Language_en_US>
+        <Row Tag="TXT_KEY_PAWO_CHOD_BUTTON_TOOLTIP">
+            <Text>Perform Chöd Ceremony: Expends the Pawo to grant powerful bonuses in this city.</Text>
+        </Row>
         <!--CIVILIZATION-->
         <Row Tag="TXT_KEY_CIVILIZATION_YARLUNG_PUGYEL_ADJECTIVE">
             <Text>Yarlung</Text>
@@ -35,6 +38,16 @@
         </Row>
         <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_MOUNTAIN_HELP">
             <Text>Chöd Ceremony near a Mountain providing +50% Tourism from Great Works.</Text>
+        </Row>
+        <!--Dummy Buildings for Sky Burial Ground adjacency yields-->
+        <Row Tag="TXT_KEY_BUILDING_DUMMY_SKY_BURIAL_CULTURE">
+            <Text>Sky Burial Ground: Culture Adjacency</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DUMMY_SKY_BURIAL_FAITH">
+            <Text>Sky Burial Ground: Faith Adjacency</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DUMMY_SKY_BURIAL_TOURISM">
+            <Text>Sky Burial Ground: Tourism (Archaeology)</Text>
         </Row>
         <!--Cities-->
         <Row Tag="TXT_KEY_CITY_NAME_YARLUNG_01">
@@ -268,7 +281,7 @@
         </Row>
         <!--Lived-->
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_LIVED">
-            <Text>Legendary (traditional dates: ~107-147 BCE)</Text>
+            <Text>~107-147 BCE</Text>
         </Row>
         <!--Titles-->
         <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_NYATRI_TSENPO_SUBTITLE">
@@ -281,8 +294,8 @@
         <Row Tag="TXT_KEY_CIV_DAWN_YARLUNG_PUGYEL_TEXT">
             <Text
 			>Blessings upon you, Nyatri Tsenpo, first among kings—Tsenpo of the Sky-Cord—who descended upon the Yarlung Valley borne on the shoulders of the people, your feet too sacred to touch the earth. From the cradle of Yarlung you raised the standard of kingship and set the order of heaven upon the land. Your palace at Yumbu Lagang rose like a falcon upon the ridge, a beacon for clans to gather and a seed from which Tibetan civilization would unfurl across the high snows.
-            [NEWLINE][NEWLINE] By your divine wisdom, the mountain gods were given their seats and the winds were yoked to banners of the Wind Horse. You bound valley to valley with oath and custom, decreed rites that returned the noble dead to the open sky, and taught that peaks themselves could be sanctuaries where earth receives the blessing of the heavens. Terraces bit into the slopes, watchtowers crowned the passes, and sacred ways climbed toward the sun and moon—each stone a vow that the sky-cord would never be severed.
-            [NEWLINE][NEWLINE] Now, divine sovereign, your people call upon you once more. Will you designate new sacred peaks to channel the favor of the heavens? Will you raise palaces and sanctuaries from Yarlung to the world’s edge? Can you build a civilization to stand the test of time?
+            [NEWLINE][NEWLINE]By your divine wisdom, the mountain gods were given their seats and the winds were yoked to banners of the Wind Horse. You bound valley to valley with oath and custom, decreed rites that returned the noble dead to the open sky, and taught that peaks themselves could be sanctuaries where earth receives the blessing of the heavens. Terraces bit into the slopes, watchtowers crowned the passes, and sacred ways climbed toward the sun and moon—each stone a vow that the sky-cord would never be severed.
+            [NEWLINE][NEWLINE]Now, divine sovereign, your people call upon you once more. Will you designate new sacred peaks to channel the favor of the heavens? Will you raise palaces and sanctuaries from Yarlung to the world’s edge? Can you build a civilization to stand the test of time?
             </Text>
         </Row>
         <!--Responses-->
@@ -349,7 +362,7 @@
         </Row>
         <Row Tag="TXT_KEY_TRAIT_CORD_HEAVEN_EARTH">
             <Text
-			>When a Great Person is born, designate the nearest Mountain as a Sacred Peak for 25 turns (max 3). Each Sacred Peak grants its nearest city +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith (doubled if a Sky Burial Ground is adjacent). When that Great Person is expended, transfer the Sacred Peak to the expending city's nearest Mountain and refresh its duration.</Text>
+			>When a Great Person is born, spawn a Missionary and designate the nearest Mountain as a Sacred Peak, which grants [ICON_CULTURE] Culture and [ICON_PEACE] Faith. When the Great Person is expended, Sacred Peak is transferred to the nearest Mountain.</Text>
         </Row>
         <!--Unique Unit Pawo-->
         <Row Tag="TXT_KEY_UNIT_PAWO">
@@ -373,7 +386,7 @@
         </Row>
         <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND_HELP">
             <Text
-			>Must be built adjacent to a Mountain and cannot be adjacent to another Sky Burial Ground. Yields +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith, plus +1 of each for every adjacent Mountain and Great Person Improvement. Yields +1[ICON_TOURISM]Tourism after researching Archaeology.</Text>
+			>Yields +2[ICON_CULTURE]Culture and +2[ICON_PEACE]Faith, plus +1 of each for every adjacent Mountain and Great Person Improvement. Yields +1[ICON_TOURISM]Tourism after researching Archaeology.</Text>
         </Row>
         <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_GROUND_TEXT">
             <Text
@@ -407,5 +420,66 @@
         <Row Tag="TXT_KEY_IMPROVEMENT_SKY_BURIAL_ADJACENCY">
             <Text>Sky Burial Ground built with +{1_Culture}[ICON_CULTURE]Culture and +{2_Faith}[ICON_PEACE]Faith from adjacency!</Text>
         </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_ARTIST">
+            <Text>Chöd Ceremony (Artist)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_WRITER">
+            <Text>Chöd Ceremony (Writer)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_MUSICIAN">
+            <Text>Chöd Ceremony (Musician)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_TOURISM">
+            <Text>Chöd Ceremony (Tourism)</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_ARTIST_HELP">
+            <Text>This building boosts Great Artist points.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_WRITER_HELP">
+            <Text>This building boosts Great Writer points.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_MUSICIAN_HELP">
+            <Text>This building boosts Great Musician points.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_CHOD_CEREMONY_TOURISM_HELP">
+            <Text>This building boosts Tourism output.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FEATURE_SACRED_PEAK">
+            <Text>Sacred Peak</Text>
+        </Row>
+        <Row Tag="TXT_KEY_FEATURE_SACRED_PEAK_PEDIA">
+            <Text>
+            A mountain designated as a Sacred Peak by a Great Person. Sacred Peaks are revered in Tibetan tradition as the abodes of deities and sources of spiritual power. While a mountain is a Sacred Peak, it provides powerful cultural and religious bonuses to the nearest city. The blessing is lost if the Sacred Peak expires or is transferred elsewhere.
+            </Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DUMMY_SKY_BURIAL_CULTURE_HELP">
+            <Text>Provides bonus Culture from Sky Burial Ground adjacency.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DUMMY_SKY_BURIAL_FAITH_HELP">
+            <Text>Provides bonus Faith from Sky Burial Ground adjacency.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILDING_DUMMY_SKY_BURIAL_TOURISM_HELP">
+            <Text>Provides bonus Tourism from Sky Burial Ground adjacency after Archaeology.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_SKY_BURIAL_GROUND">
+            <Text>Builds a Sky Burial Ground.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_BUILD_SKY_BURIAL_GROUND_HELP">
+            <Text>Builds a Sky Burial Ground.</Text>
+        </Row>
+        <Update>
+			<Where Tag="TXT_KEY_CITYSTATE_LHASA" />
+			<Set Text="Nalanda" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_LHASA_ADJ" />
+			<Set Text="Nalanda" />
+		</Update>
+		<Update>
+			<Where Tag="TXT_KEY_CIV5_LHASA_TEXT" />
+			<Set
+				Text="Nalanda was the great mahavihara of Magadha, the pre-eminent Buddhist monastic university of the classical era. Founded in the Gupta age and flourishing under Harsha and the Pala kings, its vast complex of monasteries and stupas housed thousands of monks and scholars studying philosophy, logic, medicine, astronomy, and grammar. Though the institution declined after the 12th century, its legacy endures as a symbol of disciplined inquiry, scholastic debate, and the meeting of faith and devotion."
+			/>
+        </Update>
     </Language_en_US>
 </GameData>

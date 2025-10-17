@@ -511,5 +511,19 @@
 		<Row Tag="TXT_KEY_UNIT_JETSUN_DEBATE_ENDED">
 			<Text>Great Debate effects have ended.</Text>
 		</Row>
+		<Update>
+			<Where Tag="TXT_KEY_CITYSTATE_LHASA" />
+			<Set Text="Nalanda" />
+			    </Update>
+			    <Update>
+			<Where Tag="TXT_KEY_CITYSTATE_LHASA_ADJ" />
+			<Set Text="Nalanda" />
+			    </Update>
+			    <Update>
+			<Where Tag="TXT_KEY_CIV5_LHASA_TEXT" />
+			<Set
+				Text="Nalanda was the great mahavihara of Magadha, the pre-eminent Buddhist monastic university of the classical era. Founded in the Gupta age and flourishing under Harsha and the Pala kings, its vast complex of monasteries and stupas housed thousands of monks and scholars studying philosophy, logic, medicine, astronomy, and grammar. Though the institution declined after the 12th century, its legacy endures as a symbol of disciplined inquiry, scholastic debate, and the meeting of faith and devotion."
+			/>
+        </Update>
 	</Language_en_US>
 </GameData>

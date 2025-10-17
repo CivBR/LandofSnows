@@ -112,7 +112,6 @@ WHERE
 	Type = 'ART_DEF_UNIT_MEMBER_WW1_INFANTRY';
 
 -- ArtDefine_StrategicView
---------------------------------------------------------------------------------------------------------------------------
 INSERT INTO ArtDefine_StrategicView
         (StrategicViewType,                 TileType,        Asset)
 VALUES    ('ART_DEF_UNIT_MEMBER_KUSUNG',            'Unit',         'Tibet_Thupten_Gyatso_UnitFlagAtlas_128.dds');
